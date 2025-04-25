@@ -9,6 +9,10 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(){
         SceneManager.LoadSceneAsync("LoganTest");
     }
+
+    public void Options(){
+        
+    }
    
    public void QuitGame(){
     Application.Quit();
