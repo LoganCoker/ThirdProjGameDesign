@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -10,7 +11,7 @@ public class PlayerMove : MonoBehaviour {
     public float moveSpeed;
     public float runSpeed;
     public LayerMask ground;
-    public float cameraSense;
+    public float cameraSens;
     #endregion
 
     #region privates
@@ -18,34 +19,39 @@ public class PlayerMove : MonoBehaviour {
     private float jumpHeighth = 7;
     private bool crouched;
     private Transform body;
-    private Transform cam;
+    private Quaternion bodyRot;
+    private Transform orient;
+    private float looking;
     private int jumpCnt;
     private Rigidbody self;
-    private Quaternion bodyRot;
     private bool running;
+    private InputController.PlayerActions input;
     #endregion
 
     void Start() {
         maxHealth = health;
-        cam = transform.GetChild(0);
-        body = transform.GetChild(1);
+        body = transform.GetChild(0);
+        orient = transform.GetChild(1);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         self = GetComponent<Rigidbody>();
+        input = Game.Input.Player;
     }
 
     void Update() {
-        var input = Game.Input.Player;
-        Vector2 movement2D = input.Movement.ReadValue<Vector2>();
-        Vector3 movement3D = new(movement2D.x, 0, movement2D.y);
+        //var input = Game.Input.Player;
         
-        Vector2 look2D = input.Look.ReadValue<Vector2>();
-        Vector3 look3D = new(look2D.y, look2D.x, 0);
+        // camera
+        if (input.Look.WasPerformedThisFrame()) {
+            Vector2 look2D = input.Look.ReadValue<Vector2>();
+            looking += look2D.x;
 
-        if (GroundCheck()) {
-            jumpCnt = 2;
+            orient.rotation = Quaternion.Euler(0, looking, 0);
         }
 
+        // moving
+        Vector2 movement2D = input.Movement.ReadValue<Vector2>();
+        Vector3 movement3D = new(movement2D.x, 0, movement2D.y);
         #region wallChecks
         // checks left wall
         if (WallCheck(Vector3.left)) {
@@ -73,7 +79,6 @@ public class PlayerMove : MonoBehaviour {
         }
         #endregion
 
-        // move
         if (self.velocity.magnitude < moveSpeed) {
             self.velocity += movement3D * 100 * Time.deltaTime;
         }
@@ -99,10 +104,15 @@ public class PlayerMove : MonoBehaviour {
         if (input.Jump.WasPressedThisFrame() && (GroundCheck() || jumpCnt > 0)) {
             self.velocity += Vector3.up * jumpHeighth;
         }
+        // jump counter (double jump)
+        if (GroundCheck()) {
+            jumpCnt = 2;
+        }
         // double jump check
         if (input.Jump.WasReleasedThisFrame()) {
             jumpCnt--;
         }
+
 
         // crouch
         if (input.Crouch.IsPressed() && GroundCheck() && !crouched) {
@@ -119,10 +129,15 @@ public class PlayerMove : MonoBehaviour {
         if (input.Sprint.IsPressed() && input.Crouch.IsPressed() && GroundCheck()) {
             // implement slide (coroutine)
         }
+    }
 
-        // Camera movement        
-        //cam.transform.Rotate(look3D * cameraSense * Time.deltaTime);
-
+    IEnumerator Vault() {
+        running = false;
+        self.velocity += Vector3.up * jumpHeighth*2f;
+        self.velocity += Vector3.forward;
+        yield return new WaitForSeconds(.15f);
+        self.velocity -= Vector3.up * jumpHeighth *2;
+        running = true;
     }
 
     private bool GroundCheck() {
@@ -134,15 +149,15 @@ public class PlayerMove : MonoBehaviour {
         bool res = false;
         for (int i = 2; i >= -2; i--) {
             Vector3 playerScan = new(transform.position.x, transform.position.y + i/2, transform.position.z);
-            res = Physics.Raycast(playerScan, dir, 1f, ground);
+            res = Physics.Raycast(playerScan, dir, .7f, ground);
             if (res) { break; }
         }
         return res;
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Wall")) {
-            self.velocity = Vector3.down;
+        if (other.CompareTag("VaultWall") && running) {
+            StartCoroutine(Vault());
         }
     }
 }
