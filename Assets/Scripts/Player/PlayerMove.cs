@@ -1,12 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
+using Cinemachine.Utility;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
 
     #region publics
+    public CinemachineFreeLook cam;
     public float health { get; private set; }
     public float moveSpeed;
     public float runSpeed;
@@ -21,11 +24,12 @@ public class PlayerMove : MonoBehaviour {
     private Transform body;
     private Quaternion bodyRot;
     private Transform orient;
-    private float looking;
+    private float lookAngle;
     private int jumpCnt;
     private Rigidbody self;
     private bool running;
     private InputController.PlayerActions input;
+    private bool climbing;
     #endregion
 
     void Start() {
@@ -40,18 +44,19 @@ public class PlayerMove : MonoBehaviour {
 
     void Update() {
         //var input = Game.Input.Player;
-        
-        // camera
-        if (input.Look.WasPerformedThisFrame()) {
-            Vector2 look2D = input.Look.ReadValue<Vector2>();
-            looking += look2D.x;
 
-            orient.rotation = Quaternion.Euler(0, looking, 0);
-        }
-
+        // camera player positioning
+        lookAngle = cam.m_XAxis.Value;
+        orient.rotation = Quaternion.Euler(lookAngle, 0, 0);
+         
         // moving
         Vector2 movement2D = input.Movement.ReadValue<Vector2>();
-        Vector3 movement3D = new(movement2D.x, 0, movement2D.y);
+        Vector3 movement3D = new(movement2D.x * orient.right.x, 0, movement2D.y * orient.forward.z);
+        movement3D.Normalize();
+        //print("movement " + movement3D);
+        //print("orient F" + orient.forward);
+        //print("orient R" + orient.right);
+        //movement3D = Vector3.Project(movement3D, orient.position.normalized);
         #region wallChecks
         // checks left wall
         if (WallCheck(Vector3.left)) {
@@ -134,10 +139,24 @@ public class PlayerMove : MonoBehaviour {
     IEnumerator Vault() {
         running = false;
         self.velocity += Vector3.up * jumpHeighth*2f;
-        self.velocity += Vector3.forward;
+        self.velocity += body.forward;
         yield return new WaitForSeconds(.15f);
         self.velocity -= Vector3.up * jumpHeighth *2;
         running = true;
+    }
+
+    IEnumerator WallClimb() {
+        climbing = true;
+        input.Disable();
+        self.velocity = Vector3.zero;
+        body.GetChild(0).Rotate(Vector3.right, -160);
+        self.velocity += Vector3.up * jumpHeighth * 2f;
+        yield return new WaitForSeconds(.2f);
+        self.velocity += body.forward * 3f;
+        self.velocity -= Vector3.up * jumpHeighth;
+        body.GetChild(0).Rotate(Vector3.right, 160);
+        input.Enable();
+        climbing = false;
     }
 
     private bool GroundCheck() {
@@ -158,6 +177,9 @@ public class PlayerMove : MonoBehaviour {
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("VaultWall") && running) {
             StartCoroutine(Vault());
+        }
+        if (other.CompareTag("WallClimb") && !GroundCheck() && !climbing) {
+            StartCoroutine(WallClimb());
         }
     }
 }
