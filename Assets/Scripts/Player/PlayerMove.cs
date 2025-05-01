@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour {
 
     #region publics
     public CinemachineFreeLook cam;
-    public float health { get; private set; }
+    public float Health { get; private set; }
     public float moveSpeed;
     public float runSpeed;
     public LayerMask ground;
@@ -33,7 +33,7 @@ public class PlayerMove : MonoBehaviour {
     #endregion
 
     void Start() {
-        maxHealth = health;
+        maxHealth = Health;
         body = transform.GetChild(0);
         orient = transform.GetChild(1);
         Cursor.lockState = CursorLockMode.Locked;
@@ -43,59 +43,56 @@ public class PlayerMove : MonoBehaviour {
     }
 
     void Update() {
-        //var input = Game.Input.Player;
-
         // camera player positioning
         lookAngle = cam.m_XAxis.Value;
-        orient.rotation = Quaternion.Euler(lookAngle, 0, 0);
+        orient.rotation = Quaternion.Euler(0, lookAngle, 0);
          
         // moving
         Vector2 movement2D = input.Movement.ReadValue<Vector2>();
-        Vector3 movement3D = new(movement2D.x * orient.right.x, 0, movement2D.y * orient.forward.z);
+        Vector3 movement3D = new(movement2D.x, 0, movement2D.y);
+        movement3D = orient.rotation * movement3D;
         movement3D.Normalize();
-        //print("movement " + movement3D);
-        //print("orient F" + orient.forward);
-        //print("orient R" + orient.right);
-        //movement3D = Vector3.Project(movement3D, orient.position.normalized);
+
+        Vector3 sanatizedMove = movement3D;
         #region wallChecks
         // checks left wall
         if (WallCheck(Vector3.left)) {
             if (movement3D.x < 0) {
-                movement3D.x = 0;
+                sanatizedMove.x = 0;
             }
         }
         // checks right wall
         if (WallCheck(Vector3.right)) { 
             if (movement3D.x > 0) {
-                movement3D.x = 0;
+                sanatizedMove.x = 0;
             }
         }
         // checks forward wall
         if (WallCheck(Vector3.forward)) {
             if (movement3D.z > 0) {
-                movement3D.z = 0;
+                sanatizedMove.z = 0;
             }
         }
         // checks back wall
         if (WallCheck(Vector3.back)) {
             if (movement3D.z < 0) {
-                movement3D.z = 0;
+                sanatizedMove.z = 0;
             }
         }
         #endregion
 
         if (self.velocity.magnitude < moveSpeed) {
-            self.velocity += movement3D * 100 * Time.deltaTime;
+            self.velocity += sanatizedMove * 100 * Time.deltaTime;
         }
         // sprinting
         if (self.velocity.magnitude < runSpeed) {
             if (input.Sprint.IsPressed() || running) {
-                self.velocity += movement3D * 150 * Time.deltaTime;
+                self.velocity += sanatizedMove * 150 * Time.deltaTime;
                 running = true;
             }
         }
         // body rotation
-        if (input.Movement.WasPerformedThisFrame()) { 
+        if (input.Movement.IsPressed()) { 
             bodyRot = Quaternion.LookRotation(movement3D);
             body.rotation = bodyRot; 
         }
@@ -168,7 +165,7 @@ public class PlayerMove : MonoBehaviour {
         bool res = false;
         for (int i = 2; i >= -2; i--) {
             Vector3 playerScan = new(transform.position.x, transform.position.y + i/2, transform.position.z);
-            res = Physics.Raycast(playerScan, dir, .7f, ground);
+            res = Physics.Raycast(playerScan, dir, .67f, ground);
             if (res) { break; }
         }
         return res;
@@ -178,7 +175,7 @@ public class PlayerMove : MonoBehaviour {
         if (other.CompareTag("VaultWall") && running) {
             StartCoroutine(Vault());
         }
-        if (other.CompareTag("WallClimb") && !GroundCheck() && !climbing) {
+        if (other.CompareTag("WallClimb") && !GroundCheck() && !climbing && WallCheck(body.forward)) {
             StartCoroutine(WallClimb());
         }
     }
