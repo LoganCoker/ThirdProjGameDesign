@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.6981132, g: 0.3721075, b: 0.3721075, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.009
@@ -122,192 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &2084211
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2084212}
-  - component: {fileID: 2084215}
-  - component: {fileID: 2084214}
-  - component: {fileID: 2084213}
-  m_Layer: 0
-  m_Name: FreeLook Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2084212
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084211}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.466269, y: 0.26525068, z: 36.24344}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 379599918}
-  - {fileID: 470721696}
-  - {fileID: 1850574096}
-  m_Father: {fileID: 38513847}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2084213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CollideAgainst:
-    m_Bits: 64
-  m_IgnoreTag: Player
-  m_TransparentLayers:
-    m_Bits: 0
-  m_MinimumDistanceFromTarget: 0.1
-  m_AvoidObstacles: 1
-  m_DistanceLimit: 0
-  m_MinimumOcclusionTime: 0
-  m_CameraRadius: 0.1
-  m_Strategy: 0
-  m_MaximumEffort: 4
-  m_SmoothingTime: 0
-  m_Damping: 0
-  m_DampingWhenOccluded: 0
-  m_OptimalTargetDistance: 0
---- !u!114 &2084214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb7194dc27b9df64c8beca7482ee8e0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerIndex: -1
-  AutoEnableInputs: 1
-  XYAxis: {fileID: -5630151704836100654, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  ZAxis: {fileID: 0}
---- !u!114 &2084215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 319d2fe34a804e245819465c9505ea59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  m_LockStageInInspector: 
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 634506320}
-  m_Follow: {fileID: 634506320}
-  m_CommonLens: 1
-  m_Lens:
-    FieldOfView: 50
-    OrthographicSize: 10
-    NearClipPlane: 0.1
-    FarClipPlane: 5000
-    Dutch: 0
-    ModeOverride: 0
-    LensShift: {x: 0, y: 0}
-    GateFit: 2
-    FocusDistance: 10
-    m_SensorSize: {x: 1, y: 1}
-  m_Transitions:
-    m_BlendHint: 0
-    m_InheritPosition: 0
-    m_OnCameraLive:
-      m_PersistentCalls:
-        m_Calls: []
-  m_LegacyBlendHint: 0
-  m_YAxis:
-    Value: 0.5
-    m_SpeedMode: 0
-    m_MaxSpeed: 2
-    m_AccelTime: 0.2
-    m_DecelTime: 0.1
-    m_InputAxisName: Mouse Y
-    m_InputAxisValue: 0
-    m_InvertInput: 1
-    m_MinValue: 0
-    m_MaxValue: 1
-    m_Wrap: 0
-    m_Recentering:
-      m_enabled: 0
-      m_WaitTime: 1
-      m_RecenteringTime: 2
-      m_LegacyHeadingDefinition: -1
-      m_LegacyVelocityFilterStrength: -1
-  m_YAxisRecentering:
-    m_enabled: 0
-    m_WaitTime: 1
-    m_RecenteringTime: 2
-    m_LegacyHeadingDefinition: -1
-    m_LegacyVelocityFilterStrength: -1
-  m_XAxis:
-    Value: 0
-    m_SpeedMode: 0
-    m_MaxSpeed: 200
-    m_AccelTime: 0.1
-    m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
-    m_InputAxisValue: 0
-    m_InvertInput: 0
-    m_MinValue: -180
-    m_MaxValue: 180
-    m_Wrap: 1
-    m_Recentering:
-      m_enabled: 0
-      m_WaitTime: 1
-      m_RecenteringTime: 2
-      m_LegacyHeadingDefinition: -1
-      m_LegacyVelocityFilterStrength: -1
-  m_Heading:
-    m_Definition: 2
-    m_VelocityFilterStrength: 4
-    m_Bias: 0
-  m_RecenterToTargetHeading:
-    m_enabled: 0
-    m_WaitTime: 1
-    m_RecenteringTime: 2
-    m_LegacyHeadingDefinition: -1
-    m_LegacyVelocityFilterStrength: -1
-  m_BindingMode: 4
-  m_SplineCurvature: 0.3
-  m_Orbits:
-  - m_Height: 6
-    m_Radius: 10
-  - m_Height: 2.5
-    m_Radius: 15
-  - m_Height: -1
-    m_Radius: 10
-  m_LegacyHeadingBias: 3.4028235e+38
-  m_Rigs:
-  - {fileID: 379599919}
-  - {fileID: 470721697}
-  - {fileID: 1850574097}
 --- !u!1 &11516744
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +178,6 @@ MonoBehaviour:
   m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
-    serializedVersion: 2
     m_Bits: 4294967295
   m_UseGeometry: 0
   m_DefaultArea: 0
@@ -378,6 +191,8 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 0b16a64499f510c448d7e8841759be89, type: 2}
   m_BuildHeightMesh: 0
+  m_LastPosition: {x: 0, y: 0, z: 0}
+  m_LastRotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!1 &22750565
 GameObject:
   m_ObjectHideFlags: 0
@@ -5264,7 +5079,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5306,6 +5121,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -5315,9 +5134,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d43b77cf-2d9c-49e9-aaa2-14f45c28e47b
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 0425e8d5aa584624cb17b4e5f8be2cb1, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -5326,8 +5145,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d43b77cf-2d9c-49e9-aaa2-14f45c28e47b
+  sourceMeshRendererGUID: 588f2811-de58-455c-bfab-3be663920a2a
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -5338,44 +5162,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 2a1e12b47f1425042ac40fe9f72173a4, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
---- !u!1 &38513846
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 38513847}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &38513847
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38513846}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.47, y: 1.9, z: -41.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1669162850}
-  - {fileID: 2084212}
-  m_Father: {fileID: 2058699267}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &39056161
 GameObject:
   m_ObjectHideFlags: 0
@@ -5472,6 +5276,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -5491,6 +5299,11 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
   sourceMeshRendererGUID: 4ee48d93-1d72-4b2c-9335-6445d4a734e2
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
@@ -5503,11 +5316,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: f6f9dc22f785bb14ab7e6f9a083f1bb2, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 0
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &69774004
 GameObject:
   m_ObjectHideFlags: 0
@@ -5580,7 +5406,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5622,6 +5448,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -5631,9 +5461,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_232e6f1f-3cb4-48ee-9a90-19db69406400
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 505770e61dbe05143aff8a81d553da67, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -5642,8 +5472,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 232e6f1f-3cb4-48ee-9a90-19db69406400
+  sourceMeshRendererGUID: d9142729-c053-470c-a728-d09d57e760dc
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -5654,11 +5489,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 65b9f1ee72d3a284cbb16f8d507d7025, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!4 &96856977
 Transform:
   m_ObjectHideFlags: 0
@@ -5833,7 +5681,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5875,6 +5723,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -5884,9 +5736,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_74ed2cd4-759d-4e59-b8f1-b726d1b14b3b
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 9f4ba3dea2a60bd429a93c858accbb6e, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -5895,8 +5747,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 74ed2cd4-759d-4e59-b8f1-b726d1b14b3b
+  sourceMeshRendererGUID: 0a806936-30d4-4fbf-bcc0-dc69dae382b7
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -5907,11 +5764,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 1616801546e5f1f4686b1bc614465a59, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &139146709
 GameObject:
   m_ObjectHideFlags: 0
@@ -6059,7 +5929,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6101,6 +5971,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -6110,9 +5984,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8dd32530-986b-4000-9f60-6506f2f1fa58
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 10653c697c02bee41859b6e55718c92a, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -6121,8 +5995,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8dd32530-986b-4000-9f60-6506f2f1fa58
+  sourceMeshRendererGUID: e27df5dd-3859-4581-aa8b-2ee892523afc
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -6133,11 +6012,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 90e837e44f74663469e929e2d0ed75aa, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &222122855
 GameObject:
   m_ObjectHideFlags: 0
@@ -6297,7 +6189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6339,6 +6231,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -6348,9 +6244,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b5ca4c11-f83c-42d2-81b8-b8f1a49ae596
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 448fcfbd1e86951458feed2a9e72b786, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -6359,8 +6255,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b5ca4c11-f83c-42d2-81b8-b8f1a49ae596
+  sourceMeshRendererGUID: 6e356098-69c6-471d-8c7c-05673f7b5d33
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -6371,11 +6272,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 3aa39d91ae7f93146b860e5042f45f56, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &335230048
 GameObject:
   m_ObjectHideFlags: 0
@@ -6469,133 +6383,6 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!1 &348628551
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 348628552}
-  - component: {fileID: 348628555}
-  - component: {fileID: 348628554}
-  - component: {fileID: 348628553}
-  m_Layer: 0
-  m_Name: cm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &348628552
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348628551}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 379599918}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &348628553
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348628551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0
-  m_VerticalDamping: 0
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
-  m_DeadZoneWidth: 0.1
-  m_DeadZoneHeight: 0.1
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
---- !u!114 &348628554
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348628551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 2.5, z: -15}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
-  m_Heading:
-    m_Definition: 2
-    m_VelocityFilterStrength: 4
-    m_Bias: 0
-  m_RecenterToTargetHeading:
-    m_enabled: 0
-    m_WaitTime: 1
-    m_RecenteringTime: 2
-    m_LegacyHeadingDefinition: -1
-    m_LegacyVelocityFilterStrength: -1
-  m_XAxis:
-    Value: 0
-    m_SpeedMode: 0
-    m_MaxSpeed: 300
-    m_AccelTime: 0.1
-    m_DecelTime: 0.1
-    m_InputAxisName: 
-    m_InputAxisValue: 0
-    m_InvertInput: 1
-    m_MinValue: -180
-    m_MaxValue: 180
-    m_Wrap: 1
-    m_Recentering:
-      m_enabled: 0
-      m_WaitTime: 1
-      m_RecenteringTime: 2
-      m_LegacyHeadingDefinition: -1
-      m_LegacyVelocityFilterStrength: -1
-  m_LegacyRadius: 3.4028235e+38
-  m_LegacyHeightOffset: 3.4028235e+38
-  m_LegacyHeadingBias: 3.4028235e+38
-  m_HeadingIsSlave: 1
---- !u!114 &348628555
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348628551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &369048291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6689,85 +6476,6 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!1 &379599917
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 379599918}
-  - component: {fileID: 379599919}
-  m_Layer: 0
-  m_Name: TopRig
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &379599918
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379599917}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.08248052, y: 0, z: 0, w: 0.9965927}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 348628552}
-  m_Father: {fileID: 2084212}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &379599919
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379599917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  - Header
-  - Extensions
-  - m_Priority
-  - m_Transitions
-  - m_Follow
-  - m_StandbyUpdate
-  - m_Lens
-  m_LockStageInInspector: 00000000
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
-  m_Lens:
-    FieldOfView: 50
-    OrthographicSize: 10
-    NearClipPlane: 0.1
-    FarClipPlane: 5000
-    Dutch: 0
-    ModeOverride: 0
-    LensShift: {x: 0, y: 0}
-    GateFit: 2
-    FocusDistance: 10
-    m_SensorSize: {x: 1, y: 1}
-  m_Transitions:
-    m_BlendHint: 0
-    m_InheritPosition: 0
-    m_OnCameraLive:
-      m_PersistentCalls:
-        m_Calls: []
-  m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 348628552}
 --- !u!1 &409124250
 GameObject:
   m_ObjectHideFlags: 0
@@ -6864,6 +6572,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -6873,9 +6585,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_754d5c9b-650e-4f5c-9e50-bab04042e657
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: c8357ae993230394f83fa295641d389d, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -6884,8 +6596,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 754d5c9b-650e-4f5c-9e50-bab04042e657
+  sourceMeshRendererGUID: f6e5a0e3-d274-4f23-867a-7c5f4888e24a
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -6896,11 +6613,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 8a3f4e5a41f11444ca9365fdfee7223f, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &434197957
 GameObject:
   m_ObjectHideFlags: 0
@@ -7111,85 +6841,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437855509}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &470721695
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 470721696}
-  - component: {fileID: 470721697}
-  m_Layer: 0
-  m_Name: MiddleRig
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &470721696
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470721695}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.026583053, y: 0, z: 0, w: 0.9996466}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1291541073}
-  m_Father: {fileID: 2084212}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &470721697
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470721695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  - Header
-  - Extensions
-  - m_Priority
-  - m_Transitions
-  - m_Follow
-  - m_StandbyUpdate
-  - m_Lens
-  m_LockStageInInspector: 00000000
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
-  m_Lens:
-    FieldOfView: 50
-    OrthographicSize: 10
-    NearClipPlane: 0.1
-    FarClipPlane: 5000
-    Dutch: 0
-    ModeOverride: 0
-    LensShift: {x: 0, y: 0}
-    GateFit: 2
-    FocusDistance: 10
-    m_SensorSize: {x: 1, y: 1}
-  m_Transitions:
-    m_BlendHint: 0
-    m_InheritPosition: 0
-    m_OnCameraLive:
-      m_PersistentCalls:
-        m_Calls: []
-  m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 1291541073}
 --- !u!1 &486474544
 GameObject:
   m_ObjectHideFlags: 0
@@ -12115,133 +11766,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1785096718}
   m_LocalEulerAnglesHint: {x: 24.295, y: -49.403, z: -45.151}
---- !u!1 &545589401
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 545589402}
-  - component: {fileID: 545589405}
-  - component: {fileID: 545589404}
-  - component: {fileID: 545589403}
-  m_Layer: 0
-  m_Name: cm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &545589402
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545589401}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1850574096}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &545589403
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545589401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0
-  m_VerticalDamping: 0
-  m_ScreenX: 0.5
-  m_ScreenY: 0.6
-  m_DeadZoneWidth: 0.1
-  m_DeadZoneHeight: 0.1
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
---- !u!114 &545589404
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545589401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 2.5, z: -15}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
-  m_Heading:
-    m_Definition: 2
-    m_VelocityFilterStrength: 4
-    m_Bias: 0
-  m_RecenterToTargetHeading:
-    m_enabled: 0
-    m_WaitTime: 1
-    m_RecenteringTime: 2
-    m_LegacyHeadingDefinition: -1
-    m_LegacyVelocityFilterStrength: -1
-  m_XAxis:
-    Value: 0
-    m_SpeedMode: 0
-    m_MaxSpeed: 300
-    m_AccelTime: 0.1
-    m_DecelTime: 0.1
-    m_InputAxisName: 
-    m_InputAxisValue: 0
-    m_InvertInput: 1
-    m_MinValue: -180
-    m_MaxValue: 180
-    m_Wrap: 1
-    m_Recentering:
-      m_enabled: 0
-      m_WaitTime: 1
-      m_RecenteringTime: 2
-      m_LegacyHeadingDefinition: -1
-      m_LegacyVelocityFilterStrength: -1
-  m_LegacyRadius: 3.4028235e+38
-  m_LegacyHeightOffset: 3.4028235e+38
-  m_LegacyHeadingBias: 3.4028235e+38
-  m_HeadingIsSlave: 1
---- !u!114 &545589405
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545589401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &549941772
 GameObject:
   m_ObjectHideFlags: 0
@@ -12413,7 +11937,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12455,6 +11979,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -12464,9 +11992,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6f3a77a0-ba1b-441d-885b-3e2d08cf572d
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: f1c36cb04c6f39140bb14d727d599d9f, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -12475,8 +12003,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6f3a77a0-ba1b-441d-885b-3e2d08cf572d
+  sourceMeshRendererGUID: 33a28a55-4908-4539-895f-83e88d0d5c00
   guid: 6b288501-d1f0-4940-8102-bdffe04d711c
   localOptions:
     RecalculateTangents: 0
@@ -12487,11 +12020,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 0cc3bdfdc7312384c83eeda929b6cfcd, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!4 &624951565
 Transform:
   m_ObjectHideFlags: 0
@@ -12591,115 +12137,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &634506319
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 634506320}
-  - component: {fileID: 634506323}
-  - component: {fileID: 634506322}
-  - component: {fileID: 634506321}
-  m_Layer: 0
-  m_Name: Body
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &634506320
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634506319}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 702344181}
-  - {fileID: 1767680948}
-  m_Father: {fileID: 1730046508}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &634506321
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634506319}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &634506322
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634506319}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &634506323
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634506319}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &666860940
 GameObject:
   m_ObjectHideFlags: 0
@@ -12755,7 +12192,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12797,6 +12234,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -12806,9 +12247,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_10a3176a-4b34-46e2-875d-3b9cd81e349c
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: b2fa09eba23c5f64cb0f4d4d4a6fbad4, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -12817,8 +12258,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 10a3176a-4b34-46e2-875d-3b9cd81e349c
+  sourceMeshRendererGUID: d5bd630d-a4a6-4a9c-8f2f-1191a9eb3395
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -12829,11 +12275,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: dfa01e7c668644a489e8ff8f05c829ac, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &668000781
 GameObject:
   m_ObjectHideFlags: 0
@@ -13026,7 +12485,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13068,6 +12527,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -13077,9 +12540,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_677a1bb5-61e0-499a-88dc-ee968227e711
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 30ea9bf80fa03404ab247f13973802ef, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -13088,8 +12551,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 677a1bb5-61e0-499a-88dc-ee968227e711
+  sourceMeshRendererGUID: f8434381-52de-4792-af1f-a9dbdb12e2e1
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -13100,44 +12568,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: eab92d69c3f0c90488888f9e8ba429d7, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
---- !u!1 &702344180
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 702344181}
-  m_Layer: 0
-  m_Name: Arms
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &702344181
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 702344180}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1473695785}
-  - {fileID: 1082187074}
-  m_Father: {fileID: 634506320}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &747049537
 GameObject:
   m_ObjectHideFlags: 0
@@ -13324,6 +12772,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -13333,9 +12785,9 @@ MonoBehaviour:
   - Assets/Materials/RedMat.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e7ca44d1-0baf-4857-a715-98863b7cf47d
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 0d24f1b5b0c53f641b17044359c730bd, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -13344,8 +12796,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e7ca44d1-0baf-4857-a715-98863b7cf47d
+  sourceMeshRendererGUID: c8dddbdb-4595-45d8-b6a9-be839642a256
   guid: 68df88fd-55a2-42e9-a06a-c0017efc9e6e
   localOptions:
     RecalculateTangents: 0
@@ -13356,11 +12813,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 3d13458f124cf7142b0db7eef919b467, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &794600013
 GameObject:
   m_ObjectHideFlags: 0
@@ -13458,6 +12928,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -13467,7 +12941,7 @@ MonoBehaviour:
   - Assets/Materials/PlayerMat.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f4570bee-f404-45fd-b220-6c0940e378aa
+    name: UM_OperatedMesh_030710c4-34fb-4217-83eb-48babd6fef2e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d266fae0a0b601249b3a824d93bc7e14, type: 2}
     buidVersion:
@@ -13478,8 +12952,14 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 794600013}
+    <transform>k__BackingField: {fileID: 794600014}
+    <MeshRendererInst>k__BackingField: {fileID: 794600015}
+    materialsInitialize: 1
+    rendererMaterials:
+    - {fileID: 2100000, guid: 2370db5f7d11a52408d399d34c4e7532, type: 2}
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f4570bee-f404-45fd-b220-6c0940e378aa
+  sourceMeshRendererGUID: 030710c4-34fb-4217-83eb-48babd6fef2e
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
@@ -13489,12 +12969,25 @@ MonoBehaviour:
     hardAngle: 0
     packMargin: 0
   saveData: {fileID: 11400000, guid: bfbda0ebc3dd77b4ab409313e2c74f15, type: 2}
-  <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  <IsDirtySaveData>k__BackingField: 1
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &795414215
 GameObject:
   m_ObjectHideFlags: 0
@@ -13534,7 +13027,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13576,6 +13069,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -13585,9 +13082,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ab30bb81-0deb-47bf-a3db-2bb4bde9bffe
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: d2f51aca1529d00409cfe5aab1c7d2fb, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -13596,8 +13093,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ab30bb81-0deb-47bf-a3db-2bb4bde9bffe
+  sourceMeshRendererGUID: c0f49b8f-177e-422b-aeab-58ca4e695c62
   guid: 6b288501-d1f0-4940-8102-bdffe04d711c
   localOptions:
     RecalculateTangents: 0
@@ -13608,11 +13110,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 3045eeb6adcdf7949b427567df9f58e5, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!4 &795414219
 Transform:
   m_ObjectHideFlags: 0
@@ -18741,6 +18256,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -18750,9 +18269,9 @@ MonoBehaviour:
   - Assets/Materials/RedMat.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e98b96a2-6648-4fb0-9217-19a25a027da1
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: b99bdc04b15991143a000fcf4ec24e1f, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -18761,8 +18280,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e98b96a2-6648-4fb0-9217-19a25a027da1
+  sourceMeshRendererGUID: 4eec6d0f-a02f-450b-9c0b-8d039d05ea0b
   guid: 68df88fd-55a2-42e9-a06a-c0017efc9e6e
   localOptions:
     RecalculateTangents: 0
@@ -18773,11 +18297,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: f3385bc0f4d86774393a9a8d393303d2, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &873256500
 GameObject:
   m_ObjectHideFlags: 0
@@ -18808,9 +18345,23 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1070357016}
-  - {fileID: 2058699267}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!115 &883140272
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: UMXCommandServiceCache
+  m_Namespace: Tripolygon.UModelerX.Runtime
+  m_AssemblyName: Tripolygon.UModelerX.Runtime
 --- !u!1 &896161738
 GameObject:
   m_ObjectHideFlags: 0
@@ -18907,6 +18458,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -18916,9 +18471,9 @@ MonoBehaviour:
   - Assets/Materials/RedMat.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_61aca693-aa52-4a6b-aa9d-4de133af1d7e
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: a1388d2d4a62c3441815b844d2a30a63, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -18927,8 +18482,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 61aca693-aa52-4a6b-aa9d-4de133af1d7e
+  sourceMeshRendererGUID: 5861f917-a3f9-48f3-a09a-52e58af2448d
   guid: 68df88fd-55a2-42e9-a06a-c0017efc9e6e
   localOptions:
     RecalculateTangents: 0
@@ -18939,11 +18499,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 941705ae335943f4ba202cee157d2302, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &969038622
 GameObject:
   m_ObjectHideFlags: 0
@@ -18998,7 +18571,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19040,6 +18613,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -19049,9 +18626,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b35f1881-5ff0-4fae-90c7-c5d55ede7707
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: a43bc7282b968aa478f9ac48a230be9a, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -19060,8 +18637,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b35f1881-5ff0-4fae-90c7-c5d55ede7707
+  sourceMeshRendererGUID: fbadf2ae-90ff-473b-96d0-e35b9d24de6f
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -19072,11 +18654,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: b18edce1305ba354da06d66bd40d94a9, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &996014954
 GameObject:
   m_ObjectHideFlags: 0
@@ -19174,6 +18769,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -19193,6 +18792,11 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
   sourceMeshRendererGUID: 269d8520-8ee1-471e-a353-4b8ba66355a4
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
@@ -19205,11 +18809,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 877fec7aa844b7147a25cf057d378bb4, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 0
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1037485168
 GameObject:
   m_ObjectHideFlags: 0
@@ -19262,6 +18879,8 @@ MonoBehaviour:
   m_Bidirectional: 0
   m_AutoUpdatePosition: 0
   m_Area: 0
+  m_LastPosition: {x: 0, y: 0, z: 0}
+  m_LastRotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!1 &1049812522
 GameObject:
   m_ObjectHideFlags: 0
@@ -19418,113 +19037,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3040970455948023506, guid: 9d32f32461329ba4492ecfaebb1bf825, type: 3}
   m_PrefabInstance: {fileID: 1070357015}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1082187073
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1082187074}
-  - component: {fileID: 1082187077}
-  - component: {fileID: 1082187076}
-  - component: {fileID: 1082187075}
-  m_Layer: 0
-  m_Name: Right
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1082187074
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082187073}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -0.4, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 0.2}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 702344181}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1082187075
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082187073}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1082187076
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082187073}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1082187077
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082187073}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1092230726
 GameObject:
   m_ObjectHideFlags: 0
@@ -19579,7 +19091,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19621,6 +19133,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -19630,9 +19146,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_18e97f29-d90a-4184-b893-0d1cb9a42e15
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: c7a31655ab7444f418adf2f36b8313ec, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -19641,8 +19157,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 18e97f29-d90a-4184-b893-0d1cb9a42e15
+  sourceMeshRendererGUID: 1781ee59-1f9a-476f-b635-09381458649b
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -19653,11 +19174,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: aceaeba9948a0d0478875d2d40333d5a, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1112917394
 GameObject:
   m_ObjectHideFlags: 0
@@ -19712,7 +19246,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19754,6 +19288,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -19763,9 +19301,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5b1bae22-8f23-43f1-906c-3b888ea8514d
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: d0ac305d750c4474ba327a1231587aa8, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -19774,8 +19312,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5b1bae22-8f23-43f1-906c-3b888ea8514d
+  sourceMeshRendererGUID: e9346278-e4ae-4737-baca-e564b2f4458e
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -19786,11 +19329,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: c012e8eb9a224204ea4b130a2bd23791, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1114904192
 GameObject:
   m_ObjectHideFlags: 0
@@ -20061,7 +19617,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20103,6 +19659,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -20112,9 +19672,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d9d8ca87-93f1-4182-8555-e030de384a7c
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 04b3935a3846b5f44a0c397b502ea75a, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -20123,8 +19683,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d9d8ca87-93f1-4182-8555-e030de384a7c
+  sourceMeshRendererGUID: b5ad2384-b690-44be-9bd0-9cb9591d9066
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -20135,11 +19700,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: d8ff5e5ec88702840ba8a9cf2efd715a, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1184969810
 GameObject:
   m_ObjectHideFlags: 0
@@ -20179,7 +19757,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20221,6 +19799,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -20230,9 +19812,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dd322f15-01ce-48ba-b4aa-ee15386cffe1
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 16c2418881bb7364f9748b91ac056604, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -20241,8 +19823,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dd322f15-01ce-48ba-b4aa-ee15386cffe1
+  sourceMeshRendererGUID: f554205c-782b-4e50-8477-d5ca5f525dba
   guid: 39fc603d-96f8-415a-a0eb-013f7e73b47e
   localOptions:
     RecalculateTangents: 0
@@ -20253,11 +19840,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: a9465800ab7c0d5438806e15162ea93f, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!4 &1184969814
 Transform:
   m_ObjectHideFlags: 0
@@ -20513,7 +20113,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20555,6 +20155,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -20564,9 +20168,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b6c7cde6-dfa2-4b8f-b317-708db91b6d82
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 1049b87d61c81864c82767757eb6cd85, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -20575,8 +20179,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b6c7cde6-dfa2-4b8f-b317-708db91b6d82
+  sourceMeshRendererGUID: 96c28ff0-1aa9-4556-a2a5-ae2c438296ba
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -20587,169 +20196,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 6660ca292861af24487aeb424fb6c6c6, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
---- !u!1 &1283875904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1283875905}
-  m_Layer: 0
-  m_Name: Orientation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1283875905
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1283875904}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1730046508}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1291541072
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1291541073}
-  - component: {fileID: 1291541076}
-  - component: {fileID: 1291541075}
-  - component: {fileID: 1291541074}
-  m_Layer: 0
-  m_Name: cm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1291541073
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291541072}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 470721696}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1291541074
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291541072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 1, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0
-  m_VerticalDamping: 0
-  m_ScreenX: 0.5
-  m_ScreenY: 0.55
-  m_DeadZoneWidth: 0.1
-  m_DeadZoneHeight: 0.1
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 1
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
---- !u!114 &1291541075
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291541072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 2.5, z: -15}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
-  m_Heading:
-    m_Definition: 2
-    m_VelocityFilterStrength: 4
-    m_Bias: 0
-  m_RecenterToTargetHeading:
-    m_enabled: 0
-    m_WaitTime: 1
-    m_RecenteringTime: 2
-    m_LegacyHeadingDefinition: -1
-    m_LegacyVelocityFilterStrength: -1
-  m_XAxis:
-    Value: 0
-    m_SpeedMode: 0
-    m_MaxSpeed: 300
-    m_AccelTime: 0.1
-    m_DecelTime: 0.1
-    m_InputAxisName: 
-    m_InputAxisValue: 0
-    m_InvertInput: 1
-    m_MinValue: -180
-    m_MaxValue: 180
-    m_Wrap: 1
-    m_Recentering:
-      m_enabled: 0
-      m_WaitTime: 1
-      m_RecenteringTime: 2
-      m_LegacyHeadingDefinition: -1
-      m_LegacyVelocityFilterStrength: -1
-  m_LegacyRadius: 3.4028235e+38
-  m_LegacyHeightOffset: 3.4028235e+38
-  m_LegacyHeadingBias: 3.4028235e+38
-  m_HeadingIsSlave: 1
---- !u!114 &1291541076
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291541072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1309721008
 GameObject:
   m_ObjectHideFlags: 0
@@ -21114,7 +20578,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21156,6 +20620,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -21165,9 +20633,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_01bf3d7d-4721-44fd-bb43-d4b2b461d42b
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: a198e3b7a1d7cde4ca3d2f58fb8ccd6c, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -21176,8 +20644,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 01bf3d7d-4721-44fd-bb43-d4b2b461d42b
+  sourceMeshRendererGUID: cdb074e0-b5ec-4977-aa8a-2be48a98f8c9
   guid: 56e793f8-ce8c-42af-a6af-d5cb932d3813
   localOptions:
     RecalculateTangents: 0
@@ -21188,11 +20661,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 85f7b044486b5494eb3c648f3782afd2, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1449382485
 GameObject:
   m_ObjectHideFlags: 0
@@ -21247,7 +20733,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21289,6 +20775,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -21298,7 +20788,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b7299338-cd4f-4061-a903-b4239fa123d4
+    name: UM_OperatedMesh_53253127-ef60-4523-97df-b5d07a024213
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 57c9fec481ad4a746843be85235f580f, type: 2}
     buidVersion:
@@ -21309,8 +20799,14 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 1449382485}
+    <transform>k__BackingField: {fileID: 1449382486}
+    <MeshRendererInst>k__BackingField: {fileID: 1449382487}
+    materialsInitialize: 1
+    rendererMaterials:
+    - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b7299338-cd4f-4061-a903-b4239fa123d4
+  sourceMeshRendererGUID: 53253127-ef60-4523-97df-b5d07a024213
   guid: 696124b8-f42b-4632-a39a-345b0463b4b2
   localOptions:
     RecalculateTangents: 0
@@ -21320,12 +20816,25 @@ MonoBehaviour:
     hardAngle: 0
     packMargin: 0
   saveData: {fileID: 11400000, guid: b23810c47ad77d94daa1a2fd94eeaa70, type: 2}
-  <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  <IsDirtySaveData>k__BackingField: 1
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1452592396
 GameObject:
   m_ObjectHideFlags: 0
@@ -21486,7 +20995,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21528,6 +21037,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -21537,9 +21050,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b52fc711-6bff-4b2a-ba8c-199b5808b6be
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: d6b520490adca994c955e24a08eba5c9, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -21548,8 +21061,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b52fc711-6bff-4b2a-ba8c-199b5808b6be
+  sourceMeshRendererGUID: 834c71b0-5a9d-4d81-b95d-777eb93f0652
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -21560,118 +21078,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 59ed350a76fdbe341aeb4dcc498dd101, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
---- !u!1 &1473695784
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1473695785}
-  - component: {fileID: 1473695788}
-  - component: {fileID: 1473695787}
-  - component: {fileID: 1473695786}
-  m_Layer: 0
-  m_Name: Left
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1473695785
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473695784}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6, y: -0.4, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 0.2}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 702344181}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1473695786
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473695784}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1473695787
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473695784}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1473695788
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473695784}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1524136004
 GameObject:
   m_ObjectHideFlags: 0
@@ -21903,7 +21327,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21945,6 +21369,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -21954,9 +21382,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b17e8bb2-1f86-44c1-8866-2cc2fbe2a195
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: f4b2a449a6f39da48b7d9a0cd38c8bb1, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -21965,8 +21393,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b17e8bb2-1f86-44c1-8866-2cc2fbe2a195
+  sourceMeshRendererGUID: 786d1461-4ca5-496c-a758-f1dcda607566
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -21977,11 +21410,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 4b78a20d3af3062428ba7eb7647df3af, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1638029974
 GameObject:
   m_ObjectHideFlags: 0
@@ -22352,7 +21798,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22394,6 +21840,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -22403,9 +21853,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a589e4f4-14bb-4424-8354-817c8162a6fd
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: e00487b6ce5ee554d8a674eadeef1f3a, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -22414,8 +21864,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a589e4f4-14bb-4424-8354-817c8162a6fd
+  sourceMeshRendererGUID: 4c02a2fe-5bf2-41b0-836f-c4333e6fe803
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -22426,128 +21881,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: e19aa214157f3e44ca8b8c795a5b52e3, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
---- !u!1 &1669162849
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1669162850}
-  - component: {fileID: 1669162852}
-  - component: {fileID: 1669162851}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1669162850
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669162849}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.026583042, y: 0.000000007677169, z: -2.0415467e-10, w: 0.9996466}
-  m_LocalPosition: {x: 20.466269, y: 0.26525068, z: 36.24344}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 38513847}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1669162851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669162849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!20 &1669162852
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669162849}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.1
-  far clip plane: 5000
-  field of view: 50
-  orthographic: 0
-  orthographic size: 10
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1670098442
 GameObject:
   m_ObjectHideFlags: 0
@@ -22695,7 +22046,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22737,6 +22088,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -22746,9 +22101,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ce2d0949-38e8-444d-985b-12b36d79fb1b
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 6efea789f618624449e7af9bed5f4ae8, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -22757,8 +22112,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ce2d0949-38e8-444d-985b-12b36d79fb1b
+  sourceMeshRendererGUID: a9440d4a-5743-412c-a2dc-a671fdd2706d
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -22769,11 +22129,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 4251c5443216a424383317ffa6f2755a, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1700577129
 GameObject:
   m_ObjectHideFlags: 0
@@ -22813,7 +22186,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22855,6 +22228,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -22864,9 +22241,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4afb0488-4ba0-4cb2-bd98-c1e660221999
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 4bdc5f5ffb8507d459a6c0f0246e1ef6, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -22875,8 +22252,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4afb0488-4ba0-4cb2-bd98-c1e660221999
+  sourceMeshRendererGUID: d9b808b5-c77c-4880-86c2-dd22cceb3244
   guid: 6b288501-d1f0-4940-8102-bdffe04d711c
   localOptions:
     RecalculateTangents: 0
@@ -22887,11 +22269,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 4cbdacbbb19f9e04194eb1baaa0fe36b, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!4 &1700577133
 Transform:
   m_ObjectHideFlags: 0
@@ -22907,132 +22302,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1812256009}
   m_LocalEulerAnglesHint: {x: 0, y: -82.536, z: 0}
---- !u!1 &1730046507
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1730046508}
-  - component: {fileID: 1730046512}
-  - component: {fileID: 1730046511}
-  - component: {fileID: 1730046510}
-  - component: {fileID: 1730046509}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1730046508
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730046507}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 634506320}
-  - {fileID: 1283875905}
-  m_Father: {fileID: 2058699267}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1730046509
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730046507}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.2, z: 0.2}
-  m_Center: {x: 0, y: 1, z: 0.45}
---- !u!114 &1730046510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730046507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c145b9d8c2a2344e861dec3a64ed16c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 2084215}
-  moveSpeed: 7
-  runSpeed: 12
-  ground:
-    m_Bits: 64
-  cameraSens: 10
---- !u!136 &1730046511
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730046507}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1730046512
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730046507}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 1
 --- !u!1 &1734662154
 GameObject:
   m_ObjectHideFlags: 0
@@ -23258,7 +22527,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23300,6 +22569,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -23309,9 +22582,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7bcdb387-ba5f-431f-82c0-7f1b0193aa2c
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 63ded1ce5c0077942882365a273c99cf, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -23320,8 +22593,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7bcdb387-ba5f-431f-82c0-7f1b0193aa2c
+  sourceMeshRendererGUID: a0737050-212b-4242-9e3d-e013be1d5215
   guid: bf5e0ba6-3ddd-492b-b728-a80b530a758c
   localOptions:
     RecalculateTangents: 0
@@ -23332,11 +22610,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: e5a088ce987f6c245bd58af98b78caa7, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!4 &1743681109
 Transform:
   m_ObjectHideFlags: 0
@@ -23445,111 +22736,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1133929726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1767680947
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1767680948}
-  - component: {fileID: 1767680951}
-  - component: {fileID: 1767680950}
-  - component: {fileID: 1767680949}
-  m_Layer: 0
-  m_Name: Head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1767680948
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767680947}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0.2}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 634506320}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1767680949
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767680947}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1767680950
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767680947}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1767680951
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767680947}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1785096717
 GameObject:
   m_ObjectHideFlags: 0
@@ -23621,7 +22807,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23663,6 +22849,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -23672,9 +22862,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c5508401-14f6-44ea-8df8-637f091d3fc4
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: d299c5782149a7745b3323ed98fea747, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -23683,8 +22873,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c5508401-14f6-44ea-8df8-637f091d3fc4
+  sourceMeshRendererGUID: ff80a2e0-cfac-41bb-983f-46420e88c596
   guid: 68df88fd-55a2-42e9-a06a-c0017efc9e6e
   localOptions:
     RecalculateTangents: 0
@@ -23695,11 +22890,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 8f336342c99778b4a900753e47e43081, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!4 &1792653316
 Transform:
   m_ObjectHideFlags: 0
@@ -23769,7 +22977,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23811,6 +23019,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -23820,9 +23032,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c9b39405-5c3b-4de3-b598-cdc131015175
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: c4ee539c30f1d004ea2c34dadbbcd4b3, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -23831,8 +23043,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c9b39405-5c3b-4de3-b598-cdc131015175
+  sourceMeshRendererGUID: 4e358f5d-f416-4034-a7da-3089b44256e3
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -23843,11 +23060,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 0b56cab1d3080c44cb7e7e82586bc2c4, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1812256008
 GameObject:
   m_ObjectHideFlags: 0
@@ -23896,7 +23126,7 @@ Transform:
   - {fileID: 751604938}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1850574095
+--- !u!1 &1832820784
 GameObject:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23904,77 +23134,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1850574096}
-  - component: {fileID: 1850574097}
+  - component: {fileID: 1832820786}
+  - component: {fileID: 1832820785}
   m_Layer: 0
-  m_Name: BottomRig
+  m_Name: UMXCommandServiceCache_12fe112b-1a97-460e-bce0-8d420242cde3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1850574096
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850574095}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0361696, y: 0, z: 0, w: 0.99934566}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 545589402}
-  m_Father: {fileID: 2084212}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1850574097
+--- !u!114 &1832820785
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850574095}
+  m_GameObject: {fileID: 1832820784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Script: {fileID: 883140272}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  - Header
-  - Extensions
-  - m_Priority
-  - m_Transitions
-  - m_Follow
-  - m_StandbyUpdate
-  - m_Lens
-  m_LockStageInInspector: 00000000
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
-  m_Lens:
-    FieldOfView: 50
-    OrthographicSize: 10
-    NearClipPlane: 0.1
-    FarClipPlane: 5000
-    Dutch: 0
-    ModeOverride: 0
-    LensShift: {x: 0, y: 0}
-    GateFit: 2
-    FocusDistance: 10
-    m_SensorSize: {x: 1, y: 1}
-  m_Transitions:
-    m_BlendHint: 0
-    m_InheritPosition: 0
-    m_OnCameraLive:
-      m_PersistentCalls:
-        m_Calls: []
-  m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 545589402}
+  counter: 0
+  commandObjects: []
+--- !u!4 &1832820786
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832820784}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1883360893
 GameObject:
   m_ObjectHideFlags: 0
@@ -24164,6 +23361,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -24173,9 +23374,9 @@ MonoBehaviour:
   - Assets/Materials/RedMat.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2fc06975-a635-4901-8e10-490067a72c54
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 8387787573a75e34bad9e94e8289d525, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -24184,8 +23385,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2fc06975-a635-4901-8e10-490067a72c54
+  sourceMeshRendererGUID: 94ade794-72dc-40e5-9e92-3dff561d5b97
   guid: 68df88fd-55a2-42e9-a06a-c0017efc9e6e
   localOptions:
     RecalculateTangents: 0
@@ -24196,11 +23402,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 3ce28a7327d302442bc61bba78001315, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &1968292565
 GameObject:
   m_ObjectHideFlags: 0
@@ -24362,7 +23581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24404,6 +23623,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -24413,7 +23636,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_be5620db-2315-4664-87fd-33ad1ddb44ac
+    name: UM_OperatedMesh_7e8a7b3c-912e-4591-8df6-185f28deb1ab
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 74a836d369e724642bc744446fa049d0, type: 2}
     buidVersion:
@@ -24424,8 +23647,14 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 1983088772}
+    <transform>k__BackingField: {fileID: 1983088773}
+    <MeshRendererInst>k__BackingField: {fileID: 1983088774}
+    materialsInitialize: 1
+    rendererMaterials:
+    - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: be5620db-2315-4664-87fd-33ad1ddb44ac
+  sourceMeshRendererGUID: 7e8a7b3c-912e-4591-8df6-185f28deb1ab
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
@@ -24435,12 +23664,25 @@ MonoBehaviour:
     hardAngle: 0
     packMargin: 0
   saveData: {fileID: 11400000, guid: ab07385fc3c85d44cb870a11462004ca, type: 2}
-  <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  <IsDirtySaveData>k__BackingField: 1
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &2025009237
 GameObject:
   m_ObjectHideFlags: 0
@@ -24496,7 +23738,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24538,6 +23780,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -24547,9 +23793,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bea6b2eb-b3a4-4b6f-9e2c-e47fdc1f4a3c
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: d848d5b300e376c47b1a9670554a4d8c, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -24558,8 +23804,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bea6b2eb-b3a4-4b6f-9e2c-e47fdc1f4a3c
+  sourceMeshRendererGUID: f9cee17e-77fb-4831-b288-c5a2562fb740
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -24570,11 +23821,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: b2ec863221cdb244ea13817b1a87598e, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &2040650423
 GameObject:
   m_ObjectHideFlags: 0
@@ -24608,39 +23872,6 @@ Transform:
   - {fileID: 1449382486}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2058699266
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2058699267}
-  m_Layer: 0
-  m_Name: PlayerUnit
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2058699267
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058699266}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.01522154, y: 0.67087317, z: -0.013775651, w: 0.7412879}
-  m_LocalPosition: {x: -19.59, y: 5.95, z: 22.67}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1730046508}
-  - {fileID: 38513847}
-  m_Father: {fileID: 873256501}
-  m_LocalEulerAnglesHint: {x: -0.234, y: 84.296, z: -2.341}
 --- !u!1 &2082470137
 GameObject:
   m_ObjectHideFlags: 0
@@ -24737,6 +23968,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -24756,6 +23991,11 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
   sourceMeshRendererGUID: 37c20ce9-b34b-4ed1-b20b-d8b22befa8c5
   guid: 696124b8-f42b-4632-a39a-345b0463b4b2
@@ -24768,11 +24008,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: ff3eea456ced6e249b265b1543a6e360, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 0
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &2086939145
 GameObject:
   m_ObjectHideFlags: 0
@@ -24827,7 +24080,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24869,6 +24122,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -24878,9 +24135,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_99341119-0442-4db8-9e72-3a4e041be3e9
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 429ac630a71cb484b985cea87dc49a8e, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -24889,8 +24146,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 99341119-0442-4db8-9e72-3a4e041be3e9
+  sourceMeshRendererGUID: 86e0d320-67b8-4bc6-b4bd-47579e30fd50
   guid: 56e793f8-ce8c-42af-a6af-d5cb932d3813
   localOptions:
     RecalculateTangents: 0
@@ -24901,11 +24163,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 687ccb410baa8b64892f982d9e7e33e2, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &2105717636
 GameObject:
   m_ObjectHideFlags: 0
@@ -24960,7 +24235,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25002,6 +24277,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -25011,9 +24290,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b49d1d98-65cc-43ab-84e6-fab6544157dc
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 3396f6465510ec549a98271b1c19b3d0, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -25022,8 +24301,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b49d1d98-65cc-43ab-84e6-fab6544157dc
+  sourceMeshRendererGUID: 7510c864-541c-4e1c-86ce-644868c04d95
   guid: a5eae128-885f-4ffc-938a-0276922658d8
   localOptions:
     RecalculateTangents: 0
@@ -25034,11 +24318,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: 9e7163b7c6660d2489678ff3f34f3448, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1 &2107859084
 GameObject:
   m_ObjectHideFlags: 0
@@ -25291,7 +24588,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25333,6 +24630,10 @@ MonoBehaviour:
   m_Script: {fileID: -2105364572, guid: 355474d781e5561489e3595e39866770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnabled: 0
+  isPrefabInternal: 0
+  isDisposedInternal: 0
+  isDetectRiggingChanged: 0
   isRiggingEnabled: 0
   isPaintingEnabled: 0
   currentEditor: 
@@ -25342,9 +24643,9 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a63f023d-893c-4e68-8e6e-4bfba10e23d8
+    name: 
     skinnedMesh: 0
-    sharedMesh: {fileID: 4300000, guid: 25b6a971cc86fe540a7e2d3ce1a84dd2, type: 2}
+    sharedMesh: {fileID: 0}
     buidVersion:
       ModifierGUID: 
       PosVersion: 0
@@ -25353,8 +24654,13 @@ MonoBehaviour:
       BoneWeightVersion: 0
       IndexVersion: 0
       OptimizedTopology: 0
+    gameObject: {fileID: 0}
+    <transform>k__BackingField: {fileID: 0}
+    <MeshRendererInst>k__BackingField: {fileID: 0}
+    materialsInitialize: 0
+    rendererMaterials: []
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a63f023d-893c-4e68-8e6e-4bfba10e23d8
+  sourceMeshRendererGUID: 638099ea-e2c7-4eb2-aa02-4502be149eab
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -25365,11 +24671,24 @@ MonoBehaviour:
     packMargin: 0
   saveData: {fileID: 11400000, guid: e746fb63ee2374b4f82b66aece107a4b, type: 2}
   <IsDirtySaveData>k__BackingField: 0
-  texturepaintdata:
-  - {fileID: 0}
-  modifierStack:
+  isStackSaving: 0
+  sourceMeshPush: {fileID: 0}
+  modifierStackPush:
+    stackModifierList: []
     modifierList: []
     currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
+  texturepaintdata:
+  - {fileID: 0}
+  texturepaintdataSaveTemporary: []
+  IsObjectCheckActivate: 1
+  modifierStack:
+    stackModifierList: []
+    modifierList: []
+    currentIndex: -1
+    currentModifier: {fileID: 0}
+    modelerMesh: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -25385,3 +24704,4 @@ SceneRoots:
   - {fileID: 1114904193}
   - {fileID: 2040650424}
   - {fileID: 1785096718}
+  - {fileID: 1832820786}
