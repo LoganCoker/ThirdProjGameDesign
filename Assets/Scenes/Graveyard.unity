@@ -6530,7 +6530,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18982,6 +18982,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 873256501}
     m_Modifications:
+    - target: {fileID: 522846681598890869, guid: 9d32f32461329ba4492ecfaebb1bf825, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00082
+      objectReference: {fileID: 0}
     - target: {fileID: 3040970455948023506, guid: 9d32f32461329ba4492ecfaebb1bf825, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.545
@@ -20853,7 +20857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1452592397
 AudioListener:
   m_ObjectHideFlags: 0
