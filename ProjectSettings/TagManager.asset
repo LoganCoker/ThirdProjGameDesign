@@ -8,6 +8,7 @@ TagManager:
   - VaultWall
   - WallClimb
   - Pushing
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
