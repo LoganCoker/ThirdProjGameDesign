@@ -84,7 +84,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Attack"",
                     ""type"": ""Button"",
-                    ""id"": ""365112fe-0087-49c3-b645-36e550d27c22"",
+                    ""id"": ""11964e7e-bfe5-4a1f-a196-b9d19ee66510"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -270,7 +270,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""f2d76941-e6e0-482c-be0c-b6940734e369"",
+                    ""id"": ""cbb7b82c-5bd1-4b1c-b4b8-4376a22a647f"",
                     ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -281,7 +281,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""a9de57f3-5a6f-4dcb-a5fc-f89d6d0f5733"",
+                    ""id"": ""399ef306-61aa-4eed-9f70-04324303c3eb"",
                     ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",

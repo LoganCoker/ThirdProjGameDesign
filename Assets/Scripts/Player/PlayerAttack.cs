@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour {
 
     #region publics
     public float attackSpeed;
-    public Transform bodyRot;
     #endregion
 
     #region privates
@@ -19,13 +19,11 @@ public class PlayerAttack : MonoBehaviour {
     #endregion
 
     void Start() {
-        attackSpeed *= 20;
         input = Game.Input.Player;
-        attackPattern = transform.GetChild(0).GetChild(2);
+        attackPattern = transform.GetChild(0).GetChild(0);
     }
 
     void Update() {
-        //transform.rotation = bodyRot.rotation;
         if (attackTime < 0) {
             attackTime = 0;
             attackCount = 1;
@@ -34,7 +32,6 @@ public class PlayerAttack : MonoBehaviour {
         if (input.Attack.WasPressedThisFrame() && !inAttack && attackTime <= 0 && attackCount == 1) {
             StartCoroutine(FirstAttack());
         }
-
         if (input.Attack.WasPressedThisFrame() && !inAttack && attackTime > 0 && attackCount == 2) {
             StartCoroutine(SecondAttack());
         }
@@ -51,26 +48,20 @@ public class PlayerAttack : MonoBehaviour {
             StartCoroutine(FifthAttack());
         }
 
-
         attackTime -= Time.deltaTime;
     }
 
     IEnumerator FirstAttack() {
-        // rotate x 0 -> 180
-        // rotate z 20 -> -20
         Transform attack = attackPattern.transform.GetChild(0);
         inAttack = true;
 
-        float xRot = 0;
-        float zRot = 20f;
+        Vector3 initPos = new(-0.4f, 0.6f, 0.4f);
+        Vector3 finalPos = new(0.4f, -0.4f, 0.4f);
 
-        attack.rotation = Quaternion.Euler(0, 0, zRot);
+        attack.localPosition = initPos;
         attack.gameObject.SetActive(true);
-        while (xRot < 180) {
-            attack.rotation = Quaternion.Euler(xRot, 0, zRot);
-
-            xRot += attackSpeed * Time.deltaTime;
-            zRot -= attackSpeed * 2/9 * Time.deltaTime;
+        while (attack.localPosition != finalPos) {
+            attack.localPosition = Vector3.MoveTowards(attack.localPosition, finalPos, attackSpeed * Time.deltaTime);
             yield return new WaitForEndOfFrame();
         }
 
@@ -81,21 +72,16 @@ public class PlayerAttack : MonoBehaviour {
     }
     
     IEnumerator SecondAttack() {
-        // rotate y 0 -> -180
-        // rotate z -110 -> -70
         Transform attack = attackPattern.transform.GetChild(1);
         inAttack = true;
 
-        float yRot = 0;
-        float zRot = -110f;
+        Vector3 initPos = new(0.4f, -0.2f, 0.4f);
+        Vector3 finalPos = new(-0.4f, 0.2f, 0.4f);
 
-        attack.rotation = Quaternion.Euler(0, yRot, zRot);
+        attack.localPosition = initPos;
         attack.gameObject.SetActive(true);
-        while (yRot > -180) {
-            attack.rotation = Quaternion.Euler(0, yRot, zRot);
-
-            yRot -= attackSpeed * Time.deltaTime;
-            zRot += attackSpeed * 2/9 * Time.deltaTime;
+        while (attack.localPosition != finalPos) {
+            attack.localPosition = Vector3.MoveTowards(attack.localPosition, finalPos, attackSpeed * Time.deltaTime);
             yield return new WaitForEndOfFrame();
         }
 
@@ -106,21 +92,16 @@ public class PlayerAttack : MonoBehaviour {
     }
     
     IEnumerator ThirdAttack() {
-        // rotate x 180 -> 0
-        // rotate z 20 -> -20
-        Transform attack = attackPattern.transform.GetChild(2);
+        Transform attack = attackPattern.transform.GetChild(0);
         inAttack = true;
 
-        float xRot = 180;
-        float zRot = 20f;
+        Vector3 initPos = new(-0.4f, -0.4f, 0.4f);
+        Vector3 finalPos = new(0.4f, 0.6f, 0.4f);
 
-        attack.rotation = Quaternion.Euler(xRot, 0, zRot);
+        attack.localPosition = initPos;
         attack.gameObject.SetActive(true);
-        while (xRot > 0) {
-            attack.rotation = Quaternion.Euler(xRot, 0, zRot);
-
-            xRot -= attackSpeed * Time.deltaTime;
-            zRot -= attackSpeed * 2 / 9 * Time.deltaTime;
+        while (attack.localPosition != finalPos) {
+            attack.localPosition = Vector3.MoveTowards(attack.localPosition, finalPos, attackSpeed * Time.deltaTime);
             yield return new WaitForEndOfFrame();
         }
 
@@ -131,19 +112,16 @@ public class PlayerAttack : MonoBehaviour {
     }
     
     IEnumerator ForthAttack() {
-        // rotate y 0 -> 180 (R)
-        // rotate y 180 -> 0 (L)
-        Transform attack = attackPattern.transform.GetChild(3);
+        Transform attack = attackPattern.transform.GetChild(0);
         inAttack = true;
 
-        float yRot = 0;
+        Vector3 initPos = new(-0.7f, 0f, 0.4f);
+        Vector3 finalPos = new(0.7f, 0f, 0.4f);
 
-        attack.rotation = Quaternion.Euler(0, yRot, 90);
+        attack.localPosition = initPos;
         attack.gameObject.SetActive(true);
-        while (yRot < 180) {
-            attack.rotation = Quaternion.Euler(0, yRot, 90);
-
-            yRot += attackSpeed * Time.deltaTime;
+        while (attack.localPosition != finalPos) {
+            attack.localPosition = Vector3.MoveTowards(attack.localPosition, finalPos, attackSpeed * Time.deltaTime);
             yield return new WaitForEndOfFrame();
         }
 
@@ -154,18 +132,16 @@ public class PlayerAttack : MonoBehaviour {
     }
     
     IEnumerator FifthAttack() {
-        // rotate x 0 -> 180
-        Transform attack = attackPattern.transform.GetChild(4);
+        Transform attack = attackPattern.transform.GetChild(0);
         inAttack = true;
 
-        float xRot = 0;
+        Vector3 initPos = new(0f, 0.7f, 0.4f);
+        Vector3 finalPos = new(0f, -0.5f, 0.4f);
 
-        attack.rotation = Quaternion.Euler(xRot, 0, 0);
+        attack.localPosition = initPos;
         attack.gameObject.SetActive(true);
-        while (xRot < 180) {
-            attack.rotation = Quaternion.Euler(xRot, 0, 0);
-
-            xRot += attackSpeed * Time.deltaTime;
+        while (attack.localPosition != finalPos) {
+            attack.localPosition = Vector3.MoveTowards(attack.localPosition, finalPos, attackSpeed * Time.deltaTime);
             yield return new WaitForEndOfFrame();
         }
 

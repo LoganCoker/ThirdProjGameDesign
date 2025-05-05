@@ -15,6 +15,7 @@ public class PlayerMove : MonoBehaviour {
     public float runSpeed;
     public LayerMask ground;
     public float cameraSens;
+    public Animator animator;
     #endregion
 
     #region privates
@@ -95,11 +96,13 @@ public class PlayerMove : MonoBehaviour {
         if (input.Movement.IsPressed()) { 
             bodyRot = Quaternion.LookRotation(movement3D);
             body.rotation = bodyRot; 
+            animator.SetBool("Walking", true);
         }
         // dampen movements if not actively walking/running
         if (input.Movement.WasReleasedThisFrame() && GroundCheck()) {
             self.velocity -= self.velocity *.9f;
             running = false;
+            animator.SetBool("Walking", false);
         }
 
         // jumping
@@ -118,12 +121,11 @@ public class PlayerMove : MonoBehaviour {
 
         // crouch
         if (input.Crouch.IsPressed() && GroundCheck() && !crouched) {
-            body.Rotate(Vector3.right, -50);
-            //transform.Rotate();
+            animator.SetBool("HittingIt", true);
             crouched = true;
         }
         if (input.Crouch.WasReleasedThisFrame()) {
-            body.rotation = bodyRot;
+            animator.SetBool("HittingIt", false);
             crouched = false;
         }
 
