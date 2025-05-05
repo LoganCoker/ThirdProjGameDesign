@@ -8,7 +8,7 @@ public class Game : MonoBehaviour {
     public static InputController Input { get; private set; }
     public static Game Instance { get; private set; }
 
-    void Start() {
+    void Awake() {
         Instance = this;
         Input = new InputController();
 

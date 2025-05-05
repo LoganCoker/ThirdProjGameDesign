@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3096135815319283513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8526867356329051746}
+  m_Layer: 0
+  m_Name: VampireEnemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8526867356329051746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096135815319283513}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.063887, y: 11.096211, z: 22.566998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2702650453077738398}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2453062367471346805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8526867356329051746}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.55331093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.55331093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.55331093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2261133
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1012115
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7780018
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.72618115
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6875034
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -86.866
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      propertyPath: m_Name
+      value: VampireEnemy Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 824517492217930600}
+  m_SourcePrefab: {fileID: 100100000, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+--- !u!4 &2702650453077738398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+  m_PrefabInstance: {fileID: 2453062367471346805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3371629214105016612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 88353cf6ec954764a91b230f62d68596, type: 3}
+  m_PrefabInstance: {fileID: 2453062367471346805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &824517492217930600
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371629214105016612}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: fca1a86a79de1fe45ae213dd46bbaa65, type: 3}
+  m_Controller: {fileID: 9100000, guid: a9fe845e5c83a6c448c0fd65218bee93, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
