@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 6eecb3bb77b3f7a43a504fceda3b0b5f, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 56c9ed5ee739a324e8d8bdb9613f4890, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -227,7 +227,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b0dc7ab3-0894-442e-ad8a-8762c1c601d3
+    name: UM_OperatedMesh_ff6ab33b-5bfe-46f3-bcf4-15efff6c8048
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 65494e3d3c09c9a4ebe7cb7fb6de6feb, type: 2}
     buidVersion:
@@ -239,7 +239,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b0dc7ab3-0894-442e-ad8a-8762c1c601d3
+  sourceMeshRendererGUID: ff6ab33b-5bfe-46f3-bcf4-15efff6c8048
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7ae3a5ed-e4b1-4ce6-80fc-b0b8570d02b2
+    name: UM_OperatedMesh_3f11ade6-5b6c-478b-bef2-9b2ccca40f5d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: deef231a7d20853458c2291f18f70024, type: 2}
     buidVersion:
@@ -372,7 +372,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7ae3a5ed-e4b1-4ce6-80fc-b0b8570d02b2
+  sourceMeshRendererGUID: 3f11ade6-5b6c-478b-bef2-9b2ccca40f5d
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -493,7 +493,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d9d4e731-d17f-4b27-9ffb-27154e94d290
+    name: UM_OperatedMesh_eb6342e3-8428-4421-bfa1-0f1687c9ae20
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 7fdc71e522e044d4da73e0a97acd36f9, type: 2}
     buidVersion:
@@ -505,7 +505,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d9d4e731-d17f-4b27-9ffb-27154e94d290
+  sourceMeshRendererGUID: eb6342e3-8428-4421-bfa1-0f1687c9ae20
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -626,7 +626,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_740a10d5-1b89-4233-bf08-8377919de4b0
+    name: UM_OperatedMesh_6d28a60a-bf92-43a2-87d3-4e8f0d1c8fd7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6d1900b5087cc8b45bcdbc91152bd4af, type: 2}
     buidVersion:
@@ -638,7 +638,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 740a10d5-1b89-4233-bf08-8377919de4b0
+  sourceMeshRendererGUID: 6d28a60a-bf92-43a2-87d3-4e8f0d1c8fd7
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -708,7 +708,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -754,12 +754,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_868bef68-02a6-43b8-a4d5-2a3b51f9fb83
+    name: UM_OperatedMesh_5f0f8eba-c445-4f11-952d-084c7440608b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8f5647716ba95a64fb289d10d5ade138, type: 2}
     buidVersion:
@@ -771,7 +771,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 868bef68-02a6-43b8-a4d5-2a3b51f9fb83
+  sourceMeshRendererGUID: 5f0f8eba-c445-4f11-952d-084c7440608b
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -962,7 +962,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_973f12f0-fbf1-4a84-a293-e35f6ad22433
+    name: UM_OperatedMesh_f472795f-e635-4362-b829-cffdeb524a71
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 7375a2942ccd9be4d909b77e8581dbe3, type: 2}
     buidVersion:
@@ -974,7 +974,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 973f12f0-fbf1-4a84-a293-e35f6ad22433
+  sourceMeshRendererGUID: f472795f-e635-4362-b829-cffdeb524a71
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -1044,7 +1044,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1090,12 +1090,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7860fc28-3c77-41e4-a747-fb0042e3e986
+    name: UM_OperatedMesh_f53d63c9-c95f-49b2-8f8d-d55efc8e4289
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 7d75baeb7af78d6469107080b6799223, type: 2}
     buidVersion:
@@ -1107,7 +1107,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7860fc28-3c77-41e4-a747-fb0042e3e986
+  sourceMeshRendererGUID: f53d63c9-c95f-49b2-8f8d-d55efc8e4289
   guid: 4abe21bd-371c-41fc-8f41-426efe4cf85f
   localOptions:
     RecalculateTangents: 0
@@ -1405,7 +1405,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e6113433-977b-4a03-b72e-dc6edee3548b
+    name: UM_OperatedMesh_c79a5172-36f3-4214-9d20-35ff83480ae7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1a62667d50218e347b0e5e1a64857599, type: 2}
     buidVersion:
@@ -1417,7 +1417,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e6113433-977b-4a03-b72e-dc6edee3548b
+  sourceMeshRendererGUID: c79a5172-36f3-4214-9d20-35ff83480ae7
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -1523,7 +1523,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7f3bd6e3-a4b6-4a35-a101-9f84846a1e37
+    name: UM_OperatedMesh_9d3fa8e6-e1b0-4e67-9440-236953c0f59d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 81a9b231fd6ee1d4097c554b63fb63ee, type: 2}
     buidVersion:
@@ -1535,7 +1535,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7f3bd6e3-a4b6-4a35-a101-9f84846a1e37
+  sourceMeshRendererGUID: 9d3fa8e6-e1b0-4e67-9440-236953c0f59d
   guid: 74ee6ff9-c844-4a37-9685-ec799c8ee167
   localOptions:
     RecalculateTangents: 0
@@ -1560,8 +1560,8 @@ Transform:
   m_GameObject: {fileID: 417597505}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.56, y: 32.052, z: 17.323}
-  m_LocalScale: {x: 1, y: 0.37312, z: 1.2882}
+  m_LocalPosition: {x: 58.44, y: 20.98, z: 20.871}
+  m_LocalScale: {x: 1.3710018, y: 0.37312, z: 1.8302797}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1762,7 +1762,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_72d7c02a-5f36-4308-8332-8a25f5456120
+    name: UM_OperatedMesh_211e2c12-647a-43b5-a5d2-9ae9926f2786
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 09f011c3135de2f44836ad5b8cd14ab7, type: 2}
     buidVersion:
@@ -1774,7 +1774,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 72d7c02a-5f36-4308-8332-8a25f5456120
+  sourceMeshRendererGUID: 211e2c12-647a-43b5-a5d2-9ae9926f2786
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -1895,7 +1895,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d5349ffe-61a3-4880-9d3e-81dbcbc43671
+    name: UM_OperatedMesh_a32ecd67-fe95-4803-aaf4-bfb7c5dc04e3
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ebf57c329029185478e5bd194a5f142c, type: 2}
     buidVersion:
@@ -1907,7 +1907,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d5349ffe-61a3-4880-9d3e-81dbcbc43671
+  sourceMeshRendererGUID: a32ecd67-fe95-4803-aaf4-bfb7c5dc04e3
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -1949,7 +1949,7 @@ Transform:
   m_GameObject: {fileID: 457169489}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.61, y: 7.18, z: 19.71}
+  m_LocalPosition: {x: 27.61, y: 11.89, z: 19.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2084,7 +2084,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a9973087-10b6-4de0-bb1b-a237b98338b4
+    name: UM_OperatedMesh_f6d0c2d8-9bad-4ef4-bb3c-2975816f0bf4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c3758b2af8512744288e0fca13353b62, type: 2}
     buidVersion:
@@ -2096,7 +2096,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a9973087-10b6-4de0-bb1b-a237b98338b4
+  sourceMeshRendererGUID: f6d0c2d8-9bad-4ef4-bb3c-2975816f0bf4
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -2163,6 +2163,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -2289,7 +2293,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_13fa5895-a8af-4241-9779-dd78e422ad80
+    name: UM_OperatedMesh_0809552d-e2d9-4ab8-9ea5-3320863d9087
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 313a3163093bdf442bea587654c72bc1, type: 2}
     buidVersion:
@@ -2301,7 +2305,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 13fa5895-a8af-4241-9779-dd78e422ad80
+  sourceMeshRendererGUID: 0809552d-e2d9-4ab8-9ea5-3320863d9087
   guid: 1f6ef0f4-d818-498d-9a0f-3808e7a821f2
   localOptions:
     RecalculateTangents: 0
@@ -2326,11 +2330,11 @@ Transform:
   m_GameObject: {fileID: 504921695}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 45.06, y: 1.0827, z: 13.83}
-  m_LocalScale: {x: 0.23539, y: 1.3821282, z: 1.636647}
+  m_LocalPosition: {x: -14.809063, y: -12.370518, z: 4.3620014}
+  m_LocalScale: {x: 0.23539, y: 1.3821282, z: 1.6366471}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1641937946}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1001 &512917211
 PrefabInstance:
@@ -2448,7 +2452,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2494,12 +2498,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_db889232-0557-4950-8d97-2aa29adc87ef
+    name: UM_OperatedMesh_a686407b-1a7f-475b-a9c3-3b108cff2f37
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: cecd6b05f4271d34184ae626079e2438, type: 2}
     buidVersion:
@@ -2511,7 +2515,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: db889232-0557-4950-8d97-2aa29adc87ef
+  sourceMeshRendererGUID: a686407b-1a7f-475b-a9c3-3b108cff2f37
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -2617,7 +2621,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f273878c-50fa-49b6-a27f-f802d707a88d
+    name: UM_OperatedMesh_69bbc43c-4539-4835-b8f2-7b89b3ef1d6c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1d9712d70c0d7fb47a1bf96cfa2501e2, type: 2}
     buidVersion:
@@ -2629,7 +2633,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f273878c-50fa-49b6-a27f-f802d707a88d
+  sourceMeshRendererGUID: 69bbc43c-4539-4835-b8f2-7b89b3ef1d6c
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -2765,7 +2769,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8a7a0d63-0fd8-47b9-aae8-2b854581bf4c
+    name: UM_OperatedMesh_96d987c7-1be1-48ae-a216-f2fdae577845
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ff18f11d1f62f4c4b97098484bc6f671, type: 2}
     buidVersion:
@@ -2777,7 +2781,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8a7a0d63-0fd8-47b9-aae8-2b854581bf4c
+  sourceMeshRendererGUID: 96d987c7-1be1-48ae-a216-f2fdae577845
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -2898,7 +2902,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8b558a6d-4223-483b-bdd3-00229689f3c2
+    name: UM_OperatedMesh_1806bdca-e21c-47e9-9d7d-d5d3002a4c3f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1e5cccc32c5b2a54bba8b9f78b072e77, type: 2}
     buidVersion:
@@ -2910,7 +2914,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8b558a6d-4223-483b-bdd3-00229689f3c2
+  sourceMeshRendererGUID: 1806bdca-e21c-47e9-9d7d-d5d3002a4c3f
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -3086,7 +3090,7 @@ MonoBehaviour:
   - Assets/Materials/Gabe.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6e07e9e4-3449-4ae4-96fc-666ec7760c9c
+    name: UM_OperatedMesh_728f85a3-ef9e-4028-b63b-a2a61c084e4c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 76732028db9f526438fbf46cef103b6d, type: 2}
     buidVersion:
@@ -3098,7 +3102,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6e07e9e4-3449-4ae4-96fc-666ec7760c9c
+  sourceMeshRendererGUID: 728f85a3-ef9e-4028-b63b-a2a61c084e4c
   guid: 8bfc39fb-4ab6-4b94-be28-f324f518841c
   localOptions:
     RecalculateTangents: 0
@@ -3169,7 +3173,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3215,12 +3219,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_58aae3a8-a9d0-40d7-a557-9fdb5c3c89d1
+    name: UM_OperatedMesh_3de94ce4-cb2f-43c9-84c6-9af95fe23b74
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4af134eb519a6944790f0d628e5bbcc3, type: 2}
     buidVersion:
@@ -3232,7 +3236,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 58aae3a8-a9d0-40d7-a557-9fdb5c3c89d1
+  sourceMeshRendererGUID: 3de94ce4-cb2f-43c9-84c6-9af95fe23b74
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -3317,7 +3321,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3363,12 +3367,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4f74221e-6908-4baa-a321-adcff9830557
+    name: UM_OperatedMesh_7c01806d-d039-4913-895b-5ef8b1da674c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: a67a756d5db21b245950d62ced039e11, type: 2}
     buidVersion:
@@ -3380,7 +3384,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4f74221e-6908-4baa-a321-adcff9830557
+  sourceMeshRendererGUID: 7c01806d-d039-4913-895b-5ef8b1da674c
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -3450,7 +3454,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3496,12 +3500,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_57d5861a-1234-4c42-b83d-ea9918265684
+    name: UM_OperatedMesh_a7fc0cef-1522-4089-8990-993527258268
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ac6ceb40c1b79f944bd8fd5e3b07fd72, type: 2}
     buidVersion:
@@ -3513,7 +3517,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 57d5861a-1234-4c42-b83d-ea9918265684
+  sourceMeshRendererGUID: a7fc0cef-1522-4089-8990-993527258268
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -3660,7 +3664,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_51cc4553-8967-4d06-9a19-98b3ae52e06f
+    name: UM_OperatedMesh_ca6ca08e-e83e-4217-ac80-af90d3bb905f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: a59a5de9b51460a469d45b4cd4e2a17c, type: 2}
     buidVersion:
@@ -3672,7 +3676,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 51cc4553-8967-4d06-9a19-98b3ae52e06f
+  sourceMeshRendererGUID: ca6ca08e-e83e-4217-ac80-af90d3bb905f
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -3897,7 +3901,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3943,12 +3947,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ca9360e3-137b-4c16-a0d2-8424fa3686f3
+    name: UM_OperatedMesh_48b67b71-b6c9-4918-bb1d-b6488f2ffc1d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 26bf328c5dc73334d87648be1f1adef5, type: 2}
     buidVersion:
@@ -3960,7 +3964,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ca9360e3-137b-4c16-a0d2-8424fa3686f3
+  sourceMeshRendererGUID: 48b67b71-b6c9-4918-bb1d-b6488f2ffc1d
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -4081,7 +4085,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4976cb57-e427-4480-9241-aefd8240a7a7
+    name: UM_OperatedMesh_72b89500-0a45-4b1e-9152-a3774c33573c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 549b65f30c2ad1347837d635f6178354, type: 2}
     buidVersion:
@@ -4093,7 +4097,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4976cb57-e427-4480-9241-aefd8240a7a7
+  sourceMeshRendererGUID: 72b89500-0a45-4b1e-9152-a3774c33573c
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -4214,7 +4218,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a53c0c2d-ae78-4333-8674-634010b0d6bf
+    name: UM_OperatedMesh_46ef3ed4-badd-4426-ab25-004c980d6507
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: a5574425691a48f46b4d459d6678a1a6, type: 2}
     buidVersion:
@@ -4226,7 +4230,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a53c0c2d-ae78-4333-8674-634010b0d6bf
+  sourceMeshRendererGUID: 46ef3ed4-badd-4426-ab25-004c980d6507
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -4281,7 +4285,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d1b45713c004b024ab0724b60c11e73f, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4327,12 +4331,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: d1b45713c004b024ab0724b60c11e73f, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_df103c0e-53de-4423-8aee-674ee6ecf946
+    name: UM_OperatedMesh_95dd5216-4f94-463b-b577-20dc72eb003c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 227958f558eb7a44ca36913efb8b4c7d, type: 2}
     buidVersion:
@@ -4344,7 +4348,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: df103c0e-53de-4423-8aee-674ee6ecf946
+  sourceMeshRendererGUID: 95dd5216-4f94-463b-b577-20dc72eb003c
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -4480,7 +4484,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9dab4c7c-3396-4e5c-ac86-036fa45540b6
+    name: UM_OperatedMesh_aa3d2c26-6102-44f2-9987-b1313a7211db
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 5e85025fdc4832b43b995035b82b5027, type: 2}
     buidVersion:
@@ -4492,7 +4496,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9dab4c7c-3396-4e5c-ac86-036fa45540b6
+  sourceMeshRendererGUID: aa3d2c26-6102-44f2-9987-b1313a7211db
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -4550,11 +4554,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1274268168700046957, guid: 1a851f7b1808fcd4a823ed0edc386d5c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67
+      value: 65.6
       objectReference: {fileID: 0}
     - target: {fileID: 1274268168700046957, guid: 1a851f7b1808fcd4a823ed0edc386d5c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.4
+      value: -22.6
       objectReference: {fileID: 0}
     - target: {fileID: 1486281867190837803, guid: 1a851f7b1808fcd4a823ed0edc386d5c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4875,7 +4879,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_eaddbf5a-a8d9-4098-aa76-30f3f4ae125c
+    name: UM_OperatedMesh_2ce0ff59-4dc4-4736-8b84-a9b3e28ac946
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 60cefc30cf330044cbc6009017ee1b1a, type: 2}
     buidVersion:
@@ -4887,7 +4891,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: eaddbf5a-a8d9-4098-aa76-30f3f4ae125c
+  sourceMeshRendererGUID: 2ce0ff59-4dc4-4736-8b84-a9b3e28ac946
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -4969,6 +4973,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -5163,7 +5171,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9cba7a4f-d4e8-4e61-bece-089ea93b2857
+    name: UM_OperatedMesh_b0741ebc-5b39-405d-84e5-755cc4999078
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 57113e2034162d84ea8ce180f7e080b2, type: 2}
     buidVersion:
@@ -5175,7 +5183,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9cba7a4f-d4e8-4e61-bece-089ea93b2857
+  sourceMeshRendererGUID: b0741ebc-5b39-405d-84e5-755cc4999078
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -5296,7 +5304,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_cb269496-fcb0-490e-86d7-9a7b1991641c
+    name: UM_OperatedMesh_bdb33d82-5e2a-4e9e-928b-b4e838382207
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 289ea8fa502e6714b82219017aa548ce, type: 2}
     buidVersion:
@@ -5308,7 +5316,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: cb269496-fcb0-490e-86d7-9a7b1991641c
+  sourceMeshRendererGUID: bdb33d82-5e2a-4e9e-928b-b4e838382207
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -5429,7 +5437,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e0860417-b0dc-4a1d-b6d9-10fda04a9382
+    name: UM_OperatedMesh_8d58f319-b0fc-4004-9918-3d489515bdeb
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 879e0adb6e1c7f247a975de61c8d7a49, type: 2}
     buidVersion:
@@ -5441,7 +5449,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e0860417-b0dc-4a1d-b6d9-10fda04a9382
+  sourceMeshRendererGUID: 8d58f319-b0fc-4004-9918-3d489515bdeb
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -5547,7 +5555,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c00253bd-9f24-48d1-97da-342f5522f538
+    name: UM_OperatedMesh_f026b768-f2ce-4080-9a49-05f6c06b7801
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9223a7730fec04843afd0afb7c8e5702, type: 2}
     buidVersion:
@@ -5559,7 +5567,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c00253bd-9f24-48d1-97da-342f5522f538
+  sourceMeshRendererGUID: f026b768-f2ce-4080-9a49-05f6c06b7801
   guid: 1f6ef0f4-d818-498d-9a0f-3808e7a821f2
   localOptions:
     RecalculateTangents: 0
@@ -5584,11 +5592,11 @@ Transform:
   m_GameObject: {fileID: 1001029388}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 45.06, y: 1.0827, z: 12.69}
-  m_LocalScale: {x: 1, y: 1.3821282, z: 1.636647}
+  m_LocalPosition: {x: -14.809063, y: -12.370518, z: 3.222001}
+  m_LocalScale: {x: 1, y: 1.3821282, z: 1.6366471}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1641937946}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1001 &1017462104
 PrefabInstance:
@@ -5641,6 +5649,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -5767,7 +5779,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a6e6346a-832e-4368-8e8b-1918441f865e
+    name: UM_OperatedMesh_f89e3930-ef83-4368-bfb6-313b9d9b5895
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8aa7172315c6a8f47ad1a83347121411, type: 2}
     buidVersion:
@@ -5779,7 +5791,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a6e6346a-832e-4368-8e8b-1918441f865e
+  sourceMeshRendererGUID: f89e3930-ef83-4368-bfb6-313b9d9b5895
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -5864,7 +5876,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5910,12 +5922,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5089b84c-52ae-4400-a268-71e4c03e1d31
+    name: UM_OperatedMesh_c2d2a6d8-7e1c-44ec-b2a3-814fa7f0801e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c557c08ca5620a341937c10c96d4e1bc, type: 2}
     buidVersion:
@@ -5927,7 +5939,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5089b84c-52ae-4400-a268-71e4c03e1d31
+  sourceMeshRendererGUID: c2d2a6d8-7e1c-44ec-b2a3-814fa7f0801e
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -5997,7 +6009,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6043,12 +6055,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_459aaf61-254c-4846-af3a-df84851a5645
+    name: UM_OperatedMesh_bac510e6-4eec-44c4-abe7-4f28b9bc3658
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 822ac7f8639b7ef419e28617d1337234, type: 2}
     buidVersion:
@@ -6060,7 +6072,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 459aaf61-254c-4846-af3a-df84851a5645
+  sourceMeshRendererGUID: bac510e6-4eec-44c4-abe7-4f28b9bc3658
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -6127,6 +6139,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -6273,7 +6289,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_38f81c22-daa3-4fd3-889d-635793b43ef5
+    name: UM_OperatedMesh_ee0251d9-0a7d-4fba-a8f7-9a8e4af094f0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d36f33296c19a174ea539a04c7536546, type: 2}
     buidVersion:
@@ -6285,7 +6301,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 38f81c22-daa3-4fd3-889d-635793b43ef5
+  sourceMeshRendererGUID: ee0251d9-0a7d-4fba-a8f7-9a8e4af094f0
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -6406,7 +6422,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_94de7e99-ec91-464c-8899-a6457186acf0
+    name: UM_OperatedMesh_e65956c3-ef89-4a78-8fef-228d7c0010d2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: a729f7b9127ea88479158cb288ac0c70, type: 2}
     buidVersion:
@@ -6418,7 +6434,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 94de7e99-ec91-464c-8899-a6457186acf0
+  sourceMeshRendererGUID: e65956c3-ef89-4a78-8fef-228d7c0010d2
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -6485,6 +6501,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -6575,7 +6595,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6621,12 +6641,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_27f571c3-831e-4131-8a15-2b940b8285fc
+    name: UM_OperatedMesh_85f57990-8f5c-49c6-aacd-029f83712f0f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: a39a03a486661a749a1d266e015231e7, type: 2}
     buidVersion:
@@ -6638,7 +6658,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 27f571c3-831e-4131-8a15-2b940b8285fc
+  sourceMeshRendererGUID: 85f57990-8f5c-49c6-aacd-029f83712f0f
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -6708,7 +6728,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6754,12 +6774,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e7dbeef9-b668-44a4-a8ab-b5b7b82fa0e2
+    name: UM_OperatedMesh_43cb556b-71c1-45fd-8bdc-fbb836d89b11
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 540fe3e3f299833469631d3e8bed7cac, type: 2}
     buidVersion:
@@ -6771,7 +6791,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e7dbeef9-b668-44a4-a8ab-b5b7b82fa0e2
+  sourceMeshRendererGUID: 43cb556b-71c1-45fd-8bdc-fbb836d89b11
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -6841,7 +6861,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6887,12 +6907,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5c9eee6e-8777-491a-8725-48f5d17e75ea
+    name: UM_OperatedMesh_53714414-6d44-44cc-8d7e-70d324af37d8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3bbc5bb2c3a302545b572409fe94dbcd, type: 2}
     buidVersion:
@@ -6904,7 +6924,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5c9eee6e-8777-491a-8725-48f5d17e75ea
+  sourceMeshRendererGUID: 53714414-6d44-44cc-8d7e-70d324af37d8
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -7025,7 +7045,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bc09435f-adad-4d16-a19c-4192634be149
+    name: UM_OperatedMesh_a1d07c23-2d79-4397-a0d3-085f63079e41
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 65c9a0e7334a31149a514b09031dd6cb, type: 2}
     buidVersion:
@@ -7037,7 +7057,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bc09435f-adad-4d16-a19c-4192634be149
+  sourceMeshRendererGUID: a1d07c23-2d79-4397-a0d3-085f63079e41
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -7213,7 +7233,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a724871b-fcdf-4f90-95fa-e6aa7e49fecf
+    name: UM_OperatedMesh_11b394d0-cfbb-4a68-8973-a53ab4a6f09b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 65c2f8fc02799424dbc95bf6cd57f9c0, type: 2}
     buidVersion:
@@ -7225,7 +7245,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a724871b-fcdf-4f90-95fa-e6aa7e49fecf
+  sourceMeshRendererGUID: 11b394d0-cfbb-4a68-8973-a53ab4a6f09b
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -7380,7 +7400,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7426,12 +7446,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b2bf5342-0a12-4345-bd87-bd9ccde301bf
+    name: UM_OperatedMesh_5630995b-b012-4e28-86b7-8833fbb2146e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 55abc066e4239a049a4c202a9462b998, type: 2}
     buidVersion:
@@ -7443,7 +7463,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b2bf5342-0a12-4345-bd87-bd9ccde301bf
+  sourceMeshRendererGUID: 5630995b-b012-4e28-86b7-8833fbb2146e
   guid: 600ce080-4cb3-4100-8f7f-d4fcf5b3d2f6
   localOptions:
     RecalculateTangents: 0
@@ -7513,7 +7533,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7559,12 +7579,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_33285366-da4c-44ab-885b-e1a5d1b4a066
+    name: UM_OperatedMesh_34745930-3db9-450f-b324-dabb257b11d0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: da286ce38a3cab348bcb19653dd8ab91, type: 2}
     buidVersion:
@@ -7576,7 +7596,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 33285366-da4c-44ab-885b-e1a5d1b4a066
+  sourceMeshRendererGUID: 34745930-3db9-450f-b324-dabb257b11d0
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -7697,7 +7717,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_41859771-e141-4a7c-975f-0efe4faf7ad1
+    name: UM_OperatedMesh_0ee5ad8b-b394-4eaf-8b7f-e4fbf8a67a08
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: f6ca857c4466b244b88c126eb51eccbf, type: 2}
     buidVersion:
@@ -7709,7 +7729,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 41859771-e141-4a7c-975f-0efe4faf7ad1
+  sourceMeshRendererGUID: 0ee5ad8b-b394-4eaf-8b7f-e4fbf8a67a08
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -7830,7 +7850,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8250f0fa-3964-4af5-99d3-64de22d10dfe
+    name: UM_OperatedMesh_1674a511-5af3-442b-bafb-45a144e386b6
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 24490070b1534cb4396dfae46ad8a3e8, type: 2}
     buidVersion:
@@ -7842,7 +7862,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8250f0fa-3964-4af5-99d3-64de22d10dfe
+  sourceMeshRendererGUID: 1674a511-5af3-442b-bafb-45a144e386b6
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -7912,7 +7932,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7958,12 +7978,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8c9da5c8-fe4a-45e3-a1a9-5a734925f2e5
+    name: UM_OperatedMesh_adb0d5d2-2d3b-4252-ac34-a1261af761f0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 16266adb0c518094fafbfb279b5d61fd, type: 2}
     buidVersion:
@@ -7975,7 +7995,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8c9da5c8-fe4a-45e3-a1a9-5a734925f2e5
+  sourceMeshRendererGUID: adb0d5d2-2d3b-4252-ac34-a1261af761f0
   guid: 4abe21bd-371c-41fc-8f41-426efe4cf85f
   localOptions:
     RecalculateTangents: 0
@@ -8096,7 +8116,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1cbf10db-d2d3-4d5e-94d0-da8c3042e64a
+    name: UM_OperatedMesh_403ac54e-96a9-4d47-8faf-5ba372f4998f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: e30d53c211cb98b418963aac24ab7619, type: 2}
     buidVersion:
@@ -8108,7 +8128,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1cbf10db-d2d3-4d5e-94d0-da8c3042e64a
+  sourceMeshRendererGUID: 403ac54e-96a9-4d47-8faf-5ba372f4998f
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -8229,7 +8249,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c990105d-117d-425f-86e4-abfe877bd6c1
+    name: UM_OperatedMesh_f00d8466-8d6f-4caa-a052-25330148031f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ed004f84e7aee4a41b994e1e3d9d01a9, type: 2}
     buidVersion:
@@ -8241,7 +8261,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c990105d-117d-425f-86e4-abfe877bd6c1
+  sourceMeshRendererGUID: f00d8466-8d6f-4caa-a052-25330148031f
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -8308,6 +8328,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -8496,7 +8520,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_30467fb6-befb-4f8d-a108-4671261442ed
+    name: UM_OperatedMesh_3ca0097a-f3d0-43e1-a4cd-2fef3ddfcabf
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 365e0b347d0b369419b956c4b884022e, type: 2}
     buidVersion:
@@ -8508,7 +8532,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 30467fb6-befb-4f8d-a108-4671261442ed
+  sourceMeshRendererGUID: 3ca0097a-f3d0-43e1-a4cd-2fef3ddfcabf
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -8629,7 +8653,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_feba543f-76a0-4e70-801d-0d02cb3ca5ff
+    name: UM_OperatedMesh_8f7f94d5-7236-4c16-b08f-0c1b36d1185c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8b301503dc8c5ec4d88978192f1e96ba, type: 2}
     buidVersion:
@@ -8641,7 +8665,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: feba543f-76a0-4e70-801d-0d02cb3ca5ff
+  sourceMeshRendererGUID: 8f7f94d5-7236-4c16-b08f-0c1b36d1185c
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -8708,6 +8732,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -8783,7 +8811,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 27d1799ce74d8634dabb9427b516672f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8829,12 +8857,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
+  - {fileID: 2100000, guid: 27d1799ce74d8634dabb9427b516672f, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_060f17c2-5dcd-4161-aae6-bee111b173f2
+    name: UM_OperatedMesh_b225f337-9368-4c5b-bf0c-c7ce99fd548b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ce0d7a2f92358cd489568a48a8c6d1a3, type: 2}
     buidVersion:
@@ -8846,7 +8874,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 060f17c2-5dcd-4161-aae6-bee111b173f2
+  sourceMeshRendererGUID: b225f337-9368-4c5b-bf0c-c7ce99fd548b
   guid: c99110ae-4176-4fcb-96e3-7080edca7a57
   localOptions:
     RecalculateTangents: 0
@@ -8871,11 +8899,11 @@ Transform:
   m_GameObject: {fileID: 1445886729}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 18.51, y: 6.48, z: 0.87}
+  m_LocalPosition: {x: -41.359062, y: -6.9732175, z: -8.597999}
   m_LocalScale: {x: 1, y: 1.243116, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1641937946}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1 &1469852222
 GameObject:
@@ -8931,7 +8959,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8977,12 +9005,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7997252c-bf34-4ba1-93eb-dbe509be809a
+    name: UM_OperatedMesh_21235a6c-a55b-4c4f-bff3-dfcc61db82ef
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fed82a557fddc104f9cb3694d37bd3a8, type: 2}
     buidVersion:
@@ -8994,7 +9022,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7997252c-bf34-4ba1-93eb-dbe509be809a
+  sourceMeshRendererGUID: 21235a6c-a55b-4c4f-bff3-dfcc61db82ef
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -9131,6 +9159,10 @@ PrefabInstance:
     - target: {fileID: 3734705196046618253, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_Name
       value: Torch (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989035238648235670, guid: db028276c57935d479251674f6cd1c36, type: 3}
+      propertyPath: m_Range
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9153380889659152333, guid: db028276c57935d479251674f6cd1c36, type: 3}
       propertyPath: m_LocalScale.x
@@ -9272,7 +9304,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e7a59dc7-fc6a-49b1-a015-9aafe3c21290
+    name: UM_OperatedMesh_cb3b0051-0d32-40b6-bcea-83e092a83f9b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: b342f252aaf3d954db0ee7fd2c3fc5b1, type: 2}
     buidVersion:
@@ -9284,7 +9316,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e7a59dc7-fc6a-49b1-a015-9aafe3c21290
+  sourceMeshRendererGUID: cb3b0051-0d32-40b6-bcea-83e092a83f9b
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -9599,7 +9631,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ec0b705e-dc45-41ff-92dc-fd4e330b5d63
+    name: UM_OperatedMesh_c72db175-2246-4af9-bdb6-18c333ed13da
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ea053b72d5b680e40938853766707621, type: 2}
     buidVersion:
@@ -9611,7 +9643,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ec0b705e-dc45-41ff-92dc-fd4e330b5d63
+  sourceMeshRendererGUID: c72db175-2246-4af9-bdb6-18c333ed13da
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -9670,8 +9702,8 @@ Transform:
   m_GameObject: {fileID: 1592068510}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 35.6, y: 0.56000006, z: 10.63}
-  m_LocalScale: {x: 39.950672, y: 7.870319, z: 1}
+  m_LocalPosition: {x: 35.6, y: -2.4957, z: 10.63}
+  m_LocalScale: {x: 39.950672, y: 10.498219, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 900680159}
@@ -9696,7 +9728,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9742,12 +9774,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5c34bd92-9482-46ad-93b6-aa9e8e8a1ac4
+    name: UM_OperatedMesh_3aa09fa0-cff9-4b3e-9d92-e04d12e42faa
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 82f94240bbe58774d8789a9792bece97, type: 2}
     buidVersion:
@@ -9759,7 +9791,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5c34bd92-9482-46ad-93b6-aa9e8e8a1ac4
+  sourceMeshRendererGUID: 3aa09fa0-cff9-4b3e-9d92-e04d12e42faa
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -9954,7 +9986,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10000,12 +10032,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 43de679a2f302be4c9bdc6b565c13e87, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_cadef9ab-593f-4cd9-ad8a-c98d91859d7b
+    name: UM_OperatedMesh_cc55c03e-1d77-47bd-b1d1-8538d168080f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 434c2afb72a8e18459c84196d858cb4a, type: 2}
     buidVersion:
@@ -10017,7 +10049,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: cadef9ab-593f-4cd9-ad8a-c98d91859d7b
+  sourceMeshRendererGUID: cc55c03e-1d77-47bd-b1d1-8538d168080f
   guid: 1d60274e-225c-4c32-8247-3cb2d804365e
   localOptions:
     RecalculateTangents: 0
@@ -10138,7 +10170,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_07e7197c-30e8-496e-ba13-e70bb125a10a
+    name: UM_OperatedMesh_12cd37a1-8086-4a2d-98d9-6532a6f72dbd
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1b22634896c666a46ad243a2c19bf222, type: 2}
     buidVersion:
@@ -10150,7 +10182,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 07e7197c-30e8-496e-ba13-e70bb125a10a
+  sourceMeshRendererGUID: 12cd37a1-8086-4a2d-98d9-6532a6f72dbd
   guid: 67cf8d68-774c-46c9-a179-99c9726a7287
   localOptions:
     RecalculateTangents: 0
@@ -10182,6 +10214,41 @@ Transform:
   - {fileID: 1737388351}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!1 &1641937945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641937946}
+  m_Layer: 0
+  m_Name: Stairs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1641937946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641937945}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.869064, y: 13.4532175, z: 9.4679985}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1001029392}
+  - {fileID: 1658604280}
+  - {fileID: 504921699}
+  - {fileID: 1445886733}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1650218588
 GameObject:
   m_ObjectHideFlags: 0
@@ -10198,7 +10265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1650218589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10356,7 +10423,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0694c091-3cde-48d7-a1bd-27a8ac3caa73
+    name: UM_OperatedMesh_3561a7b7-baf2-4e28-8a00-b5ed0dfc47aa
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2433c25bff5d0d74bab44de92a5ea442, type: 2}
     buidVersion:
@@ -10368,7 +10435,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0694c091-3cde-48d7-a1bd-27a8ac3caa73
+  sourceMeshRendererGUID: 3561a7b7-baf2-4e28-8a00-b5ed0dfc47aa
   guid: 1f6ef0f4-d818-498d-9a0f-3808e7a821f2
   localOptions:
     RecalculateTangents: 0
@@ -10393,11 +10460,11 @@ Transform:
   m_GameObject: {fileID: 1658604276}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 45.06, y: 1.0827, z: 7.71}
-  m_LocalScale: {x: 0.23539, y: 1.3821282, z: 1.636647}
+  m_LocalPosition: {x: -14.809063, y: -12.370518, z: -1.7579985}
+  m_LocalScale: {x: 0.23539, y: 1.3821282, z: 1.6366471}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1641937946}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1 &1699703439
 GameObject:
@@ -10504,7 +10571,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5b47b0d7-b6b1-41f5-a28e-ae4670da25b5
+    name: UM_OperatedMesh_51f06ccf-6cb2-48d3-be8f-d076c4483e04
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ffeccd28d1677a042a702be1430b0735, type: 2}
     buidVersion:
@@ -10516,7 +10583,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5b47b0d7-b6b1-41f5-a28e-ae4670da25b5
+  sourceMeshRendererGUID: 51f06ccf-6cb2-48d3-be8f-d076c4483e04
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -10661,7 +10728,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c33c03da-d118-4e13-ae0c-19381ffc1d24
+    name: UM_OperatedMesh_27490cec-cec0-40a9-8120-6e3a579f53d8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: b32827df742660b46b1255c87db33c4e, type: 2}
     buidVersion:
@@ -10673,7 +10740,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c33c03da-d118-4e13-ae0c-19381ffc1d24
+  sourceMeshRendererGUID: 27490cec-cec0-40a9-8120-6e3a579f53d8
   guid: 67cf8d68-774c-46c9-a179-99c9726a7287
   localOptions:
     RecalculateTangents: 0
@@ -10809,7 +10876,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7359587c-34ac-49a9-a665-0222936e08dc
+    name: UM_OperatedMesh_08bb925c-181c-4804-aeba-1312f0954d3f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 21e0e7622ff559949a3ad3925d87da3a, type: 2}
     buidVersion:
@@ -10821,7 +10888,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7359587c-34ac-49a9-a665-0222936e08dc
+  sourceMeshRendererGUID: 08bb925c-181c-4804-aeba-1312f0954d3f
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -11043,8 +11110,8 @@ Transform:
   m_GameObject: {fileID: 1853355037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -11.01, y: 0.56000006, z: 10.63}
-  m_LocalScale: {x: 39.950672, y: 7.870319, z: 1}
+  m_LocalPosition: {x: -11.01, y: -2.4957, z: 10.63}
+  m_LocalScale: {x: 39.950672, y: 10.498219, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 900680159}
@@ -11069,7 +11136,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11115,12 +11182,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0ecb5a0d-bc45-4795-a3f4-ca0c65a63984
+    name: UM_OperatedMesh_f3e9850b-5b29-4681-ae10-82c379cd9bc3
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3a0c0053d51e618469e2ebee619f7789, type: 2}
     buidVersion:
@@ -11132,7 +11199,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0ecb5a0d-bc45-4795-a3f4-ca0c65a63984
+  sourceMeshRendererGUID: f3e9850b-5b29-4681-ae10-82c379cd9bc3
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -11246,7 +11313,7 @@ Transform:
   m_GameObject: {fileID: 1930665950}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.81985736, z: -0, w: 0.5725678}
-  m_LocalPosition: {x: 37.7, y: -11, z: -133.9}
+  m_LocalPosition: {x: 36.93, y: -11, z: -135.69}
   m_LocalScale: {x: 2.5470767, y: 0.71129507, z: 0.7112951}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11323,7 +11390,7 @@ MonoBehaviour:
   - Assets/Materials/RedMat.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4f31135f-a5eb-4af9-84f2-ba64c87de46f
+    name: UM_OperatedMesh_95c9e2f9-d9f0-4d2e-a250-456c3904d4fd
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: cad4305a16e7be84d987ec5d12980253, type: 2}
     buidVersion:
@@ -11335,7 +11402,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4f31135f-a5eb-4af9-84f2-ba64c87de46f
+  sourceMeshRendererGUID: 95c9e2f9-d9f0-4d2e-a250-456c3904d4fd
   guid: 68df88fd-55a2-42e9-a06a-c0017efc9e6e
   localOptions:
     RecalculateTangents: 0
@@ -11550,7 +11617,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_43fa2818-2be6-4071-8f48-f6ac621fb2dc
+    name: UM_OperatedMesh_ef2dd7b4-75a3-42f6-9143-163a7b67818c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 96a72377109963d40ae59b5a0ae81b3d, type: 2}
     buidVersion:
@@ -11562,7 +11629,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 43fa2818-2be6-4071-8f48-f6ac621fb2dc
+  sourceMeshRendererGUID: ef2dd7b4-75a3-42f6-9143-163a7b67818c
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -11632,7 +11699,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11678,12 +11745,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 64a753348a8459a468799eb4faaca7a9, type: 2}
+  - {fileID: 2100000, guid: 4cd5227c5fc20d840ac1c0a509327ca4, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_38389754-8b03-4a9e-9648-ea61e31d4677
+    name: UM_OperatedMesh_efd5d217-e4c3-455c-ba86-c736005c51c3
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: e6a4a1def7ebde648ae16c6f43539b53, type: 2}
     buidVersion:
@@ -11695,7 +11762,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 38389754-8b03-4a9e-9648-ea61e31d4677
+  sourceMeshRendererGUID: efd5d217-e4c3-455c-ba86-c736005c51c3
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -11816,7 +11883,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_267342f6-329f-4e0e-958a-9567ba34d914
+    name: UM_OperatedMesh_5b28b609-380b-4ec3-843a-d1263230aafb
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 55dfa4115e674874693d425d9286a274, type: 2}
     buidVersion:
@@ -11828,7 +11895,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 267342f6-329f-4e0e-958a-9567ba34d914
+  sourceMeshRendererGUID: 5b28b609-380b-4ec3-843a-d1263230aafb
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -11934,7 +12001,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_489c3a58-7379-4e0b-a28b-6b91103dd1fe
+    name: UM_OperatedMesh_7115efd3-f330-42fa-a7f9-fd120d8cc155
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 615a7ab4f07e9ab409387fea3d07af63, type: 2}
     buidVersion:
@@ -11946,7 +12013,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 489c3a58-7379-4e0b-a28b-6b91103dd1fe
+  sourceMeshRendererGUID: 7115efd3-f330-42fa-a7f9-fd120d8cc155
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -12082,7 +12149,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_df7d2d27-fdd3-46bb-b910-e3988c450b12
+    name: UM_OperatedMesh_811caeb7-a8dd-4277-9c2e-da9b3166a51d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2376a15bf29bf8248980dc9d143c6956, type: 2}
     buidVersion:
@@ -12094,7 +12161,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: df7d2d27-fdd3-46bb-b910-e3988c450b12
+  sourceMeshRendererGUID: 811caeb7-a8dd-4277-9c2e-da9b3166a51d
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -12215,7 +12282,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_879b9bea-9a27-4cb2-8e44-3a1efba64764
+    name: UM_OperatedMesh_4e2d72ed-8ee3-40a7-81a2-441a8a5f53ee
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ade3add533805d941af3f12c49164e9a, type: 2}
     buidVersion:
@@ -12227,7 +12294,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 879b9bea-9a27-4cb2-8e44-3a1efba64764
+  sourceMeshRendererGUID: 4e2d72ed-8ee3-40a7-81a2-441a8a5f53ee
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -12418,7 +12485,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c9c1fc4e-234a-45f3-9128-f9f1377291c1
+    name: UM_OperatedMesh_c8fc191a-9549-4bfc-9602-6d24dd8acf6d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9b97a1d4128a722488cacb6c602bb35b, type: 2}
     buidVersion:
@@ -12430,7 +12497,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c9c1fc4e-234a-45f3-9128-f9f1377291c1
+  sourceMeshRendererGUID: c8fc191a-9549-4bfc-9602-6d24dd8acf6d
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -12527,9 +12594,6 @@ SceneRoots:
   - {fileID: 1632353698}
   - {fileID: 1851877296}
   - {fileID: 900680159}
-  - {fileID: 1001029392}
-  - {fileID: 1658604280}
-  - {fileID: 504921699}
   - {fileID: 6638160684440314235}
   - {fileID: 457169490}
   - {fileID: 417597509}
@@ -12537,4 +12601,4 @@ SceneRoots:
   - {fileID: 1313235747}
   - {fileID: 349443611}
   - {fileID: 1552273953}
-  - {fileID: 1445886733}
+  - {fileID: 1641937946}
