@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 22275150}
   - component: {fileID: 22275149}
   - component: {fileID: 22275148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1014af05-c0a9-4d68-8491-7e3adff6c61d
+    name: UM_OperatedMesh_aaf1a6c7-b0f3-408d-b2bb-4e079e1383b8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4f88165867e6b8e45922f465cc5d1e47, type: 2}
     buidVersion:
@@ -239,7 +239,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1014af05-c0a9-4d68-8491-7e3adff6c61d
+  sourceMeshRendererGUID: aaf1a6c7-b0f3-408d-b2bb-4e079e1383b8
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dfe83c59-6865-4272-aaf3-8cbedb613ffd
+    name: UM_OperatedMesh_9d7a72cc-9beb-4eb3-ba88-fd9b03a079a7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c6fb96bf4d1a949409ea8d1ddb99312b, type: 2}
     buidVersion:
@@ -443,7 +443,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dfe83c59-6865-4272-aaf3-8cbedb613ffd
+  sourceMeshRendererGUID: 9d7a72cc-9beb-4eb3-ba88-fd9b03a079a7
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 75993912}
   - component: {fileID: 75993911}
   - component: {fileID: 75993910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_12993d87-9908-41d8-8ba7-785775724ce7
+    name: UM_OperatedMesh_7858cdcd-0709-4ceb-bc3f-ad1a3225bd22
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 52484eebb28bfc249b00e145721abc0f, type: 2}
     buidVersion:
@@ -591,7 +591,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 12993d87-9908-41d8-8ba7-785775724ce7
+  sourceMeshRendererGUID: 7858cdcd-0709-4ceb-bc3f-ad1a3225bd22
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 126789328}
   - component: {fileID: 126789327}
   - component: {fileID: 126789326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -884,7 +884,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3bd18a4c-d5d8-40bb-bc1a-9caea402ed22
+    name: UM_OperatedMesh_8d3d4849-0d72-41bf-a89d-1d0a6e0f8a58
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: bc3b5b21acf9a734e96bb1c3d11d65c6, type: 2}
     buidVersion:
@@ -896,7 +896,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3bd18a4c-d5d8-40bb-bc1a-9caea402ed22
+  sourceMeshRendererGUID: 8d3d4849-0d72-41bf-a89d-1d0a6e0f8a58
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8876b50c-6a2b-4367-86cd-9e3ee2d0fce2
+    name: UM_OperatedMesh_991b3790-516d-4a17-8a3c-149d22d4fe9b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 28d41536e4761304a82b25344c80959c, type: 2}
     buidVersion:
@@ -1014,7 +1014,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8876b50c-6a2b-4367-86cd-9e3ee2d0fce2
+  sourceMeshRendererGUID: 991b3790-516d-4a17-8a3c-149d22d4fe9b
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -1149,7 +1149,7 @@ GameObject:
   - component: {fileID: 228156638}
   - component: {fileID: 228156637}
   - component: {fileID: 228156636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2b7be910-4432-40dd-98ec-2ef47881816c
+    name: UM_OperatedMesh_47496768-92bc-459a-9d16-f95028509518
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2e099140160766343b154d7b0d2d37a8, type: 2}
     buidVersion:
@@ -1254,7 +1254,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2b7be910-4432-40dd-98ec-2ef47881816c
+  sourceMeshRendererGUID: 47496768-92bc-459a-9d16-f95028509518
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 276181327}
   - component: {fileID: 276181326}
   - component: {fileID: 276181325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1375,7 +1375,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a8686449-c91c-4f2e-96f0-91530645da4e
+    name: UM_OperatedMesh_60716fdb-0369-4393-b433-233ca4e00b81
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c2bca21f07509c74bad9e37d55dbbf08, type: 2}
     buidVersion:
@@ -1387,7 +1387,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a8686449-c91c-4f2e-96f0-91530645da4e
+  sourceMeshRendererGUID: 60716fdb-0369-4393-b433-233ca4e00b81
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -1415,7 +1415,7 @@ GameObject:
   - component: {fileID: 342565626}
   - component: {fileID: 342565625}
   - component: {fileID: 342565624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1508,7 +1508,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c41e3cce-3e12-47a7-82a1-8560f61c780c
+    name: UM_OperatedMesh_bd2d541a-5ff6-4eca-8f64-97d774157b85
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8b8a55271939dbf4eb8039a831679b2b, type: 2}
     buidVersion:
@@ -1520,7 +1520,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c41e3cce-3e12-47a7-82a1-8560f61c780c
+  sourceMeshRendererGUID: bd2d541a-5ff6-4eca-8f64-97d774157b85
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -1548,7 +1548,7 @@ GameObject:
   - component: {fileID: 348438067}
   - component: {fileID: 348438066}
   - component: {fileID: 348438065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,7 +1626,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1287f5ee-450f-430a-829d-5aab4c37cffd
+    name: UM_OperatedMesh_d45ffe80-2be8-4fbd-93ae-ebab13d74d84
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 662ccdf610d50f545bef5718f977cf33, type: 2}
     buidVersion:
@@ -1638,7 +1638,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1287f5ee-450f-430a-829d-5aab4c37cffd
+  sourceMeshRendererGUID: d45ffe80-2be8-4fbd-93ae-ebab13d74d84
   guid: 67cf8d68-774c-46c9-a179-99c9726a7287
   localOptions:
     RecalculateTangents: 0
@@ -1662,13 +1662,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348438064}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 54.306, y: 2.4667, z: 18.921}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: 16.609478, y: 2.9760637, z: 9.521952}
   m_LocalScale: {x: 0.5269918, y: 0.79671, z: 0.15206008}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 906288913}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 881343311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &356947266
 GameObject:
@@ -1682,7 +1682,7 @@ GameObject:
   - component: {fileID: 356947270}
   - component: {fileID: 356947269}
   - component: {fileID: 356947268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2bc4f696-1ce9-46c1-b32b-10acffb87b51
+    name: UM_OperatedMesh_c76f0bbc-7bd4-4c9b-9379-2588b51d2b5a
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 619017ccde097be468a5d2eebe27ca86, type: 2}
     buidVersion:
@@ -1787,7 +1787,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2bc4f696-1ce9-46c1-b32b-10acffb87b51
+  sourceMeshRendererGUID: c76f0bbc-7bd4-4c9b-9379-2588b51d2b5a
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -1815,7 +1815,7 @@ GameObject:
   - component: {fileID: 425812002}
   - component: {fileID: 425812001}
   - component: {fileID: 425812000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1908,7 +1908,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f0030282-073f-4555-86ad-3184d9db1ac8
+    name: UM_OperatedMesh_b520ff18-8d95-4a02-9ec0-30541aa5ef3b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 85b5f7e7d2bc4ab42b53874342d0990e, type: 2}
     buidVersion:
@@ -1920,7 +1920,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f0030282-073f-4555-86ad-3184d9db1ac8
+  sourceMeshRendererGUID: b520ff18-8d95-4a02-9ec0-30541aa5ef3b
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -1948,7 +1948,7 @@ GameObject:
   - component: {fileID: 426873106}
   - component: {fileID: 426873105}
   - component: {fileID: 426873104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2041,7 +2041,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f05e4dfd-0211-4445-9c88-2d45e2ba1ffc
+    name: UM_OperatedMesh_fad45057-8646-4596-a467-90d4e56e8b8c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 09c5cc6499e9d0b44991734cfcbcb1c0, type: 2}
     buidVersion:
@@ -2053,7 +2053,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f05e4dfd-0211-4445-9c88-2d45e2ba1ffc
+  sourceMeshRendererGUID: fad45057-8646-4596-a467-90d4e56e8b8c
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -2081,7 +2081,7 @@ GameObject:
   - component: {fileID: 452515546}
   - component: {fileID: 452515545}
   - component: {fileID: 452515544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2174,7 +2174,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_11cf2a41-fa7d-4ad3-b3f5-758615d1ed63
+    name: UM_OperatedMesh_5a2f16bf-e433-4564-8198-f17c18c3e471
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8a822a913c1a3be41bf06b3748f69310, type: 2}
     buidVersion:
@@ -2186,7 +2186,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 11cf2a41-fa7d-4ad3-b3f5-758615d1ed63
+  sourceMeshRendererGUID: 5a2f16bf-e433-4564-8198-f17c18c3e471
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -2214,7 +2214,7 @@ GameObject:
   - component: {fileID: 466848823}
   - component: {fileID: 466848822}
   - component: {fileID: 466848821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2307,7 +2307,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f03245b0-4460-4bf2-ab15-281da962de30
+    name: UM_OperatedMesh_5ff9e8a5-0480-4727-a6e3-fdef59577447
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1bc1a7cf5ef013b4d8eb2ebed06556f2, type: 2}
     buidVersion:
@@ -2319,7 +2319,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f03245b0-4460-4bf2-ab15-281da962de30
+  sourceMeshRendererGUID: 5ff9e8a5-0480-4727-a6e3-fdef59577447
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 469383684}
   - component: {fileID: 469383683}
   - component: {fileID: 469383682}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2440,7 +2440,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8a752b02-b996-48e4-830e-c04bf2cdf331
+    name: UM_OperatedMesh_549c2fd4-9251-41f7-8401-5bbcbb8974fc
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 964682c2eb3ad21409486017865b575d, type: 2}
     buidVersion:
@@ -2452,7 +2452,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8a752b02-b996-48e4-830e-c04bf2cdf331
+  sourceMeshRendererGUID: 549c2fd4-9251-41f7-8401-5bbcbb8974fc
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -2480,7 +2480,7 @@ GameObject:
   - component: {fileID: 496142756}
   - component: {fileID: 496142755}
   - component: {fileID: 496142754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2573,7 +2573,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a9880b8b-c942-437f-81f4-c4110a086ee1
+    name: UM_OperatedMesh_c636b33d-7fa8-4cd1-a43a-fdbcd957a4da
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: a686af01321f93740bf30d58a7754a18, type: 2}
     buidVersion:
@@ -2585,7 +2585,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a9880b8b-c942-437f-81f4-c4110a086ee1
+  sourceMeshRendererGUID: c636b33d-7fa8-4cd1-a43a-fdbcd957a4da
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -2785,7 +2785,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0c28cd24-996b-4812-bda1-0252bb12c97d
+    name: UM_OperatedMesh_d969e7e8-8c38-4435-8579-bd1902a49454
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3fd2bc10ae9630a4ba39e3716d9c95b1, type: 2}
     buidVersion:
@@ -2797,7 +2797,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0c28cd24-996b-4812-bda1-0252bb12c97d
+  sourceMeshRendererGUID: d969e7e8-8c38-4435-8579-bd1902a49454
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -2933,7 +2933,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bdcb5ef4-5daf-40c9-8d9e-3be8a59ad8be
+    name: UM_OperatedMesh_af722445-37a9-4f3a-98fb-17a221a9ce85
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c2f8eb8e0b9352e4585cc06ba87aa114, type: 2}
     buidVersion:
@@ -2945,7 +2945,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bdcb5ef4-5daf-40c9-8d9e-3be8a59ad8be
+  sourceMeshRendererGUID: af722445-37a9-4f3a-98fb-17a221a9ce85
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -2973,7 +2973,7 @@ GameObject:
   - component: {fileID: 567833918}
   - component: {fileID: 567833917}
   - component: {fileID: 567833916}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3066,7 +3066,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a0b09fb8-1769-4496-841e-c83c203cd823
+    name: UM_OperatedMesh_941b4eb4-a440-47e8-80cb-5207ef20a2ca
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0476d2ca1be3aab4b86c3e138d3db491, type: 2}
     buidVersion:
@@ -3078,7 +3078,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a0b09fb8-1769-4496-841e-c83c203cd823
+  sourceMeshRendererGUID: 941b4eb4-a440-47e8-80cb-5207ef20a2ca
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -3200,7 +3200,7 @@ GameObject:
   - component: {fileID: 680404486}
   - component: {fileID: 680404485}
   - component: {fileID: 680404484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3293,7 +3293,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6b50d487-5e1a-4d58-9bb1-c20aa714989e
+    name: UM_OperatedMesh_998ede6e-caeb-4919-8bfd-8541e5419894
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 153bb6d6928485a4b95839611faa4999, type: 2}
     buidVersion:
@@ -3305,7 +3305,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6b50d487-5e1a-4d58-9bb1-c20aa714989e
+  sourceMeshRendererGUID: 998ede6e-caeb-4919-8bfd-8541e5419894
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -3333,7 +3333,7 @@ GameObject:
   - component: {fileID: 694122755}
   - component: {fileID: 694122754}
   - component: {fileID: 694122753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3426,7 +3426,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dde28876-66a8-46ca-992e-f5cdb6ca85c7
+    name: UM_OperatedMesh_4d9e1c48-d61e-4123-b6ea-ea998901f124
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 7871c35a8bfcf3143b11c87a4167e2db, type: 2}
     buidVersion:
@@ -3438,7 +3438,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dde28876-66a8-46ca-992e-f5cdb6ca85c7
+  sourceMeshRendererGUID: 4d9e1c48-d61e-4123-b6ea-ea998901f124
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -3559,7 +3559,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5b2da5db-1063-412b-a4b1-f3a439c0f4be
+    name: UM_OperatedMesh_b922f584-91e5-483d-ac92-eb5ba7ab1244
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d9dad8bfe13567d4787dc46197d613da, type: 2}
     buidVersion:
@@ -3571,7 +3571,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5b2da5db-1063-412b-a4b1-f3a439c0f4be
+  sourceMeshRendererGUID: b922f584-91e5-483d-ac92-eb5ba7ab1244
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -3692,7 +3692,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a0d7f34c-8471-436e-8814-02c94c6ac460
+    name: UM_OperatedMesh_62497fc5-2a7b-4782-8f3d-e07381e01696
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: eb3af923378ba9840a30eeeb3969ec60, type: 2}
     buidVersion:
@@ -3704,7 +3704,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a0d7f34c-8471-436e-8814-02c94c6ac460
+  sourceMeshRendererGUID: 62497fc5-2a7b-4782-8f3d-e07381e01696
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -3729,7 +3729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 779729670}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8616,7 +8616,7 @@ GameObject:
   - component: {fileID: 852186650}
   - component: {fileID: 852186649}
   - component: {fileID: 852186648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8709,7 +8709,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ef6b695a-cf19-4945-b84e-026e24ef6e40
+    name: UM_OperatedMesh_f7c10824-c93a-44e7-ab1c-28f84f8156a0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d9552cec19241154899f646e357d9c88, type: 2}
     buidVersion:
@@ -8721,7 +8721,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ef6b695a-cf19-4945-b84e-026e24ef6e40
+  sourceMeshRendererGUID: f7c10824-c93a-44e7-ab1c-28f84f8156a0
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -8835,7 +8835,7 @@ GameObject:
   - component: {fileID: 865637563}
   - component: {fileID: 865637562}
   - component: {fileID: 865637561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8928,7 +8928,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_efcc40f3-bfe5-4d33-99cc-38562869b1f0
+    name: UM_OperatedMesh_4aba0050-92c3-4152-924c-398c13f854b6
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9d9ee81605ccc094ea94a238e65b50a3, type: 2}
     buidVersion:
@@ -8940,7 +8940,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: efcc40f3-bfe5-4d33-99cc-38562869b1f0
+  sourceMeshRendererGUID: 4aba0050-92c3-4152-924c-398c13f854b6
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -9042,6 +9042,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 21780414505735392, guid: db028276c57935d479251674f6cd1c36, type: 3}
   m_PrefabInstance: {fileID: 870269797}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &881343310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881343311}
+  m_Layer: 0
+  m_Name: Flooring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &881343311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881343310}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 37.69652, y: -0.5093637, z: 9.399048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 348438068}
+  - {fileID: 1227732341}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &898220358
 GameObject:
   m_ObjectHideFlags: 0
@@ -9101,7 +9134,7 @@ GameObject:
   - component: {fileID: 906288916}
   - component: {fileID: 906288915}
   - component: {fileID: 906288914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Carpet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9117,7 +9150,7 @@ Transform:
   m_GameObject: {fileID: 906288912}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.38, z: -39.314}
+  m_LocalPosition: {x: 0, y: -0.01, z: -39.314}
   m_LocalScale: {x: 1, y: 1, z: 0.32471582}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9194,7 +9227,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e31aa332-e197-4c06-9bab-270482fb9055
+    name: UM_OperatedMesh_19b9e57a-517d-4ae1-9134-296fd6131379
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: f476ba146a283dc49a55c0d25f0e37bd, type: 2}
     buidVersion:
@@ -9206,7 +9239,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e31aa332-e197-4c06-9bab-270482fb9055
+  sourceMeshRendererGUID: 19b9e57a-517d-4ae1-9134-296fd6131379
   guid: 67cf8d68-774c-46c9-a179-99c9726a7287
   localOptions:
     RecalculateTangents: 0
@@ -9312,7 +9345,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_98d11a65-ca07-4510-924d-170d11cc42ae
+    name: UM_OperatedMesh_a44a6646-fffb-4c10-a5e2-dcb0cc6fa80c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2f909ddfa45d546478873f4436245521, type: 2}
     buidVersion:
@@ -9324,7 +9357,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 98d11a65-ca07-4510-924d-170d11cc42ae
+  sourceMeshRendererGUID: a44a6646-fffb-4c10-a5e2-dcb0cc6fa80c
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -9404,7 +9437,7 @@ GameObject:
   - component: {fileID: 963870338}
   - component: {fileID: 963870337}
   - component: {fileID: 963870336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9497,7 +9530,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_21528761-dda7-431f-a20d-dd2968aeab7d
+    name: UM_OperatedMesh_ecb607b7-839f-445e-8ab6-2d9f2aa8fde3
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 101ae53e3e8a90348aae4c0b6c7a06b4, type: 2}
     buidVersion:
@@ -9509,7 +9542,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 21528761-dda7-431f-a20d-dd2968aeab7d
+  sourceMeshRendererGUID: ecb607b7-839f-445e-8ab6-2d9f2aa8fde3
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -9537,7 +9570,7 @@ GameObject:
   - component: {fileID: 974374419}
   - component: {fileID: 974374418}
   - component: {fileID: 974374417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9630,7 +9663,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9173afa7-700d-4206-bd35-ab4ef17125bc
+    name: UM_OperatedMesh_9be34d24-e39c-4310-a085-357424257b4c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0ef5d6082a924304cb43deb199914666, type: 2}
     buidVersion:
@@ -9642,7 +9675,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9173afa7-700d-4206-bd35-ab4ef17125bc
+  sourceMeshRendererGUID: 9be34d24-e39c-4310-a085-357424257b4c
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -9670,7 +9703,7 @@ GameObject:
   - component: {fileID: 975682657}
   - component: {fileID: 975682656}
   - component: {fileID: 975682655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9763,7 +9796,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3fac1a50-fc79-4d83-ab96-331d746753da
+    name: UM_OperatedMesh_3b0f560f-88fe-4403-9404-42dbfc97d571
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ec49ef6e07a03964b86cec5e9fa0e3aa, type: 2}
     buidVersion:
@@ -9775,7 +9808,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3fac1a50-fc79-4d83-ab96-331d746753da
+  sourceMeshRendererGUID: 3b0f560f-88fe-4403-9404-42dbfc97d571
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -9843,10 +9876,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 1902391898575023566, guid: ce0ed7ce9b3400040b1b371bd92d14ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7621007081483903331, guid: ce0ed7ce9b3400040b1b371bd92d14ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2087985489}
   m_SourcePrefab: {fileID: 100100000, guid: ce0ed7ce9b3400040b1b371bd92d14ad, type: 3}
 --- !u!1 &1007480074
 GameObject:
@@ -9860,7 +9900,7 @@ GameObject:
   - component: {fileID: 1007480078}
   - component: {fileID: 1007480077}
   - component: {fileID: 1007480076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9953,7 +9993,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_72289389-9bc7-4179-a1fa-20beda2222da
+    name: UM_OperatedMesh_60069f62-e126-41ed-acb2-0bafa32f02cb
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 361be45ea04a84f4b9e656281d68b7a8, type: 2}
     buidVersion:
@@ -9965,7 +10005,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 72289389-9bc7-4179-a1fa-20beda2222da
+  sourceMeshRendererGUID: 60069f62-e126-41ed-acb2-0bafa32f02cb
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -10172,7 +10212,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d11d0b6f-5679-49cf-ac89-ca1cf0750286
+    name: UM_OperatedMesh_b63f7919-50cc-48c2-ba2c-b780f810d709
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 29e802e901a2819419d85a883b5b9d0e, type: 2}
     buidVersion:
@@ -10184,7 +10224,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d11d0b6f-5679-49cf-ac89-ca1cf0750286
+  sourceMeshRendererGUID: b63f7919-50cc-48c2-ba2c-b780f810d709
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -10212,7 +10252,7 @@ GameObject:
   - component: {fileID: 1218851145}
   - component: {fileID: 1218851144}
   - component: {fileID: 1218851143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10305,7 +10345,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d45e5662-d782-444c-971c-112c4eef06fb
+    name: UM_OperatedMesh_8617317f-de9b-4114-9920-ecf9d7b333b4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: a2b373c82d64c4943bae4529afdb0f5c, type: 2}
     buidVersion:
@@ -10317,7 +10357,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d45e5662-d782-444c-971c-112c4eef06fb
+  sourceMeshRendererGUID: 8617317f-de9b-4114-9920-ecf9d7b333b4
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -10423,7 +10463,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e6b7c18e-a9e6-45e9-a0d1-e9c789ad691a
+    name: UM_OperatedMesh_72d940bf-ca25-495c-8f93-792cddbf104c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 30da83c0d8167644fbda671f5bdde873, type: 2}
     buidVersion:
@@ -10435,7 +10475,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e6b7c18e-a9e6-45e9-a0d1-e9c789ad691a
+  sourceMeshRendererGUID: 72d940bf-ca25-495c-8f93-792cddbf104c
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -10478,7 +10518,7 @@ GameObject:
   - component: {fileID: 1226520547}
   - component: {fileID: 1226520546}
   - component: {fileID: 1226520545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10571,7 +10611,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_62f7b9de-98bb-4f6e-8720-afe16765b41f
+    name: UM_OperatedMesh_877074bc-1063-4911-bbd3-4b70e69c1a51
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 47914561d01f48447a720b5c4343be21, type: 2}
     buidVersion:
@@ -10583,7 +10623,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 62f7b9de-98bb-4f6e-8720-afe16765b41f
+  sourceMeshRendererGUID: 877074bc-1063-4911-bbd3-4b70e69c1a51
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -10599,6 +10639,144 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!1 &1227732340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1227732341}
+  - component: {fileID: 1227732345}
+  - component: {fileID: 1227732344}
+  - component: {fileID: 1227732343}
+  - component: {fileID: 1227732342}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1227732341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227732340}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.99, z: 0}
+  m_LocalScale: {x: 5, y: 1, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 881343311}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227732342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227732340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 1479372276
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: eed06d558d7f7794d84fb38e4c8de4ad, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!64 &1227732343
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227732340}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1227732344
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227732340}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1227732345
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227732340}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1231484213
 GameObject:
   m_ObjectHideFlags: 0
@@ -10611,7 +10789,7 @@ GameObject:
   - component: {fileID: 1231484217}
   - component: {fileID: 1231484216}
   - component: {fileID: 1231484215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10704,7 +10882,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0d7d4c3d-447c-401a-9200-b6b8641b62cc
+    name: UM_OperatedMesh_fd789b2b-9683-4ba8-8cb5-cc2639b0d655
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 927f2b302b6a2c94fa77c05a06566f4d, type: 2}
     buidVersion:
@@ -10716,7 +10894,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0d7d4c3d-447c-401a-9200-b6b8641b62cc
+  sourceMeshRendererGUID: fd789b2b-9683-4ba8-8cb5-cc2639b0d655
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -10744,7 +10922,7 @@ GameObject:
   - component: {fileID: 1246097756}
   - component: {fileID: 1246097755}
   - component: {fileID: 1246097754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10837,7 +11015,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_789c61aa-57dc-4df6-9584-1a781aa24cab
+    name: UM_OperatedMesh_2496557e-f2b6-4d01-b25b-a77dec02e1f7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3756c2560a543de47bc49de8e442b31a, type: 2}
     buidVersion:
@@ -10849,7 +11027,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 789c61aa-57dc-4df6-9584-1a781aa24cab
+  sourceMeshRendererGUID: 2496557e-f2b6-4d01-b25b-a77dec02e1f7
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -15995,7 +16173,7 @@ GameObject:
   - component: {fileID: 1326685828}
   - component: {fileID: 1326685827}
   - component: {fileID: 1326685826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16088,7 +16266,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2880a8c2-6a8a-49e2-8e72-29956d6aee29
+    name: UM_OperatedMesh_27162eb9-9b50-41bf-85f9-07542f9ebf1e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0375ba32e1e1ad84abbd874c66933134, type: 2}
     buidVersion:
@@ -16100,7 +16278,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2880a8c2-6a8a-49e2-8e72-29956d6aee29
+  sourceMeshRendererGUID: 27162eb9-9b50-41bf-85f9-07542f9ebf1e
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -16206,7 +16384,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ce60e312-af88-4652-8ab4-2858240f9584
+    name: UM_OperatedMesh_a97ccbad-9729-48a7-9bad-fd1d72a6d06c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 425f9b1b41c6bce4c94a06c1360eb2f4, type: 2}
     buidVersion:
@@ -16218,7 +16396,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ce60e312-af88-4652-8ab4-2858240f9584
+  sourceMeshRendererGUID: a97ccbad-9729-48a7-9bad-fd1d72a6d06c
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -16354,7 +16532,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3806f9b1-2abd-44b8-964c-135135d63c88
+    name: UM_OperatedMesh_1884e4bb-9be6-472b-8f9c-d38f1240989b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0672f9d7309bae04ea0f11ca1727f1a5, type: 2}
     buidVersion:
@@ -16366,7 +16544,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3806f9b1-2abd-44b8-964c-135135d63c88
+  sourceMeshRendererGUID: 1884e4bb-9be6-472b-8f9c-d38f1240989b
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -16573,7 +16751,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f0690a2e-bf38-4c60-92c2-7b8e5bac570c
+    name: UM_OperatedMesh_c2aa23a9-a988-44a7-b6ac-5ac5ab5ad95f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 67c2fdafea0fede42ba2b0ae2fb18a22, type: 2}
     buidVersion:
@@ -16585,7 +16763,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f0690a2e-bf38-4c60-92c2-7b8e5bac570c
+  sourceMeshRendererGUID: c2aa23a9-a988-44a7-b6ac-5ac5ab5ad95f
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -16699,7 +16877,7 @@ GameObject:
   - component: {fileID: 1417602661}
   - component: {fileID: 1417602660}
   - component: {fileID: 1417602659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16792,7 +16970,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_aef23f33-8e6c-4a9a-b3ec-2ff30841dbac
+    name: UM_OperatedMesh_7e1bfa30-2cfe-40a0-a647-ef70c96f5ffd
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 158e7d2acb0a50c43a1d8962fff081a6, type: 2}
     buidVersion:
@@ -16804,7 +16982,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: aef23f33-8e6c-4a9a-b3ec-2ff30841dbac
+  sourceMeshRendererGUID: 7e1bfa30-2cfe-40a0-a647-ef70c96f5ffd
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -16918,7 +17096,7 @@ GameObject:
   - component: {fileID: 1443833903}
   - component: {fileID: 1443833902}
   - component: {fileID: 1443833901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17011,7 +17189,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0f5a15d6-56b6-497a-98dd-1efb5aeb8578
+    name: UM_OperatedMesh_5e273584-587c-41d5-a58f-0d6462ada161
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 72ca214a7c961044b9730b7c54cf0782, type: 2}
     buidVersion:
@@ -17023,7 +17201,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0f5a15d6-56b6-497a-98dd-1efb5aeb8578
+  sourceMeshRendererGUID: 5e273584-587c-41d5-a58f-0d6462ada161
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -17051,7 +17229,7 @@ GameObject:
   - component: {fileID: 1528110491}
   - component: {fileID: 1528110490}
   - component: {fileID: 1528110489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17144,7 +17322,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4b1f4ab3-372f-44ca-9516-c8c2ceab21f6
+    name: UM_OperatedMesh_4ac33a93-5342-4626-9b6a-7a0622a46597
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ce10006319759494b8a88b7c94180f97, type: 2}
     buidVersion:
@@ -17156,7 +17334,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4b1f4ab3-372f-44ca-9516-c8c2ceab21f6
+  sourceMeshRendererGUID: 4ac33a93-5342-4626-9b6a-7a0622a46597
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -17262,7 +17440,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2ef6c519-3432-4a2d-859f-80f493675879
+    name: UM_OperatedMesh_97bba9b8-b6ec-4793-b90d-740a3d4115ca
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8a2e446bb459abf4193a2ac0ad88d2ef, type: 2}
     buidVersion:
@@ -17274,7 +17452,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2ef6c519-3432-4a2d-859f-80f493675879
+  sourceMeshRendererGUID: 97bba9b8-b6ec-4793-b90d-740a3d4115ca
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -17408,7 +17586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1578583073}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SecondFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17446,7 +17624,7 @@ GameObject:
   - component: {fileID: 1613014912}
   - component: {fileID: 1613014911}
   - component: {fileID: 1613014910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17539,7 +17717,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3b7daf26-be27-40d7-9874-7d378cbb9771
+    name: UM_OperatedMesh_470717f6-5c7d-4a6f-9829-80667a0059b6
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: b29c125b383a98f4a86bc41db5d3e069, type: 2}
     buidVersion:
@@ -17551,7 +17729,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3b7daf26-be27-40d7-9874-7d378cbb9771
+  sourceMeshRendererGUID: 470717f6-5c7d-4a6f-9829-80667a0059b6
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -17579,7 +17757,7 @@ GameObject:
   - component: {fileID: 1653724922}
   - component: {fileID: 1653724921}
   - component: {fileID: 1653724920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17672,7 +17850,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b8302f04-d32a-412e-b473-50f3fa7c781a
+    name: UM_OperatedMesh_ee838cc8-fc59-49db-bed5-b2daebe84861
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6c53060cd516e19448b16c0f9eb61f5a, type: 2}
     buidVersion:
@@ -17684,7 +17862,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b8302f04-d32a-412e-b473-50f3fa7c781a
+  sourceMeshRendererGUID: ee838cc8-fc59-49db-bed5-b2daebe84861
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -17712,7 +17890,7 @@ GameObject:
   - component: {fileID: 1654072779}
   - component: {fileID: 1654072778}
   - component: {fileID: 1654072777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17805,7 +17983,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6643a778-4be6-44f7-a991-2dba598ff697
+    name: UM_OperatedMesh_0a67acc6-f494-4c23-9df6-5b08f9c9d759
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ce7c6e98906dfad46b75a81c6ff739d0, type: 2}
     buidVersion:
@@ -17817,7 +17995,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6643a778-4be6-44f7-a991-2dba598ff697
+  sourceMeshRendererGUID: 0a67acc6-f494-4c23-9df6-5b08f9c9d759
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -17845,7 +18023,7 @@ GameObject:
   - component: {fileID: 1709314795}
   - component: {fileID: 1709314794}
   - component: {fileID: 1709314793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17938,7 +18116,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dcb687fe-f254-437e-addf-a8f5f750303a
+    name: UM_OperatedMesh_0a9c4936-3369-4364-b3e2-29b7d1ac83ca
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 667de24cc26638e40b8dddb882473068, type: 2}
     buidVersion:
@@ -17950,7 +18128,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dcb687fe-f254-437e-addf-a8f5f750303a
+  sourceMeshRendererGUID: 0a9c4936-3369-4364-b3e2-29b7d1ac83ca
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -18064,7 +18242,7 @@ GameObject:
   - component: {fileID: 1747518313}
   - component: {fileID: 1747518312}
   - component: {fileID: 1747518311}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18157,7 +18335,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a27e51a3-dbb4-4c38-b505-b530d217aaae
+    name: UM_OperatedMesh_d4a1ba7e-486c-446b-8c08-b0eee6b05178
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 54e3f44722b937143b1381606e439513, type: 2}
     buidVersion:
@@ -18169,7 +18347,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a27e51a3-dbb4-4c38-b505-b530d217aaae
+  sourceMeshRendererGUID: d4a1ba7e-486c-446b-8c08-b0eee6b05178
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -18197,7 +18375,7 @@ GameObject:
   - component: {fileID: 1750713215}
   - component: {fileID: 1750713214}
   - component: {fileID: 1750713213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18290,7 +18468,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7f736ea9-8c42-49db-adc1-bb3567b31789
+    name: UM_OperatedMesh_149f5ed6-21f5-423e-8e46-7a7c974c58c1
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 5242d0f4086559a4a96ce9860a9bffeb, type: 2}
     buidVersion:
@@ -18302,7 +18480,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7f736ea9-8c42-49db-adc1-bb3567b31789
+  sourceMeshRendererGUID: 149f5ed6-21f5-423e-8e46-7a7c974c58c1
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -18330,7 +18508,7 @@ GameObject:
   - component: {fileID: 1799681713}
   - component: {fileID: 1799681712}
   - component: {fileID: 1799681711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18423,7 +18601,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d0e110ef-d1c0-42b9-8466-ca3ce183ef5a
+    name: UM_OperatedMesh_f6586ce3-2fc6-4bee-b23e-c72ce53cfc10
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3fdf97af0d6e27c41af71c84d5ca24ff, type: 2}
     buidVersion:
@@ -18435,7 +18613,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d0e110ef-d1c0-42b9-8466-ca3ce183ef5a
+  sourceMeshRendererGUID: f6586ce3-2fc6-4bee-b23e-c72ce53cfc10
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -18549,7 +18727,7 @@ GameObject:
   - component: {fileID: 1815094817}
   - component: {fileID: 1815094816}
   - component: {fileID: 1815094815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18642,7 +18820,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_94514e9f-e51e-446e-8cce-4a1e57b5a9d9
+    name: UM_OperatedMesh_567427e7-e0b8-4bfa-8033-51cb4920cf7f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9a128fa40d9a0a34e855fdb8d9645264, type: 2}
     buidVersion:
@@ -18654,7 +18832,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 94514e9f-e51e-446e-8cce-4a1e57b5a9d9
+  sourceMeshRendererGUID: 567427e7-e0b8-4bfa-8033-51cb4920cf7f
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -18713,7 +18891,7 @@ GameObject:
   - component: {fileID: 1842639751}
   - component: {fileID: 1842639750}
   - component: {fileID: 1842639749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18806,7 +18984,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_960b4dbc-1dbf-4a20-9e48-86b7339bb938
+    name: UM_OperatedMesh_0f27569a-8986-4039-9d99-543f821b18a2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 659904674e0cd5e4da400f15b1429182, type: 2}
     buidVersion:
@@ -18818,7 +18996,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 960b4dbc-1dbf-4a20-9e48-86b7339bb938
+  sourceMeshRendererGUID: 0f27569a-8986-4039-9d99-543f821b18a2
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -18846,7 +19024,7 @@ GameObject:
   - component: {fileID: 1858232629}
   - component: {fileID: 1858232628}
   - component: {fileID: 1858232627}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18939,7 +19117,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_30ae8948-1d95-417b-b6ec-36972bb4ac44
+    name: UM_OperatedMesh_f38fd6e7-9beb-48d3-9937-9ca4bd3ed0bc
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0f83c9fe9cd8656448a3f0bdcb295652, type: 2}
     buidVersion:
@@ -18951,7 +19129,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 30ae8948-1d95-417b-b6ec-36972bb4ac44
+  sourceMeshRendererGUID: f38fd6e7-9beb-48d3-9937-9ca4bd3ed0bc
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -18979,7 +19157,7 @@ GameObject:
   - component: {fileID: 1871360506}
   - component: {fileID: 1871360505}
   - component: {fileID: 1871360504}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19072,7 +19250,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3c1227d9-0dff-499f-9f52-6176d6084785
+    name: UM_OperatedMesh_1252fcd4-fd8f-460f-b9fb-f34092d63822
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 54e53983e134139498819fc830b22bda, type: 2}
     buidVersion:
@@ -19084,7 +19262,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3c1227d9-0dff-499f-9f52-6176d6084785
+  sourceMeshRendererGUID: 1252fcd4-fd8f-460f-b9fb-f34092d63822
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -19190,7 +19368,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5144b818-5605-4275-9beb-41c87456c587
+    name: UM_OperatedMesh_5295a5ce-e4f0-493b-ac54-4f5d87a8aaff
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fd3eb65b01a850245b53a88859456fb7, type: 2}
     buidVersion:
@@ -19202,7 +19380,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5144b818-5605-4275-9beb-41c87456c587
+  sourceMeshRendererGUID: 5295a5ce-e4f0-493b-ac54-4f5d87a8aaff
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -19495,7 +19673,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_641ebfb9-2179-47f6-8b50-a28f3082c9fd
+    name: UM_OperatedMesh_32c0a2a6-5895-4cb6-8db0-ddff5ff49f2d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: b150eee0d6174ea4fb5fa2821601e706, type: 2}
     buidVersion:
@@ -19507,7 +19685,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 641ebfb9-2179-47f6-8b50-a28f3082c9fd
+  sourceMeshRendererGUID: 32c0a2a6-5895-4cb6-8db0-ddff5ff49f2d
   guid: 74ee6ff9-c844-4a37-9685-ec799c8ee167
   localOptions:
     RecalculateTangents: 0
@@ -19550,7 +19728,7 @@ GameObject:
   - component: {fileID: 2024491325}
   - component: {fileID: 2024491324}
   - component: {fileID: 2024491323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19643,7 +19821,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3b66fa7b-1262-4bbc-bc3e-7774c544d770
+    name: UM_OperatedMesh_5d59fda8-ff48-4987-8f20-60d78032c59c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3ad4037e98c21c54b94803c1dcdd395a, type: 2}
     buidVersion:
@@ -19655,7 +19833,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3b66fa7b-1262-4bbc-bc3e-7774c544d770
+  sourceMeshRendererGUID: 5d59fda8-ff48-4987-8f20-60d78032c59c
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -19680,7 +19858,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2025354364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19808,7 +19986,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2a00c333-cfcb-4458-8e7b-90ad4c5f9e0b
+    name: UM_OperatedMesh_eeb5aded-c2dc-411f-9071-1b853f54a3f9
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 01fe452b4045dc04ba0a5e83d22344af, type: 2}
     buidVersion:
@@ -19820,7 +19998,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2a00c333-cfcb-4458-8e7b-90ad4c5f9e0b
+  sourceMeshRendererGUID: eeb5aded-c2dc-411f-9071-1b853f54a3f9
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -19937,6 +20115,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 21780414505735392, guid: db028276c57935d479251674f6cd1c36, type: 3}
   m_PrefabInstance: {fileID: 2039191776}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087985487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7621007081483903331, guid: ce0ed7ce9b3400040b1b371bd92d14ad, type: 3}
+  m_PrefabInstance: {fileID: 986963478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &2087985489
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087985487}
+  m_Enabled: 1
+  m_AgentTypeID: 1479372276
+  m_Radius: 0.1
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.7
+  m_BaseOffset: 0
+  m_WalkableMask: 1
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2123573662
 GameObject:
   m_ObjectHideFlags: 0
@@ -20027,7 +20232,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b40d098f-135f-4d91-aa75-6be65c3a8409
+    name: UM_OperatedMesh_ecff225b-c5e6-41e4-97c0-7b44c961a954
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ee06e59d8345323468960844c9c9e0ac, type: 2}
     buidVersion:
@@ -20039,7 +20244,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b40d098f-135f-4d91-aa75-6be65c3a8409
+  sourceMeshRendererGUID: ecff225b-c5e6-41e4-97c0-7b44c961a954
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -20163,7 +20368,7 @@ SceneRoots:
   - {fileID: 207387450}
   - {fileID: 1565870909}
   - {fileID: 1578583073}
-  - {fileID: 348438068}
+  - {fileID: 881343311}
   - {fileID: 898220359}
   - {fileID: 2025354364}
   - {fileID: 779729670}
