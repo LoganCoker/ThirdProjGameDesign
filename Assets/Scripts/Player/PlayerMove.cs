@@ -167,7 +167,7 @@ public class PlayerMove : MonoBehaviour {
         bool res = false;
         for (int i = 2; i >= -2; i--) {
             Vector3 playerScan = new(transform.position.x, transform.position.y + i/2, transform.position.z);
-            res = Physics.Raycast(playerScan, dir, .67f, ground);
+            res = Physics.Raycast(playerScan, dir, .4f, ground);
             if (res) { break; }
         }
         return res;

@@ -8,12 +8,10 @@ public class PushingPuzzle : MonoBehaviour {
     #endregion
 
     #region privates
-    private bool allowMove;
     private Rigidbody rb;
     #endregion
 
     void Start() {
-        allowMove = false;
         rb = GetComponent<Rigidbody>();
     }
 
@@ -21,20 +19,10 @@ public class PushingPuzzle : MonoBehaviour {
     }
 
     private void OnCollisionStay(Collision collision) {
-        if (collision.gameObject.CompareTag("Pushing")) {
-            allowMove = true;
-        }
         if (collision.gameObject.CompareTag("Player")) {
-            if (allowMove) {
-                collision.GetContact(0);
-                rb.velocity.Set(collision.relativeVelocity.x * 1.5f, 0, collision.relativeVelocity.z * 1.5f);
-            }
-        }
-    }
-
-    private void OnCollisionExit(Collision collision) {
-        if (collision.gameObject.CompareTag("Pushing")) {
-            allowMove = false;
+            print("pushing");
+            Rigidbody playerRb = collision.gameObject.GetComponent<Rigidbody>();
+            rb.velocity.Set(playerRb.velocity.x * 1.5f, 0, playerRb.velocity.z * 1.5f);
         }
     }
 }
