@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
 
     public void PlayGame(){
-        SceneManager.LoadSceneAsync("LoganTest");
+        SceneManager.LoadSceneAsync("Graveyard");
     }
 
     public void Options(){
