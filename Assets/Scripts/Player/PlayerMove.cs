@@ -23,9 +23,7 @@ public class PlayerMove : MonoBehaviour {
     private float jumpHeighth = 7;
     private bool crouched;
     private Transform body;
-    private Quaternion bodyRot;
     private Transform orient;
-    private float lookAngle;
     private int jumpCnt;
     private Rigidbody self;
     private bool running;
@@ -45,9 +43,8 @@ public class PlayerMove : MonoBehaviour {
 
     void Update() {
         // camera player positioning
-        lookAngle = cam.m_XAxis.Value;
-        orient.rotation = Quaternion.Euler(0, lookAngle, 0);
-         
+        orient.rotation = Quaternion.Euler(0, cam.m_XAxis.Value, 0);
+        
         // moving
         Vector2 movement2D = input.Movement.ReadValue<Vector2>();
         Vector3 movement3D = new(movement2D.x, 0, movement2D.y);
@@ -94,15 +91,16 @@ public class PlayerMove : MonoBehaviour {
         }
         // body rotation
         if (input.Movement.IsPressed()) { 
-            bodyRot = Quaternion.LookRotation(movement3D);
-            body.rotation = bodyRot; 
-            animator.SetBool("Walking", true);
+            body.rotation = Quaternion.LookRotation(movement3D);
+            animator.SetFloat("Walking", 7f);
         }
         // dampen movements if not actively walking/running
-        if (input.Movement.WasReleasedThisFrame() && GroundCheck()) {
-            self.velocity -= self.velocity *.9f;
-            running = false;
-            animator.SetBool("Walking", false);
+        if (input.Movement.WasReleasedThisFrame()) {
+            if (GroundCheck()) {
+                 self.velocity -= self.velocity *.9f;
+                 running = false;
+            }
+            animator.SetFloat("Walking", 10f);
         }
 
         // jumping
@@ -118,8 +116,7 @@ public class PlayerMove : MonoBehaviour {
             jumpCnt--;
         }
 
-
-        // crouch
+        // Dance
         if (input.Crouch.IsPressed() && GroundCheck() && !crouched) {
             animator.SetBool("HittingIt", true);
             crouched = true;
@@ -127,11 +124,6 @@ public class PlayerMove : MonoBehaviour {
         if (input.Crouch.WasReleasedThisFrame()) {
             animator.SetBool("HittingIt", false);
             crouched = false;
-        }
-
-        // slide
-        if (input.Sprint.IsPressed() && input.Crouch.IsPressed() && GroundCheck()) {
-            // implement slide (coroutine)
         }
     }
 

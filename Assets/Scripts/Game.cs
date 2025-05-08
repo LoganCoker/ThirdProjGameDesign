@@ -14,6 +14,7 @@ public class Game : MonoBehaviour {
 
         // for testing
         Input.Enable();
+        Input.Player.Enable();
     }
 
 

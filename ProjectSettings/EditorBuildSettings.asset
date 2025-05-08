@@ -11,4 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoganTest.unity
     guid: 590d552c5fd2fff47ab4336cbb1aec84
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 54efb08ca5d41744a9e32ee79bd4005b, type: 3}
