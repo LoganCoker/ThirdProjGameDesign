@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Graveyard.unity
     guid: af5557518938439448b0eb63750299c0
+  - enabled: 1
+    path: Assets/Scenes/CastleRoom1.unity
+    guid: c07c84cd4a2f80b4d9796808b3680e1e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 54efb08ca5d41744a9e32ee79bd4005b, type: 3}
