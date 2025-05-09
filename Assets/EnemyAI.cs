@@ -68,13 +68,15 @@ public class EnemyAI : MonoBehaviour{
 
 
     private void ChasePlayer(){
+        if(agent.isOnNavMesh)
         agent.SetDestination(player.position);
     }
 
     private void AtkPlayer(){
         // make sure enemy doesnt move
+        if (agent.isOnNavMesh){
         agent.SetDestination(transform.position);
-
+        }
         transform.LookAt(player);
 
         if(!alreadyAttacked){
