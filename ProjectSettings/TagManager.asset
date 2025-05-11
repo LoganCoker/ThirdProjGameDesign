@@ -9,6 +9,7 @@ TagManager:
   - WallClimb
   - PlayerAttack
   - Boss
+  - Enemy
   layers:
   - Default
   - TransparentFX

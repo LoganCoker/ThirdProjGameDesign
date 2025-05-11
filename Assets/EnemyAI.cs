@@ -11,6 +11,7 @@ public class EnemyAI : MonoBehaviour{
     public LayerMask whatisGround, whatisPlayer;
 
     public float health;
+    public Animator animator;
 
     // patrolling
 
@@ -40,6 +41,14 @@ public class EnemyAI : MonoBehaviour{
         if (!playerinSightRange && !playerinAtkRange) Patrolling();
         if (playerinSightRange && !playerinAtkRange) ChasePlayer();
         if (playerinAtkRange && playerinSightRange) AtkPlayer();
+
+        // walking
+        if (agent.velocity.magnitude != 0) {
+            animator.SetBool("Walking", true);
+        } else {
+            animator.SetBool("Walking", false);
+        }
+
     }
 
     private void Patrolling(){
