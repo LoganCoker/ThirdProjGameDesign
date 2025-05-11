@@ -7,35 +7,36 @@ public class Menu : MonoBehaviour {
     public GameObject menu;
 
     private InputController input;
+    private PlayerInput playerInput;
+
 
     void Start() {
         input = Game.Input;
-        input.Player.Enable();
+        playerInput = Game.PlayerInput;
         input.UI.Disable();
         menu.SetActive(false);
     }
 
     void Update() {
-        if (input.Player.Pause.WasPressedThisFrame()) {
+        if (playerInput.Pause) {
             Pause();
+            playerInput.Pause = false;
         }
 
         if (input.UI.Resume.WasPressedThisFrame()) {
-            Resume();
+           Resume();
         }
     }
 
     public void Pause() {
-        input.Player.Disable();
-        input.UI.Enable();
+        Game.PauseGame();
         menu.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
     public void Resume() {
-        input.UI.Disable();
-        input.Player.Enable();
+        Game.ResumeGame();
         menu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

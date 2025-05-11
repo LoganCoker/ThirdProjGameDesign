@@ -10,16 +10,16 @@ public class PlayerAttack : MonoBehaviour {
     #endregion
 
     #region privates
-    private InputController.PlayerActions input;
+    private PlayerInput playerInput;
     private Transform attackPattern;
     private float attackTime;
     private int attackCount = 1;
     private bool inAttack;
-    private float attackSpacing = 2;
+    private float attackSpacing = 1;
     #endregion
 
     void Start() {
-        input = Game.Input.Player;
+        playerInput = Game.PlayerInput;
         attackPattern = transform.GetChild(0).GetChild(0);
     }
 
@@ -29,28 +29,29 @@ public class PlayerAttack : MonoBehaviour {
             attackCount = 1;
         }
 
-        if (input.Attack.WasPressedThisFrame() && !inAttack && attackTime <= 0 && attackCount == 1) {
+        if (playerInput.Attack && !inAttack && attackTime <= 0 && attackCount == 1) {
             StartCoroutine(FirstAttack());
         }
-        if (input.Attack.WasPressedThisFrame() && !inAttack && attackTime > 0 && attackCount == 2) {
+        if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 2) {
             StartCoroutine(SecondAttack());
         }
 
-        if (input.Attack.WasPressedThisFrame() && !inAttack && attackTime > 0 && attackCount == 3) {
+        if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 3) {
             StartCoroutine(ThirdAttack());
         }
 
-        if (input.Attack.WasPressedThisFrame() && !inAttack && attackTime > 0 && attackCount == 4) {
+        if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 4) {
             StartCoroutine(ForthAttack());
         }
 
-        if (input.Attack.WasPressedThisFrame() && !inAttack && attackTime > 0 && attackCount == 5) {
+        if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 5) {
             StartCoroutine(FifthAttack());
         }
 
         attackTime -= Time.deltaTime;
     }
 
+    #region Attact 'animations'
     IEnumerator FirstAttack() {
         Transform attack = attackPattern.transform.GetChild(0);
         inAttack = true;
@@ -150,4 +151,5 @@ public class PlayerAttack : MonoBehaviour {
         inAttack = false;
         attack.gameObject.SetActive(false);
     }
+    #endregion
 }

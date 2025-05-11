@@ -27,7 +27,7 @@ public class PlayerMove : MonoBehaviour {
     private int jumpCnt;
     private Rigidbody self;
     private bool running;
-    private InputController.PlayerActions input;
+    private InputController.PlayerOtherActions input;
     private bool climbing;
     #endregion
 
@@ -38,7 +38,7 @@ public class PlayerMove : MonoBehaviour {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         self = GetComponent<Rigidbody>();
-        input = Game.Input.Player;
+        input = Game.Input.PlayerOther;
     }
 
     void Update() {

@@ -3,30 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerInput : MonoBehaviour, InputController.IPlayerTestActions {
+[DefaultExecutionOrder(-1)]
+public class PlayerInput : MonoBehaviour, InputController.IPlayerActions {
 
-    public InputController Controller {  get; private set; }
     #region InputVars
     public Vector2 MoveInput { get; private set; }
     public bool Sprinting { get; private set; }
     public bool Jumped { get; private set; }
+    public bool Dance { get; private set; }
+    public bool Attack { get; private set; }
+    public bool Pause { get; set; }
     #endregion
 
     private void OnEnable() {
-        Controller = new InputController();
-        Controller.Enable();
-
-        Controller.PlayerTest.Enable();
-        Controller.PlayerTest.SetCallbacks(this);
+        Game.Input.Player.Enable();
+        Game.Input.Player.SetCallbacks(this);
     }
 
     private void OnDisable() {
-        Controller.PlayerTest.Disable();
-        Controller.PlayerTest.RemoveCallbacks(this);
+        Game.Input.Player.Disable();
+        Game.Input.Player.RemoveCallbacks(this);
     }
 
     private void LateUpdate() {
         Jumped = false;
+        Attack = false;
     }
 
     #region InputReturns
@@ -49,6 +50,26 @@ public class PlayerInput : MonoBehaviour, InputController.IPlayerTestActions {
         if (!context.performed) { return; }
 
         Jumped = true;
+    }
+
+    public void OnHitIt(InputAction.CallbackContext context) {
+        if (context.performed) {
+            Dance = true;
+        } else if (context.canceled) {
+            Dance = false;
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext context) {
+        if (!context.performed) { return; }
+
+        Attack = true;
+    }
+
+    public void OnPause(InputAction.CallbackContext context) {
+        if (context.performed && !Pause) {
+            Pause = true;
+        }
     }
     #endregion
 }
