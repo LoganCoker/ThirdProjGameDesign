@@ -12,7 +12,10 @@ public class PlayerInput : MonoBehaviour, InputController.IPlayerActions {
     public bool Jumped { get; private set; }
     public bool Dance { get; private set; }
     public bool Attack { get; private set; }
+    public bool Interacted{get; private set; }
     public bool Pause { get; set; }
+
+    
     #endregion
 
     private void OnEnable() {
@@ -50,6 +53,11 @@ public class PlayerInput : MonoBehaviour, InputController.IPlayerActions {
         if (!context.performed) { return; }
 
         Jumped = true;
+    }
+
+    public void OnInteractable(InputAction.CallbackContext context) {
+        if (!context.performed) {return; }
+        Interacted = true;
     }
 
     public void OnHitIt(InputAction.CallbackContext context) {

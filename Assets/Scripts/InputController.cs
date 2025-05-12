@@ -80,6 +80,15 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Interactable"",
+                    ""type"": ""Button"",
+                    ""id"": ""7ae7a20d-25d5-4a57-9d62-9bff3a9d1047"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -256,6 +265,17 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""00d16471-3cbc-4a6a-ba4f-ac91c16c991a"",
+                    ""path"": ""<Keyboard>/#(E)"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Interactable"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -600,6 +620,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
         m_Player_HitIt = m_Player.FindAction("HitIt", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
+        m_Player_Interactable = m_Player.FindAction("Interactable", throwIfNotFound: true);
         // PlayerOther
         m_PlayerOther = asset.FindActionMap("PlayerOther", throwIfNotFound: true);
         m_PlayerOther_Movement = m_PlayerOther.FindAction("Movement", throwIfNotFound: true);
@@ -687,6 +708,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_HitIt;
     private readonly InputAction m_Player_Attack;
     private readonly InputAction m_Player_Pause;
+    private readonly InputAction m_Player_Interactable;
     public struct PlayerActions
     {
         private @InputController m_Wrapper;
@@ -697,6 +719,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
         public InputAction @HitIt => m_Wrapper.m_Player_HitIt;
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
         public InputAction @Pause => m_Wrapper.m_Player_Pause;
+        public InputAction @Interactable => m_Wrapper.m_Player_Interactable;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -724,6 +747,9 @@ public partial class @InputController: IInputActionCollection2, IDisposable
             @Pause.started += instance.OnPause;
             @Pause.performed += instance.OnPause;
             @Pause.canceled += instance.OnPause;
+            @Interactable.started += instance.OnInteractable;
+            @Interactable.performed += instance.OnInteractable;
+            @Interactable.canceled += instance.OnInteractable;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -746,6 +772,9 @@ public partial class @InputController: IInputActionCollection2, IDisposable
             @Pause.started -= instance.OnPause;
             @Pause.performed -= instance.OnPause;
             @Pause.canceled -= instance.OnPause;
+            @Interactable.started -= instance.OnInteractable;
+            @Interactable.performed -= instance.OnInteractable;
+            @Interactable.canceled -= instance.OnInteractable;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -919,6 +948,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
         void OnHitIt(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
+        void OnInteractable(InputAction.CallbackContext context);
     }
     public interface IPlayerOtherActions
     {
