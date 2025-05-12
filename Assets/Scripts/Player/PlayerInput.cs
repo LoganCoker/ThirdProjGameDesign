@@ -12,9 +12,8 @@ public class PlayerInput : MonoBehaviour, InputController.IPlayerActions {
     public bool Jumped { get; private set; }
     public bool Dance { get; private set; }
     public bool Attack { get; private set; }
-    public bool Interacted{get; private set; }
+    public bool Interacted { get; private set; }
     public bool Pause { get; set; }
-
     
     #endregion
 
@@ -31,6 +30,7 @@ public class PlayerInput : MonoBehaviour, InputController.IPlayerActions {
     private void LateUpdate() {
         Jumped = false;
         Attack = false;
+        Interacted = false;
     }
 
     #region InputReturns
@@ -40,7 +40,7 @@ public class PlayerInput : MonoBehaviour, InputController.IPlayerActions {
             Sprinting = false;
         }
     }
-
+    
     public void OnSprint(InputAction.CallbackContext context) {
         if (context.performed) {
             Sprinting = true;
@@ -56,7 +56,8 @@ public class PlayerInput : MonoBehaviour, InputController.IPlayerActions {
     }
 
     public void OnInteractable(InputAction.CallbackContext context) {
-        if (!context.performed) {return; }
+        if (!context.performed) { return; }
+
         Interacted = true;
     }
 

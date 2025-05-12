@@ -16,8 +16,9 @@ public class BossAI : MonoBehaviour {
     private bool hit;
     private float hitCooldown;
     private float distTolerance = .05f;
-    private float attackTiming = 3f;
+    private float attackTiming = .1f;
     private bool canAttack;
+    private bool inAttack;
     #endregion
 
     void Start() {
@@ -35,17 +36,20 @@ public class BossAI : MonoBehaviour {
             hit = false;
         }
 
-        if (Vector3.Distance(transform.position, player.position) < agent.stoppingDistance) {
+        if (Vector3.Distance(transform.position, player.position) < agent.stoppingDistance && !inAttack) {
             agent.Move(-transform.forward * Time.deltaTime);
             canAttack = true;
         }
 
-        if (canAttack) {
-            if (attackTiming < 0) {
+        if (canAttack && attackTiming < 0) {
+            inAttack = true;
+            agent.SetDestination(player.position);
+            if (Vector3.Distance(transform.position, player.position) < distTolerance) {
                 //animator.SetTrigger("LeftPunch");
                 animator.SetTrigger("RightPunch");
                 attackTiming = 3f;
                 canAttack = false;
+                inAttack = false;
             }
         }
 

@@ -14,6 +14,7 @@ public class Game : MonoBehaviour {
         Instance = this;
         Input = new InputController();
         PlayerInput = GetComponent<PlayerInput>();
+        DontDestroyOnLoad(this);
 
         // testing
         Input.Enable();
@@ -22,12 +23,20 @@ public class Game : MonoBehaviour {
     public static void PauseGame() {
         Paused = true;
         Input.UI.Enable();
-        Input.Player.Disable();
+        PlayerInput.enabled = false;
     }
 
     public static void ResumeGame() {
         Paused = false;
         Input.UI.Disable();
-        Input.Player.Enable();
+        PlayerInput.enabled = true;
+    }
+
+    public static void DisablePlayerControls() {
+        PlayerInput.enabled = false;
+    }
+    
+    public static void EnablePlayerControls() {
+        PlayerInput.enabled = true;
     }
 }

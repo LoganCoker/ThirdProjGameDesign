@@ -75,7 +75,7 @@ public class PlayerInMove : MonoBehaviour {
             vertVelo = 0;
             vertVelo += Mathf.Sqrt(jumpHeighth * 3 * grav);
             jumpCnt--;
-            // jump animation
+            animator.SetTrigger("Jump");
         }
         #endregion
 
