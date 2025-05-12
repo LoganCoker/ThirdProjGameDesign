@@ -22,8 +22,9 @@ public class Interactor : MonoBehaviour{
                 interactable.Interact(this);
             }
         }
-    
     }
+
+
 
     private void OnDrawGizmos(){
        Gizmos.color = Color.red;
