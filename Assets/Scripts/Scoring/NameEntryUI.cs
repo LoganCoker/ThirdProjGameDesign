@@ -6,33 +6,60 @@ using TMPro;
 
 public class NameEntryUI : MonoBehaviour
 {
-    public TextMeshProUGUI[] letterSlots;  
-    public TextMeshProUGUI submitText;     
-    public Button confirmButton;           
+    public TextMeshProUGUI[] letterSlots;
+    public TextMeshProUGUI timerText;    
 
     private char[] currentLetters = new char[3] { 'A', 'A', 'A' };
     private int currentIndex = 0;
+    private float timeRemaining = 30f;
+    private bool hasSubmitted = false;
 
-    [Tooltip("Score to submit when name is confirmed")]
     public int scoreToSubmit = 0;
 
     void Start()
     {
+        if (timerText == null)
+        {
+            var go = GameObject.Find("TimerText");
+            if (go != null)
+                timerText = go.GetComponent<TextMeshProUGUI>();
+            if (timerText == null)
+                Debug.LogWarning("TimerText not assigned or found in scene.");
+        }
+
+        if (timerText != null)
+            timerText.text = $"Time: {Mathf.Ceil(timeRemaining)}";
+
         UpdateLetterUI();
-        confirmButton.onClick.AddListener(ConfirmName);
     }
 
     void Update()
     {
+        if (hasSubmitted)
+            return;
+
+        // navigate letters
         if (Input.GetKeyDown(KeyCode.LeftArrow))
             currentIndex = (currentIndex + 2) % 3;
         else if (Input.GetKeyDown(KeyCode.RightArrow))
             currentIndex = (currentIndex + 1) % 3;
 
+        // change letter
         if (Input.GetKeyDown(KeyCode.UpArrow))
             currentLetters[currentIndex] = NextChar(currentLetters[currentIndex]);
         else if (Input.GetKeyDown(KeyCode.DownArrow))
             currentLetters[currentIndex] = PrevChar(currentLetters[currentIndex]);
+
+        // update timer
+        timeRemaining -= Time.deltaTime;
+        if (timerText != null)
+            timerText.text = FormatTime(timeRemaining);
+
+        if (timeRemaining <= 0f)
+        {
+            Debug.Log("Timer reached zero, invoking ConfirmName().");
+            ConfirmName();
+        }
 
         UpdateLetterUI();
     }
@@ -44,9 +71,6 @@ public class NameEntryUI : MonoBehaviour
             letterSlots[i].text = currentLetters[i].ToString();
             letterSlots[i].color = (i == currentIndex) ? Color.yellow : Color.white;
         }
-
-        if (submitText != null)
-            submitText.text = "Confirm Your Name";
     }
 
     private char NextChar(char c)
@@ -59,12 +83,25 @@ public class NameEntryUI : MonoBehaviour
         return (char)(((c - 'A' + 25) % 26) + 'A');
     }
 
+    private string FormatTime(float t)
+    {
+        t = Mathf.Max(t, 0f);
+        int minutes = Mathf.FloorToInt(t / 60);
+        int seconds = Mathf.FloorToInt(t % 60);
+        return $"{minutes:00}:{seconds:00}";
+    }
+
     public void ConfirmName()
     {
+        if (hasSubmitted)
+            return;
+
+        hasSubmitted = true;
         string playerName = new string(currentLetters);
         HighScoreManager.Instance.SubmitScore(scoreToSubmit, playerName);
-        Debug.Log($"Submitted score {scoreToSubmit} for {playerName}");
+        Debug.Log($"Auto-submitted score {scoreToSubmit} for {playerName}");
 
         gameObject.SetActive(false); // Hide UI after submission
     }
 }
+

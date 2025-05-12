@@ -7,6 +7,7 @@ public class PlayerAttack : MonoBehaviour {
 
     #region publics
     public float attackSpeed;
+    public Animator animator;
     #endregion
 
     #region privates
@@ -31,15 +32,22 @@ public class PlayerAttack : MonoBehaviour {
 
         if (playerInput.Attack && !inAttack && attackTime <= 0 && attackCount == 1) {
             StartCoroutine(FirstAttack());
+            animator.SetTrigger("Attack1");
+            attackTime = 4f;
         }
         if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 2) {
             StartCoroutine(SecondAttack());
+            animator.SetTrigger("Attack2");
+            attackTime = 4f;
         }
 
         if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 3) {
             StartCoroutine(ThirdAttack());
+            animator.SetTrigger("Attack3");
+            attackTime = 4f;
         }
 
+        // nodfw
         if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 4) {
             StartCoroutine(ForthAttack());
         }
@@ -66,7 +74,7 @@ public class PlayerAttack : MonoBehaviour {
             yield return new WaitForEndOfFrame();
         }
 
-        attackTime = attackSpacing;
+        //attackTime = attackSpacing;
         attackCount++;
         inAttack = false;
         attack.gameObject.SetActive(false);
@@ -86,7 +94,7 @@ public class PlayerAttack : MonoBehaviour {
             yield return new WaitForEndOfFrame();
         }
 
-        attackTime = attackSpacing;
+        //attackTime = attackSpacing;
         attackCount++;
         inAttack = false;
         attack.gameObject.SetActive(false);
@@ -106,8 +114,8 @@ public class PlayerAttack : MonoBehaviour {
             yield return new WaitForEndOfFrame();
         }
 
-        attackTime = attackSpacing;
-        attackCount++;
+        //attackTime = .3f;
+        attackCount = 1;
         inAttack = false;
         attack.gameObject.SetActive(false);
     }
