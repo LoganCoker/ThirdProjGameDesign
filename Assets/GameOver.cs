@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class GameOverMenu : MonoBehaviour
 {
    [SerializeField] GameObject gameOver;
-   public AudioClip gameOverAudio;
-   private AudioSource audioSrc;
     void Start() {
      
     }
