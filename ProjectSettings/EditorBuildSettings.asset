@@ -20,8 +20,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CastleRoom2.unity
     guid: ebe292e9fd79e604bbe8f2654dea5b84
-  - enabled: 1
-    path: Assets/Scenes/CastleFinalRoom.unity
-    guid: 30b117125b56f4546a7e42a28d294675
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 54efb08ca5d41744a9e32ee79bd4005b, type: 3}
