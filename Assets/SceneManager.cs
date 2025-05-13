@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class SceneChanger : MonoBehaviour
-{
-    private string sceneToLoad;
-    public Image blackScreen;
+public class SceneChanger : MonoBehaviour{
+    public string sceneToLoad; // scene changer
+    public Image blackScreen; // fade image
     bool loadIn = false;
 
     private void OnTriggerEnter(Collider other)
@@ -15,9 +14,8 @@ public class SceneChanger : MonoBehaviour
 
             loadIn = true;
         }
-
-
     }
+
 
     void Update(){
         if (loadIn){
@@ -27,7 +25,7 @@ public class SceneChanger : MonoBehaviour
                 blackScreen.color = temp;
             }
             if (blackScreen.color.a > 0.95f)
-                SceneManager.LoadScene("CastleRoom1");
+                SceneManager.LoadScene(sceneToLoad);
         }
     }
 }
