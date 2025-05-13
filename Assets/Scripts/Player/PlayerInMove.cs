@@ -141,6 +141,7 @@ public class PlayerInMove : MonoBehaviour {
 
     #region special moves
     IEnumerator Vault() {
+        animator.SetTrigger("Climb");
         inAction = true;
         float up = 0f;
         while (up < .1f) {
@@ -154,6 +155,7 @@ public class PlayerInMove : MonoBehaviour {
         inAction = false;
     }
     IEnumerator WallClimb() {
+        animator.SetTrigger("Climb");
         inAction = true;
         float up = 0f;
         while (up < .25f) {
