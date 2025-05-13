@@ -7,9 +7,12 @@ public class BeatBoss : MonoBehaviour {
 
     public BossAI boss;
 
+
     void Update() {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         if (boss.Dead) {
             SceneManager.LoadScene("GameOver");
-        } 
-    }
+        }
+    }  
 }
