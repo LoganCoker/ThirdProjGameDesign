@@ -8,9 +8,10 @@ public class BossAI : MonoBehaviour {
     #region publics
     public Transform player;
     public NavMeshAgent agent;
-    public int Health { get; private set; } = 3;
+    public int Health { get; private set; }
     public bool Dead { get; private set; }
     public Animator animator;
+    public int health;
     #endregion
 
     #region private
@@ -21,10 +22,13 @@ public class BossAI : MonoBehaviour {
     private float attackTiming = .1f;
     private bool canAttack;
     private bool inAttack;
+    private ParticleSystem blood;
     #endregion
 
     private void Start() {
         attacks = transform.GetChild(1);
+        this.Health = health;
+        blood = GetComponent<ParticleSystem>();
     }
 
     void Update() {
@@ -79,6 +83,7 @@ public class BossAI : MonoBehaviour {
 
     public void DecHealth() {
         if (!hit) { 
+            blood.Play();
             Health--;
             hit = true;
             hitCooldown = 3f;

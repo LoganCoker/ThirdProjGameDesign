@@ -9,6 +9,7 @@ public class PlayerInMove : MonoBehaviour {
 
     [SerializeField] private CharacterController controller;
     [SerializeField] private CinemachineFreeLook playerCam;
+    public bool InAction { get; set; }
 
     #region publics
     public Animator animator;
@@ -32,7 +33,6 @@ public class PlayerInMove : MonoBehaviour {
     private bool running;
     private int jumpCnt = 2;
     private float vertVelo;
-    private bool inAction;
     #endregion
 
     
@@ -101,7 +101,7 @@ public class PlayerInMove : MonoBehaviour {
         velo = Vector3.ClampMagnitude(velo, speedClamp);
         velo.y += vertVelo;
         // only move if not preforming a special movement action
-        if (!inAction) { controller.Move(velo * Time.deltaTime); }
+        if (!InAction) { controller.Move(velo * Time.deltaTime); }
 
         // body rotaion based on movement
         if (isMoving()) {
@@ -142,7 +142,7 @@ public class PlayerInMove : MonoBehaviour {
     #region special moves
     IEnumerator Vault() {
         animator.SetTrigger("Climb");
-        inAction = true;
+        InAction = true;
         float up = 0f;
         while (up < .1f) {
             controller.Move(new(0, 10 * Time.deltaTime, 0));
@@ -152,11 +152,11 @@ public class PlayerInMove : MonoBehaviour {
         }
         controller.Move(body.forward / 2);
         controller.Move(-body.up / 2);
-        inAction = false;
+        InAction = false;
     }
     IEnumerator WallClimb() {
         animator.SetTrigger("Climb");
-        inAction = true;
+        InAction = true;
         float up = 0f;
         while (up < .25f) {
             controller.Move(new(0, 10 * Time.deltaTime, 0));
@@ -164,7 +164,7 @@ public class PlayerInMove : MonoBehaviour {
             yield return new WaitForEndOfFrame();
         }
         controller.Move(body.forward);
-        inAction = false;
+        InAction = false;
     }
     #endregion
 
@@ -173,10 +173,10 @@ public class PlayerInMove : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("VaultWall") && running && !inAction) {
+        if (other.CompareTag("VaultWall") && running && !InAction) {
             StartCoroutine(Vault());
         }
-        if (other.CompareTag("WallClimb") && !GroundCheck() && WallCheck(body.forward) && !inAction) {
+        if (other.CompareTag("WallClimb") && !GroundCheck() && WallCheck(body.forward) && !InAction) {
             StartCoroutine(WallClimb());
         }
     }
