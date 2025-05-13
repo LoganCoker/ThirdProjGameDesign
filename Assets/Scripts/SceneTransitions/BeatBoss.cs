@@ -9,7 +9,7 @@ public class BeatBoss : MonoBehaviour {
 
     void Update() {
         if (boss.Dead) {
-            SceneManager.LoadScene("Graveyard");
-        }
+            SceneManager.LoadScene("GameOver");
+        } 
     }
 }
