@@ -6,7 +6,7 @@ using HighScore;
 public class HighScoreManager : MonoBehaviour
 {
     [Header("High Score Config")]
-    public string gameName = "GetItWhiteboi";
+    public string gameName = "utarefson";
 
     [HideInInspector]
     public string playerName = "AAA";
@@ -26,7 +26,7 @@ public class HighScoreManager : MonoBehaviour
         }
     }
 
-    private void InitHighScoreSystem()
+    public void InitHighScoreSystem()
     {
         Debug.Log($"[HighScoreManager] Initializing with game name: {gameName}");
         HS.Init(this, gameName);

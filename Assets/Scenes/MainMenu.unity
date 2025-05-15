@@ -1197,6 +1197,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1565490219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565490221}
+  - component: {fileID: 1565490220}
+  m_Layer: 0
+  m_Name: HighScoremanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1565490220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565490219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b076a148cc7cea74f8be6cf706ca775f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameName: utarefson
+  playerName: AAA
+--- !u!4 &1565490221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565490219}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -269.0412, y: -142.45273, z: -61.772633}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1578061810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,7 +1683,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ae86e4a4-2d71-4cb6-a21d-a9fe8cf17f1c
+    name: UM_OperatedMesh_8fe4d914-de26-431b-80a0-ab76534c188f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fc78f152e3f64b1438e0b9d554c61315, type: 2}
     buidVersion:
@@ -1649,7 +1695,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ae86e4a4-2d71-4cb6-a21d-a9fe8cf17f1c
+  sourceMeshRendererGUID: 8fe4d914-de26-431b-80a0-ab76534c188f
   guid: 672e4993-f947-4929-9c4c-73479598c4bd
   localOptions:
     RecalculateTangents: 0
@@ -1666,6 +1712,63 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!1001 &1768952156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846733307888381439, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149394319003596963, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: m_Name
+      value: Game
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
 --- !u!1 &1904306637
 GameObject:
   m_ObjectHideFlags: 0
@@ -11564,7 +11667,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_716de2f2-7de2-44fc-92c7-f562671a038a
+    name: UM_OperatedMesh_5409034f-3a8e-48ce-949c-f7a4d6f4c936
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 23dc30b2f972d0047acd4007958457be, type: 2}
     buidVersion:
@@ -11576,7 +11679,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 716de2f2-7de2-44fc-92c7-f562671a038a
+  sourceMeshRendererGUID: 5409034f-3a8e-48ce-949c-f7a4d6f4c936
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -11842,7 +11945,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5754453e-3d17-4777-ae4f-9ab1a2fef340
+    name: UM_OperatedMesh_8e67c225-3526-4fd2-b424-6c787bbe6e7d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 169de74ff08850745b9b997f4daa92e5, type: 2}
     buidVersion:
@@ -11854,7 +11957,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5754453e-3d17-4777-ae4f-9ab1a2fef340
+  sourceMeshRendererGUID: 8e67c225-3526-4fd2-b424-6c787bbe6e7d
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -16771,7 +16874,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5101ed1d-b420-4ed0-9876-14365a305527
+    name: UM_OperatedMesh_fe6e54b9-ea8b-4aab-92cf-9e2140fdf225
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9d8b01ca12b3d1345bfa9b7507e8fc5f, type: 2}
     buidVersion:
@@ -16783,7 +16886,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5101ed1d-b420-4ed0-9876-14365a305527
+  sourceMeshRendererGUID: fe6e54b9-ea8b-4aab-92cf-9e2140fdf225
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -16916,3 +17019,5 @@ SceneRoots:
   - {fileID: 1454357569}
   - {fileID: 2477224586759650262}
   - {fileID: 656370766}
+  - {fileID: 1565490221}
+  - {fileID: 1768952156}

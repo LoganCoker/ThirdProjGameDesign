@@ -25,6 +25,8 @@ public class Game : MonoBehaviour {
 
         // testing
         Input.Enable();
+
+        HighScoreManager.Instance.InitHighScoreSystem();
     }
 
     public static void PauseGame() {
