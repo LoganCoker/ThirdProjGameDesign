@@ -4,12 +4,14 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour {
+    public int Health { get; private set; }
+    public int Dead {get; private set; }
 
     #region publics
     public Transform player;
     public NavMeshAgent agent;
-    public int Health { get; private set; } = 3;
     public Animator animator;
+    public int health;
     #endregion
 
     #region private
