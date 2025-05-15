@@ -31,7 +31,7 @@ public class Menu : MonoBehaviour {
     public void Pause() {
         Game.PauseGame();
         menu.SetActive(true);
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
     }
 

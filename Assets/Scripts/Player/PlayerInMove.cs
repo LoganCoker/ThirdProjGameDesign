@@ -9,6 +9,8 @@ public class PlayerInMove : MonoBehaviour {
     [SerializeField] private CharacterController controller;
     [SerializeField] private CinemachineFreeLook playerCam;
     public bool InAction { get; set; }
+    public bool UpdateSens { get; set; }
+    public Vector3 WasHit { get; set; } = Vector3.zero;
 
     #region publics
     public Animator animator;
@@ -32,6 +34,8 @@ public class PlayerInMove : MonoBehaviour {
     private bool running;
     private int jumpCnt = 2;
     private float vertVelo;
+    private float initXSens;
+    private float initYSens;
     #endregion
 
     
@@ -39,9 +43,8 @@ public class PlayerInMove : MonoBehaviour {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        // finicky, needs more testing
-        playerCam.m_XAxis.m_MaxSpeed *= sensX;
-        playerCam.m_YAxis.m_MaxSpeed *= sensY;
+        initXSens = playerCam.m_XAxis.m_AccelTime;
+        initYSens = playerCam.m_YAxis.m_AccelTime;
 
         playerInput = Game.PlayerInput;
         body = transform.GetChild(0);
@@ -50,6 +53,10 @@ public class PlayerInMove : MonoBehaviour {
 
     public void Update() {
         if (Game.Paused) return;
+        if (UpdateSens) {
+            playerCam.m_XAxis.m_AccelTime = initXSens;
+            playerCam.m_YAxis.m_AccelTime = initYSens;
+        }
 
         // sets camera looking direction
         orient.rotation = Quaternion.Euler(0, playerCam.m_XAxis.Value, 0);
@@ -103,7 +110,7 @@ public class PlayerInMove : MonoBehaviour {
         if (!InAction) { controller.Move(velo * Time.deltaTime); }
 
         // body rotaion based on movement
-        if (isMoving()) {
+        if (isMoving() && !InAction) {
             body.rotation = Quaternion.LookRotation(new Vector3(velo.x, 0, velo.z));
         } else { 
             running = false;
@@ -152,6 +159,7 @@ public class PlayerInMove : MonoBehaviour {
         controller.Move(body.forward / 2);
         controller.Move(-body.up / 2);
         InAction = false;
+        running = true;
     }
     IEnumerator WallClimb() {
         animator.SetTrigger("Climb");

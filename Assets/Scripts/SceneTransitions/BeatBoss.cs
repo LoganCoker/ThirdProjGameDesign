@@ -9,9 +9,9 @@ public class BeatBoss : MonoBehaviour {
 
 
     void Update() {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
         if (boss.Dead) {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene("GameOver");
         }
     }  

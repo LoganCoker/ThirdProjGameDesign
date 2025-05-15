@@ -33,20 +33,20 @@ public class PlayerAttack : MonoBehaviour {
         }
 
         if (playerInput.Attack && !inAttack && attackTime <= 0 && attackCount == 1) {
+            playerMovement.InAction = true;
             StartCoroutine(FirstAttack());
             animator.SetTrigger("Attack1");
-            playerMovement.InAction = true;
         }
         if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 2) {
+            playerMovement.InAction = true;
             StartCoroutine(SecondAttack());
             animator.SetTrigger("Attack2");
-            playerMovement.InAction = true;
         }
 
         if (playerInput.Attack && !inAttack && attackTime > 0 && attackCount == 3) {
+            playerMovement.InAction = true;
             StartCoroutine(ThirdAttack());
             animator.SetTrigger("Attack3");
-            playerMovement.InAction = true;
         }
 
         attackTime -= Time.deltaTime;
