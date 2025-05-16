@@ -397,8 +397,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.6, y: 68.94647}
-  m_SizeDelta: {x: 363.9224, y: 51.1071}
+  m_AnchoredPosition: {x: -9, y: 411}
+  m_SizeDelta: {x: 920.515, y: 51.1071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781765166
 MonoBehaviour:
@@ -447,8 +447,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -662,13 +662,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -748,8 +748,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -76.3}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 60.863, y: -126.06525}
+  m_SizeDelta: {x: 281.73, y: 50.1305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215220461
 MonoBehaviour:
@@ -881,8 +881,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 60.8625, y: 11.7358}
+  m_SizeDelta: {x: 281.7251, y: 53.4716}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1287358145
 MonoBehaviour:
@@ -1279,8 +1279,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -38.1}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 60.863, y: -59.5}
+  m_SizeDelta: {x: 281.73, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578061812
 MonoBehaviour:
@@ -1525,13 +1525,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1683,7 +1683,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8fe4d914-de26-431b-80a0-ab76534c188f
+    name: UM_OperatedMesh_b3c5f588-ffd2-4f18-abaf-5796e71d3f94
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fc78f152e3f64b1438e0b9d554c61315, type: 2}
     buidVersion:
@@ -1695,7 +1695,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8fe4d914-de26-431b-80a0-ab76534c188f
+  sourceMeshRendererGUID: b3c5f588-ffd2-4f18-abaf-5796e71d3f94
   guid: 672e4993-f947-4929-9c4c-73479598c4bd
   localOptions:
     RecalculateTangents: 0
@@ -1944,7 +1944,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play
+  m_text: PLAY
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6598a72581748684e87e82f5f8801554, type: 2}
   m_sharedMaterial: {fileID: 7778998143763892176, guid: 6598a72581748684e87e82f5f8801554, type: 2}
@@ -1972,8 +1972,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -11667,7 +11667,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5409034f-3a8e-48ce-949c-f7a4d6f4c936
+    name: UM_OperatedMesh_6ecfba6e-c10b-4c4b-a7cd-d406a7d4a04c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 23dc30b2f972d0047acd4007958457be, type: 2}
     buidVersion:
@@ -11679,7 +11679,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5409034f-3a8e-48ce-949c-f7a4d6f4c936
+  sourceMeshRendererGUID: 6ecfba6e-c10b-4c4b-a7cd-d406a7d4a04c
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -11945,7 +11945,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8e67c225-3526-4fd2-b424-6c787bbe6e7d
+    name: UM_OperatedMesh_80cb6b9b-9b4f-4258-9c67-695c0109d8d9
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 169de74ff08850745b9b997f4daa92e5, type: 2}
     buidVersion:
@@ -11957,7 +11957,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8e67c225-3526-4fd2-b424-6c787bbe6e7d
+  sourceMeshRendererGUID: 80cb6b9b-9b4f-4258-9c67-695c0109d8d9
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -16874,7 +16874,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fe6e54b9-ea8b-4aab-92cf-9e2140fdf225
+    name: UM_OperatedMesh_2cadc37b-6b58-4d22-928a-43e3d07af6b4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9d8b01ca12b3d1345bfa9b7507e8fc5f, type: 2}
     buidVersion:
@@ -16886,7 +16886,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fe6e54b9-ea8b-4aab-92cf-9e2140fdf225
+  sourceMeshRendererGUID: 2cadc37b-6b58-4d22-928a-43e3d07af6b4
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
