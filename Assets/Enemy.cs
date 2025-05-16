@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour {
     public int Health { get; private set; }
-    public int Dead {get; private set; }
+    public bool Dead {get; private set; }
 
     #region publics
     public Transform player;
@@ -86,5 +86,7 @@ public class Enemy : MonoBehaviour {
         animator.SetTrigger("SkeletonDeath");
         yield return new WaitForSeconds(8);
         this.gameObject.SetActive(false);
+        Dead = true;
+    
     }
 }
