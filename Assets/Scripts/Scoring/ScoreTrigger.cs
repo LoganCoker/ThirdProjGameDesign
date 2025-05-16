@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScoreTrigger : MonoBehaviour
 {
     public GameObject nameEntryUI;     
-    public int scoreToSubmit = Game.GetFinalScore();  
+    public int scoreToSubmit = 1400;  
 
     private bool triggered = false;    
 
