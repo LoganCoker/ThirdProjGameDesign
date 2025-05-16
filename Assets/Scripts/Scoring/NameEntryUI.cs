@@ -14,7 +14,7 @@ public class NameEntryUI : MonoBehaviour
     private float timeRemaining = 30f;
     private bool hasSubmitted = false;
 
-    public int scoreToSubmit = 1400;
+    public int scoreToSubmit = Game.GetFinalScore();
 
     void Start()
     {
