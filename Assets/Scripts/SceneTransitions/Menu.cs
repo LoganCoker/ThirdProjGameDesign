@@ -32,7 +32,7 @@ public class Menu : MonoBehaviour {
     public void Pause() {
         Game.PauseGame();
         menu.SetActive(true);
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
@@ -45,7 +45,7 @@ public class Menu : MonoBehaviour {
      public void Home(){
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         
     }
