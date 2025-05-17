@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -38,9 +35,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("BossAttack") && hitCooldown <= 0) {
-            print(other.transform.parent.parent.forward.normalized);
             playerMovement.WasHit = other.transform.parent.parent.forward.normalized;
-            print("player hit");
             takedamage(5f);
             hitCooldown = 2f;
         }

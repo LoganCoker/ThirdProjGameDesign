@@ -55,7 +55,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1753f1c6-a98f-47c3-b05c-27757721fed6
+    name: UM_OperatedMesh_32911616-82a1-4a2c-b0b8-7eda4716ef42
     skinnedMesh: 0
     sharedMesh: {fileID: -5833740997531598515}
     buidVersion:
@@ -67,7 +67,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1753f1c6-a98f-47c3-b05c-27757721fed6
+  sourceMeshRendererGUID: 32911616-82a1-4a2c-b0b8-7eda4716ef42
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_145eebcc-3ea9-4f24-8521-0f1e2372c67a
+    name: UM_OperatedMesh_73f2038a-bb10-440c-b20d-1d3c96424624
     skinnedMesh: 0
     sharedMesh: {fileID: 7025848478113396521}
     buidVersion:
@@ -200,7 +200,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 145eebcc-3ea9-4f24-8521-0f1e2372c67a
+  sourceMeshRendererGUID: 73f2038a-bb10-440c-b20d-1d3c96424624
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -321,7 +321,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0c0cf80c-5d0c-4214-bfa1-b2bc5805c456
+    name: UM_OperatedMesh_45df5995-9ed1-4c31-bce5-7cd3bd9a8900
     skinnedMesh: 0
     sharedMesh: {fileID: -2173955553803968351}
     buidVersion:
@@ -333,7 +333,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0c0cf80c-5d0c-4214-bfa1-b2bc5805c456
+  sourceMeshRendererGUID: 45df5995-9ed1-4c31-bce5-7cd3bd9a8900
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_702f9ef1-c1a1-4433-ac71-6525fdb0a8c7
+    name: UM_OperatedMesh_6391d6dd-9df9-4983-98d9-81a5b7e3ef8d
     skinnedMesh: 0
     sharedMesh: {fileID: 3724326287601552996}
     buidVersion:
@@ -466,7 +466,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 702f9ef1-c1a1-4433-ac71-6525fdb0a8c7
+  sourceMeshRendererGUID: 6391d6dd-9df9-4983-98d9-81a5b7e3ef8d
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -587,7 +587,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture AltColor2.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_486da352-9981-41f9-804f-7186b13425d5
+    name: UM_OperatedMesh_ab56eb00-2530-42d0-8053-dfa8f669088a
     skinnedMesh: 0
     sharedMesh: {fileID: 902773349971678033}
     buidVersion:
@@ -599,7 +599,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 486da352-9981-41f9-804f-7186b13425d5
+  sourceMeshRendererGUID: ab56eb00-2530-42d0-8053-dfa8f669088a
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -720,7 +720,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_92930097-4a11-4c54-a697-abe9e02cf634
+    name: UM_OperatedMesh_e7365a1f-e0a8-46da-99eb-c81facaf9047
     skinnedMesh: 0
     sharedMesh: {fileID: -5356387780674921454}
     buidVersion:
@@ -732,7 +732,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 92930097-4a11-4c54-a697-abe9e02cf634
+  sourceMeshRendererGUID: e7365a1f-e0a8-46da-99eb-c81facaf9047
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -858,7 +858,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookshelfWood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1d622b38-f5a9-461c-a23c-b5f9c50b6337
+    name: UM_OperatedMesh_381566bf-6d72-4913-bb3b-5abf025df122
     skinnedMesh: 0
     sharedMesh: {fileID: -8724764742835732498}
     buidVersion:
@@ -870,7 +870,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1d622b38-f5a9-461c-a23c-b5f9c50b6337
+  sourceMeshRendererGUID: 381566bf-6d72-4913-bb3b-5abf025df122
   guid: b9f8de03-f75e-4ad0-b3df-310c24251cc0
   localOptions:
     RecalculateTangents: 0
@@ -1057,7 +1057,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture AltColor1.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e25392a2-b1bf-4c81-8a34-2e7ffbea6e23
+    name: UM_OperatedMesh_9a625b16-917c-487e-b14d-6ee3ff6f79cf
     skinnedMesh: 0
     sharedMesh: {fileID: 8085093751857368870}
     buidVersion:
@@ -1069,7 +1069,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e25392a2-b1bf-4c81-8a34-2e7ffbea6e23
+  sourceMeshRendererGUID: 9a625b16-917c-487e-b14d-6ee3ff6f79cf
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_22040854-1969-4faa-af54-b8d4c4f8f674
+    name: UM_OperatedMesh_4f3ec8ec-1cf7-40f2-8e98-041b2b4849bb
     skinnedMesh: 0
     sharedMesh: {fileID: 2579514931092861631}
     buidVersion:
@@ -1202,7 +1202,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 22040854-1969-4faa-af54-b8d4c4f8f674
+  sourceMeshRendererGUID: 4f3ec8ec-1cf7-40f2-8e98-041b2b4849bb
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_01b8aa26-e18f-4907-8e53-46eac17d14e4
+    name: UM_OperatedMesh_e3f3494a-d4f5-4799-b800-d7f0fb9fead2
     skinnedMesh: 0
     sharedMesh: {fileID: -633672659235168469}
     buidVersion:
@@ -1335,7 +1335,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 01b8aa26-e18f-4907-8e53-46eac17d14e4
+  sourceMeshRendererGUID: e3f3494a-d4f5-4799-b800-d7f0fb9fead2
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4d41eb03-2972-46ab-a90f-f90c6d394c05
+    name: UM_OperatedMesh_cc042466-4d03-4c4a-92ea-e078e285503d
     skinnedMesh: 0
     sharedMesh: {fileID: 8738657270330135567}
     buidVersion:
@@ -1468,7 +1468,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4d41eb03-2972-46ab-a90f-f90c6d394c05
+  sourceMeshRendererGUID: cc042466-4d03-4c4a-92ea-e078e285503d
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -1589,7 +1589,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ed98c56d-b97f-41b5-acea-84061bd84409
+    name: UM_OperatedMesh_b2d6cf1e-00fa-46f7-9f57-c89e58b1d392
     skinnedMesh: 0
     sharedMesh: {fileID: -3391716140031699373}
     buidVersion:
@@ -1601,7 +1601,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ed98c56d-b97f-41b5-acea-84061bd84409
+  sourceMeshRendererGUID: b2d6cf1e-00fa-46f7-9f57-c89e58b1d392
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -1722,7 +1722,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_af5badd9-6fce-483c-a8bf-75294c65134d
+    name: UM_OperatedMesh_05becbb3-17d7-4f38-ad08-2b6b005e99e6
     skinnedMesh: 0
     sharedMesh: {fileID: 2074230178327272390}
     buidVersion:
@@ -1734,7 +1734,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: af5badd9-6fce-483c-a8bf-75294c65134d
+  sourceMeshRendererGUID: 05becbb3-17d7-4f38-ad08-2b6b005e99e6
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -1855,7 +1855,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_37e02a51-9740-481e-a138-a86a72267f3c
+    name: UM_OperatedMesh_b7c8d928-5ed7-495b-a27d-7edc66b1187e
     skinnedMesh: 0
     sharedMesh: {fileID: 6303382639610750357}
     buidVersion:
@@ -1867,7 +1867,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 37e02a51-9740-481e-a138-a86a72267f3c
+  sourceMeshRendererGUID: b7c8d928-5ed7-495b-a27d-7edc66b1187e
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -1988,7 +1988,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c3598aae-745f-474e-a131-71d67fee8c6a
+    name: UM_OperatedMesh_be48cdfd-fe8a-4573-bc75-ba2c0a9904b1
     skinnedMesh: 0
     sharedMesh: {fileID: -409537810612775903}
     buidVersion:
@@ -2000,7 +2000,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c3598aae-745f-474e-a131-71d67fee8c6a
+  sourceMeshRendererGUID: be48cdfd-fe8a-4573-bc75-ba2c0a9904b1
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -2121,7 +2121,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2ba66155-171a-487f-a02d-53e00143550c
+    name: UM_OperatedMesh_783570a7-7471-49de-a72d-b8d10209c73e
     skinnedMesh: 0
     sharedMesh: {fileID: 4291518096623222207}
     buidVersion:
@@ -2133,7 +2133,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2ba66155-171a-487f-a02d-53e00143550c
+  sourceMeshRendererGUID: 783570a7-7471-49de-a72d-b8d10209c73e
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5813c591-0811-4cde-8617-9de104fa84f1
+    name: UM_OperatedMesh_354edb1c-dc85-44e7-abd9-1173f0e8663c
     skinnedMesh: 0
     sharedMesh: {fileID: -2988959835762301229}
     buidVersion:
@@ -2266,7 +2266,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5813c591-0811-4cde-8617-9de104fa84f1
+  sourceMeshRendererGUID: 354edb1c-dc85-44e7-abd9-1173f0e8663c
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -2357,7 +2357,7 @@ Transform:
   m_GameObject: {fileID: 3153266081143150602}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.96, y: 1.84, z: -0.41}
+  m_LocalPosition: {x: 0.96, y: 0.754, z: -0.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2418,7 +2418,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_677d717d-4921-48f7-8d43-081e583d15e0
+    name: UM_OperatedMesh_2ddbea7b-6365-4c4f-8fda-b0b10367a4d1
     skinnedMesh: 0
     sharedMesh: {fileID: 9113202129497844930}
     buidVersion:
@@ -2430,7 +2430,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 677d717d-4921-48f7-8d43-081e583d15e0
+  sourceMeshRendererGUID: 2ddbea7b-6365-4c4f-8fda-b0b10367a4d1
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -2551,7 +2551,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0d0a8c62-2e68-4bb9-8e72-af304b594e7e
+    name: UM_OperatedMesh_b76c2ec5-7293-4ef6-8ce4-f3507b8af6a1
     skinnedMesh: 0
     sharedMesh: {fileID: 8489002670944541273}
     buidVersion:
@@ -2563,7 +2563,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0d0a8c62-2e68-4bb9-8e72-af304b594e7e
+  sourceMeshRendererGUID: b76c2ec5-7293-4ef6-8ce4-f3507b8af6a1
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -2684,7 +2684,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture AltColor1.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_24b93de7-74d4-4841-b711-f730ebb7627e
+    name: UM_OperatedMesh_1ec7c4e8-a6a9-489c-af05-50e6c9d318f4
     skinnedMesh: 0
     sharedMesh: {fileID: 2823670657464375778}
     buidVersion:
@@ -2696,7 +2696,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 24b93de7-74d4-4841-b711-f730ebb7627e
+  sourceMeshRendererGUID: 1ec7c4e8-a6a9-489c-af05-50e6c9d318f4
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -2817,7 +2817,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_655a738e-ca45-4a92-9ab1-dd02c9a80288
+    name: UM_OperatedMesh_f7807686-85fe-46cd-b235-be552efa2408
     skinnedMesh: 0
     sharedMesh: {fileID: -8603103138697288449}
     buidVersion:
@@ -2829,7 +2829,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 655a738e-ca45-4a92-9ab1-dd02c9a80288
+  sourceMeshRendererGUID: f7807686-85fe-46cd-b235-be552efa2408
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -2950,7 +2950,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fff8649d-f224-4df1-81a6-27bff4e8c12d
+    name: UM_OperatedMesh_752ae44b-dd2b-44a7-a4b9-aa9eb5b263fd
     skinnedMesh: 0
     sharedMesh: {fileID: -8504398269578854839}
     buidVersion:
@@ -2962,7 +2962,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fff8649d-f224-4df1-81a6-27bff4e8c12d
+  sourceMeshRendererGUID: 752ae44b-dd2b-44a7-a4b9-aa9eb5b263fd
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -3151,7 +3151,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f56c1a48-4819-4475-85e3-d1b33ec50b01
+    name: UM_OperatedMesh_55dd9742-58d5-46d7-997f-5667edc876d1
     skinnedMesh: 0
     sharedMesh: {fileID: -6518083255942021110}
     buidVersion:
@@ -3163,7 +3163,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f56c1a48-4819-4475-85e3-d1b33ec50b01
+  sourceMeshRendererGUID: 55dd9742-58d5-46d7-997f-5667edc876d1
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -3284,7 +3284,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture AltColor2.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c9850dee-a64a-49cd-9604-3f6ea3b3ba7c
+    name: UM_OperatedMesh_c900a865-e8d4-458f-a1bf-5f68a7c823a5
     skinnedMesh: 0
     sharedMesh: {fileID: 1217592529413433339}
     buidVersion:
@@ -3296,7 +3296,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c9850dee-a64a-49cd-9604-3f6ea3b3ba7c
+  sourceMeshRendererGUID: c900a865-e8d4-458f-a1bf-5f68a7c823a5
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -3417,7 +3417,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b73c9639-9082-4a2f-94a1-c8dbc2fd254d
+    name: UM_OperatedMesh_1e146c2e-72ca-46bb-a9a1-f9031c111a77
     skinnedMesh: 0
     sharedMesh: {fileID: -9132963182127917226}
     buidVersion:
@@ -3429,7 +3429,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b73c9639-9082-4a2f-94a1-c8dbc2fd254d
+  sourceMeshRendererGUID: 1e146c2e-72ca-46bb-a9a1-f9031c111a77
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -3550,7 +3550,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7e3e4dd1-4f71-4d32-9862-d8f4a0f6628a
+    name: UM_OperatedMesh_77880d19-9d82-48e1-a1d3-4ed8ee94238f
     skinnedMesh: 0
     sharedMesh: {fileID: -4922018532220365568}
     buidVersion:
@@ -3562,7 +3562,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7e3e4dd1-4f71-4d32-9862-d8f4a0f6628a
+  sourceMeshRendererGUID: 77880d19-9d82-48e1-a1d3-4ed8ee94238f
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -3683,7 +3683,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3ba4b0f3-d5cb-41ff-b5a5-ebad877a7904
+    name: UM_OperatedMesh_163b9198-f8f2-4655-8a69-8d562e5c839d
     skinnedMesh: 0
     sharedMesh: {fileID: -6420385857758625018}
     buidVersion:
@@ -3695,7 +3695,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3ba4b0f3-d5cb-41ff-b5a5-ebad877a7904
+  sourceMeshRendererGUID: 163b9198-f8f2-4655-8a69-8d562e5c839d
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -3816,7 +3816,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c27f6cf6-b258-447a-8063-d44a10e65a93
+    name: UM_OperatedMesh_f68966c2-6e89-4c5e-a6c0-f3eee71bda99
     skinnedMesh: 0
     sharedMesh: {fileID: 2953262476398372866}
     buidVersion:
@@ -3828,7 +3828,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c27f6cf6-b258-447a-8063-d44a10e65a93
+  sourceMeshRendererGUID: f68966c2-6e89-4c5e-a6c0-f3eee71bda99
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -3949,7 +3949,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture AltColor1.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_464fd136-a3bd-4b30-a87d-50e78e6b630c
+    name: UM_OperatedMesh_2d38911c-51cb-46dd-8053-d0de7a094a09
     skinnedMesh: 0
     sharedMesh: {fileID: -3832461260320034284}
     buidVersion:
@@ -3961,7 +3961,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 464fd136-a3bd-4b30-a87d-50e78e6b630c
+  sourceMeshRendererGUID: 2d38911c-51cb-46dd-8053-d0de7a094a09
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -4082,7 +4082,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a8374b59-0f34-4c1a-8d28-e842c8d33aac
+    name: UM_OperatedMesh_14c0e207-4f95-42e7-a90c-14b65358870f
     skinnedMesh: 0
     sharedMesh: {fileID: 1817152763840993919}
     buidVersion:
@@ -4094,7 +4094,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a8374b59-0f34-4c1a-8d28-e842c8d33aac
+  sourceMeshRendererGUID: 14c0e207-4f95-42e7-a90c-14b65358870f
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -4215,7 +4215,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_045ceff0-08c5-49c0-9872-378a30e0ad74
+    name: UM_OperatedMesh_551443d1-98ee-4f54-a4ee-2d67f08a97db
     skinnedMesh: 0
     sharedMesh: {fileID: 7159861827259732412}
     buidVersion:
@@ -4227,7 +4227,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 045ceff0-08c5-49c0-9872-378a30e0ad74
+  sourceMeshRendererGUID: 551443d1-98ee-4f54-a4ee-2d67f08a97db
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -4348,7 +4348,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_027d30cc-5681-4ed1-a850-0af540fd9ec6
+    name: UM_OperatedMesh_0175104a-3bf9-4ec5-84e4-2e6ab6cd166f
     skinnedMesh: 0
     sharedMesh: {fileID: 568447262487372198}
     buidVersion:
@@ -4360,7 +4360,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 027d30cc-5681-4ed1-a850-0af540fd9ec6
+  sourceMeshRendererGUID: 0175104a-3bf9-4ec5-84e4-2e6ab6cd166f
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -4481,7 +4481,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4c3567d8-f1d5-4ee2-83f6-eda114d3a39a
+    name: UM_OperatedMesh_a2076d12-94b9-4831-9e17-f99639b6a9e7
     skinnedMesh: 0
     sharedMesh: {fileID: 777082125911344097}
     buidVersion:
@@ -4493,7 +4493,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4c3567d8-f1d5-4ee2-83f6-eda114d3a39a
+  sourceMeshRendererGUID: a2076d12-94b9-4831-9e17-f99639b6a9e7
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -4614,7 +4614,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7d9b7814-cc51-4ab5-a533-09bf0cc54756
+    name: UM_OperatedMesh_e4b617e2-9b8d-4b46-bcc5-95eaebc767dc
     skinnedMesh: 0
     sharedMesh: {fileID: -8325390535944417880}
     buidVersion:
@@ -4626,7 +4626,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7d9b7814-cc51-4ab5-a533-09bf0cc54756
+  sourceMeshRendererGUID: e4b617e2-9b8d-4b46-bcc5-95eaebc767dc
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -4747,7 +4747,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a64fd462-244c-46b1-83bf-00224848ca10
+    name: UM_OperatedMesh_24393d80-7060-493c-9e5a-9b934ede0dc8
     skinnedMesh: 0
     sharedMesh: {fileID: 4147715859744257077}
     buidVersion:
@@ -4759,7 +4759,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a64fd462-244c-46b1-83bf-00224848ca10
+  sourceMeshRendererGUID: 24393d80-7060-493c-9e5a-9b934ede0dc8
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -4880,7 +4880,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture AltColor2.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_77bee891-d53c-4997-b31a-5ee9e864ff54
+    name: UM_OperatedMesh_fae8d73a-9e4a-4540-93c9-6259cb777fa9
     skinnedMesh: 0
     sharedMesh: {fileID: 5139208517857325807}
     buidVersion:
@@ -4892,7 +4892,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 77bee891-d53c-4997-b31a-5ee9e864ff54
+  sourceMeshRendererGUID: fae8d73a-9e4a-4540-93c9-6259cb777fa9
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -5013,7 +5013,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6f1b104e-fe67-477a-a33f-184055586c03
+    name: UM_OperatedMesh_007959e6-50e2-41dd-859f-946d30c35d93
     skinnedMesh: 0
     sharedMesh: {fileID: -5977554192217999776}
     buidVersion:
@@ -5025,7 +5025,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6f1b104e-fe67-477a-a33f-184055586c03
+  sourceMeshRendererGUID: 007959e6-50e2-41dd-859f-946d30c35d93
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0
@@ -5146,7 +5146,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/BookTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_82d9a4fc-ff6e-4283-9b51-0199af4166a2
+    name: UM_OperatedMesh_67c2c8d5-d8a8-45cf-a569-374ca3a24ce0
     skinnedMesh: 0
     sharedMesh: {fileID: -7378411567138128678}
     buidVersion:
@@ -5158,7 +5158,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 82d9a4fc-ff6e-4283-9b51-0199af4166a2
+  sourceMeshRendererGUID: 67c2c8d5-d8a8-45cf-a569-374ca3a24ce0
   guid: 32c80df1-242f-45a0-ae33-8de7d47bc063
   localOptions:
     RecalculateTangents: 0

@@ -33,12 +33,14 @@ public class Game : MonoBehaviour {
         Paused = true;
         Input.UI.Enable();
         PlayerInput.enabled = false;
+        Time.timeScale = 0;
     }
 
     public static void ResumeGame() {
         Paused = false;
         Input.UI.Disable();
         PlayerInput.enabled = true;
+        Time.timeScale = 1;
     }
 
     public static void DisablePlayerControls() {
