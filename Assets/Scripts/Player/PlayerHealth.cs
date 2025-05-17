@@ -35,9 +35,15 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("BossAttack") && hitCooldown <= 0) {
-            playerMovement.WasHit = other.transform.parent.parent.forward.normalized;
+            playerMovement.WasHit = other.transform.parent.parent.forward;
             takedamage(5f);
             hitCooldown = 2f;
+        }
+        if (other.CompareTag("BossFireBall") && hitCooldown <= 0) {
+            playerMovement.WasHit = other.attachedRigidbody.velocity.normalized;
+            takedamage(5f);
+            hitCooldown = 2f;
+            Destroy(other.gameObject);
         }
     }
 }

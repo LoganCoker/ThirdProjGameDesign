@@ -32,13 +32,13 @@ public class PlayerInMove : MonoBehaviour {
     private Transform orient;
     private float sprintMult = 1.5f;
     private bool running;
+    private bool hit;
     private int jumpCnt = 2;
     private float vertVelo;
     private float initXSens;
     private float initYSens;
     #endregion
 
-    
     private void Awake() {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -73,6 +73,7 @@ public class PlayerInMove : MonoBehaviour {
         // jumping & jump reset
         if (GroundCheck()) {
             jumpCnt = 2;
+            hit = false;
             if (vertVelo < 0) {
                 vertVelo = 0f;
             }
@@ -108,14 +109,17 @@ public class PlayerInMove : MonoBehaviour {
         velo.y += vertVelo;
         // only move if not preforming a special movement action
         if (WasHit != Vector3.zero) {
-            velo = 10 * WasHit;
-            velo.y = 50f;
+            velo = WasHit;
+            velo.y = .5f;
+            velo = 1000 * velo.normalized;
             WasHit = Vector3.zero;   
+            InAction = false;
+            hit = true;
         }
         if (!InAction) { controller.Move(velo * Time.deltaTime); }
             
         // body rotaion based on movement
-        if (isMoving() && !InAction) {
+        if (isMoving() && !InAction && !hit) {
             body.rotation = Quaternion.LookRotation(new Vector3(velo.x, 0, velo.z));
         } else { 
             running = false;

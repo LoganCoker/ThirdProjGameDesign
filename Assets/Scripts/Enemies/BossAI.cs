@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
@@ -15,18 +14,22 @@ public class BossAI : MonoBehaviour {
     public Animator animator;
     public LayerMask ground;
     public Slider healthBar;
+    public GameObject fireballPrefab;
     public int health;
     #endregion
 
     #region private
     private Transform attacks;
     private ParticleSystem blood;
+    private Vector3 backUp;
     private float hitCooldown;
     private float distTolerance = .5f;
     private float attackTiming = 10f;
     private float changeDir;
     private float orbitRange;
     private float meleeRange = 1.5f;
+    private float fireballSpeed = 1f;
+    private bool melee = true;
     private bool hit;
     private bool canAttack;
     private bool inAttack;
@@ -69,14 +72,26 @@ public class BossAI : MonoBehaviour {
         }
 
         if (canAttack && attackTiming < 0) {
+            ChooseAttack();
             inAttack = true;
-            agent.SetDestination(player.position);
-            agent.stoppingDistance = meleeRange;
-            
-            if (distToPlayer < agent.stoppingDistance) {
-                agent.SetDestination(transform.position);
-                agent.stoppingDistance = orbitRange;
-                StartCoroutine(AttackRight());
+
+            if (melee) {
+                agent.SetDestination(player.position);
+                agent.stoppingDistance = meleeRange;
+                if (distToPlayer < agent.stoppingDistance) {
+                    agent.SetDestination(transform.position);
+                    StartCoroutine(AttackRight());
+                    agent.stoppingDistance = orbitRange;
+                }
+            } else {
+                agent.SetDestination(backUp);
+                agent.stoppingDistance = distTolerance;
+                if (agent.remainingDistance < distTolerance) {
+                    agent.SetDestination(transform.position);
+                    StartCoroutine(Fireball());
+                    agent.stoppingDistance = orbitRange;
+                    melee = true;
+                }
             }
         }
 
@@ -121,6 +136,17 @@ public class BossAI : MonoBehaviour {
         agent.SetDestination(orbitTarget);
     }
 
+    private void ChooseAttack() {
+        if (!inAttack) {
+            // 20% (1/5) chance to attack w/ fireball
+            if (Random.Range(0, 4) == 2) {
+                melee = false;
+                Vector3 awayFromPlayer = (transform.position - player.position).normalized;
+                backUp = transform.position + awayFromPlayer * 10;
+            }
+        }
+    }
+
     private void DirectionCheck() {
         Physics.Raycast(transform.position, -transform.right, out RaycastHit hitL, 5f, ground);
         Physics.Raycast(transform.position, transform.right, out RaycastHit hitR, 5f, ground);
@@ -149,6 +175,7 @@ public class BossAI : MonoBehaviour {
             if (Health == 0) {
                 inAttack = true;
                 attackTiming = int.MaxValue;
+                Game.AddScore(5000);
                 StartCoroutine(Death());
             }
             StartCoroutine(Knockback());
@@ -184,18 +211,20 @@ public class BossAI : MonoBehaviour {
         inAni = false;
     }
 
-    IEnumerator AttackLeft() {
+    IEnumerator Fireball() {
         inAni = true;
-        Vector3 fireBallHome = transform.GetChild(1).position;
-        Transform fireBall = attacks.GetChild(1);
         animator.SetTrigger("LeftPunch");
-        attackTiming = 5f;
+        attackTiming = 7f;
+        yield return new WaitForSeconds(.7f);
+
+        GameObject fb = Instantiate(fireballPrefab, attacks.GetChild(1));
+        Rigidbody rb = fb.GetComponent<Rigidbody>();
+        Vector3 fireDir = player.position - transform.position;
+        fireDir.y = 0;
+        rb.velocity = fireballSpeed * fireDir;
+        Destroy(fb, 5f);
         yield return new WaitForSeconds(1f);
-        fireBall.gameObject.SetActive(true);
-        fireBall.Translate(transform.forward, transform);
-        yield return new WaitForSeconds(1f);
-        fireBall.gameObject.SetActive(false);
-        fireBall.position = fireBallHome;
+
         canAttack = false;
         inAttack = false;
         inAni = false;
@@ -204,12 +233,15 @@ public class BossAI : MonoBehaviour {
     IEnumerator AttackRight() {
         inAni = true;
         animator.SetTrigger("RightPunch");
-        attackTiming = 10f;
+        attackTiming = 7f;
         yield return new WaitForSeconds(1.2f);
+
         attacks.GetChild(0).gameObject.SetActive(true);
         yield return new WaitForSeconds(.5f);
+
         attacks.GetChild(0).gameObject.SetActive(false);
         yield return new WaitForSeconds(2f);
+
         canAttack = false;
         inAttack = false;
         inAni = false;
