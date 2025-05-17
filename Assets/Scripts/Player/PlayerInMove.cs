@@ -107,8 +107,13 @@ public class PlayerInMove : MonoBehaviour {
         velo = Vector3.ClampMagnitude(velo, speedClamp);
         velo.y += vertVelo;
         // only move if not preforming a special movement action
+        if (WasHit != Vector3.zero) {
+            velo = 10 * WasHit;
+            velo.y = 50f;
+            WasHit = Vector3.zero;   
+        }
         if (!InAction) { controller.Move(velo * Time.deltaTime); }
-
+            
         // body rotaion based on movement
         if (isMoving() && !InAction) {
             body.rotation = Quaternion.LookRotation(new Vector3(velo.x, 0, velo.z));

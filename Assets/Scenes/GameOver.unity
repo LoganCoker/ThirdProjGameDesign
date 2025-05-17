@@ -352,7 +352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: YOU WIN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6598a72581748684e87e82f5f8801554, type: 2}
   m_sharedMaterial: {fileID: 7778998143763892176, guid: 6598a72581748684e87e82f5f8801554, type: 2}

@@ -37,8 +37,9 @@ public class PlayerHealth : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Boss") && hitCooldown <= 0) {
-            print(other.transform.forward.normalized);
+        if (other.CompareTag("BossAttack") && hitCooldown <= 0) {
+            print(other.transform.parent.parent.forward.normalized);
+            playerMovement.WasHit = other.transform.parent.parent.forward.normalized;
             print("player hit");
             takedamage(5f);
             hitCooldown = 2f;

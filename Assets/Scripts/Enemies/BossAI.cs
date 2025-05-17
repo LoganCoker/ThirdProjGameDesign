@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.InputSystem.Android;
 
 public class BossAI : MonoBehaviour {
 
@@ -21,7 +20,7 @@ public class BossAI : MonoBehaviour {
     private ParticleSystem blood;
     private float hitCooldown;
     private float distTolerance = .2f;
-    private float attackTiming = 20f;
+    private float attackTiming = 10f;
     private float changeDir;
     private float orbitRange;
     private float meleeRange = 1.5f;
@@ -116,6 +115,11 @@ public class BossAI : MonoBehaviour {
         agent.SetDestination(orbitTarget);
     }
 
+    private void DirectionCheck() {
+        RaycastHit hitL;
+        RaycastHit hitR;
+    }
+
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("PlayerAttack")) {
             DecHealth();
@@ -166,7 +170,7 @@ public class BossAI : MonoBehaviour {
     IEnumerator AttackRight() {
         inAni = true;
         animator.SetTrigger("RightPunch");
-        attackTiming = 20f;
+        attackTiming = 10f;
         yield return new WaitForSeconds(1.2f);
         attacks.GetChild(0).gameObject.SetActive(true);
         yield return new WaitForSeconds(.5f);
