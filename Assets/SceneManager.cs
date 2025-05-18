@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour{
     public string sceneToLoad; // scene changer
     public Image blackScreen; // fade image
+    private string doorCreakSoundName = "DoorCreak";
+    private string doorSlamSoundName = "DoorSlam";
     bool loadIn = false;
 
     private void OnTriggerEnter(Collider other)
@@ -11,6 +13,9 @@ public class SceneChanger : MonoBehaviour{
 
         if (other.CompareTag("Player"))
         {
+            AudioManager.Instance.Play(doorCreakSoundName);
+
+            AudioManager.Instance.PlaySceneTransition(doorCreakSoundName, doorSlamSoundName); 
 
             loadIn = true;
         }

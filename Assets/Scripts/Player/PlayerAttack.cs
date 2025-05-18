@@ -18,6 +18,10 @@ public class PlayerAttack : MonoBehaviour {
     private int attackCount = 1;
     private bool inAttack;
     private float attackSpacing = 1.5f;
+
+    private string swing1SoundName = "SwordSwing1";
+    private string swing2SoundName = "SwordSwing2";
+    private string swing3SoundName = "SwordSwing3";
     #endregion
 
     void Start() {
@@ -54,6 +58,8 @@ public class PlayerAttack : MonoBehaviour {
 
     #region Attact 'animations'
     IEnumerator FirstAttack() {
+        AudioManager.Instance.Play(swing1SoundName);
+
         Transform attack = attackPattern.transform.GetChild(0);
         inAttack = true;
         yield return new WaitForSeconds(.1f);
@@ -77,6 +83,8 @@ public class PlayerAttack : MonoBehaviour {
     }
     
     IEnumerator SecondAttack() {
+        AudioManager.Instance.Play(swing2SoundName); 
+
         Transform attack = attackPattern.transform.GetChild(1);
         inAttack = true;
         yield return new WaitForSeconds(.2f);
@@ -100,6 +108,8 @@ public class PlayerAttack : MonoBehaviour {
     }
     
     IEnumerator ThirdAttack() {
+        AudioManager.Instance.Play(swing3SoundName); 
+
         Transform attack = attackPattern.transform.GetChild(2);
         inAttack = true;
         yield return new WaitForSeconds(.45f);
