@@ -1738,7 +1738,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7eb0d346-6f06-4b3c-b5b1-13029749be63
+    name: UM_OperatedMesh_c00d3155-dc55-4219-8da8-4535b733530c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fc78f152e3f64b1438e0b9d554c61315, type: 2}
     buidVersion:
@@ -1750,7 +1750,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7eb0d346-6f06-4b3c-b5b1-13029749be63
+  sourceMeshRendererGUID: c00d3155-dc55-4219-8da8-4535b733530c
   guid: 672e4993-f947-4929-9c4c-73479598c4bd
   localOptions:
     RecalculateTangents: 0
@@ -1819,6 +1819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game
       objectReference: {fileID: 0}
+    - target: {fileID: 6377394434226802832, guid: 66925fed333c8934a8ac8a9d498b7b7b, type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 535059388}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11722,7 +11726,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9eba6d91-f4ff-49b6-bb99-5d150ce2ef43
+    name: UM_OperatedMesh_d10eb20c-fe06-402c-ac9c-ede0b036bb8d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 23dc30b2f972d0047acd4007958457be, type: 2}
     buidVersion:
@@ -11734,7 +11738,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9eba6d91-f4ff-49b6-bb99-5d150ce2ef43
+  sourceMeshRendererGUID: d10eb20c-fe06-402c-ac9c-ede0b036bb8d
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -12000,7 +12004,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a0acbe84-0395-481e-b71b-0087f13de89e
+    name: UM_OperatedMesh_81ee136b-93cd-489d-98f7-7e10dc5424b2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 169de74ff08850745b9b997f4daa92e5, type: 2}
     buidVersion:
@@ -12012,7 +12016,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a0acbe84-0395-481e-b71b-0087f13de89e
+  sourceMeshRendererGUID: 81ee136b-93cd-489d-98f7-7e10dc5424b2
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -16929,7 +16933,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_779a35a0-8e20-49c9-850e-b42711c52648
+    name: UM_OperatedMesh_c599848e-3722-482a-851a-456ccb60068d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9d8b01ca12b3d1345bfa9b7507e8fc5f, type: 2}
     buidVersion:
@@ -16941,7 +16945,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 779a35a0-8e20-49c9-850e-b42711c52648
+  sourceMeshRendererGUID: c599848e-3722-482a-851a-456ccb60068d
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
