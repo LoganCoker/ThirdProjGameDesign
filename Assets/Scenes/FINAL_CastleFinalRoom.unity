@@ -286,7 +286,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_39317fdf-42b7-4043-9cfd-94f3fd19cfa5
+    name: UM_OperatedMesh_3fd76a40-9023-458f-a22d-84a4fbc9609d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: acffa9a8ac32722408aa37ca2e1059a4, type: 2}
     buidVersion:
@@ -298,7 +298,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 39317fdf-42b7-4043-9cfd-94f3fd19cfa5
+  sourceMeshRendererGUID: 3fd76a40-9023-458f-a22d-84a4fbc9609d
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -709,7 +709,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_71450cf7-98d3-4e39-8968-f75cb506d11b
+    name: UM_OperatedMesh_d86b85f1-28f6-437b-a813-e6b4d96cd82a
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0b5209551cc223a42b57be5724d4343c, type: 2}
     buidVersion:
@@ -721,7 +721,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 71450cf7-98d3-4e39-8968-f75cb506d11b
+  sourceMeshRendererGUID: d86b85f1-28f6-437b-a813-e6b4d96cd82a
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -864,7 +864,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ab342b13-c1fd-47f5-b272-904671e303fb
+    name: UM_OperatedMesh_6d132a58-09ef-47d0-9f84-bcd08dd4be52
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: f501b95de2745384084020964db8087f, type: 2}
     buidVersion:
@@ -876,7 +876,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ab342b13-c1fd-47f5-b272-904671e303fb
+  sourceMeshRendererGUID: 6d132a58-09ef-47d0-9f84-bcd08dd4be52
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -5850,7 +5850,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_29d403b5-14bf-47c1-951e-7cfc5da3673e
+    name: UM_OperatedMesh_0b1a8314-16f5-4e8c-988c-7b20aa5be5d0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 54addf711a53a8349886b1626cb93f8c, type: 2}
     buidVersion:
@@ -5862,7 +5862,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 29d403b5-14bf-47c1-951e-7cfc5da3673e
+  sourceMeshRendererGUID: 0b1a8314-16f5-4e8c-988c-7b20aa5be5d0
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -5983,7 +5983,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5ba38f56-9e80-471f-89cf-4bc2922f6c24
+    name: UM_OperatedMesh_6b7f8e12-9537-4b4a-81f6-fa72949e8792
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 5630725e494cc9844a4905d85c0aa2a6, type: 2}
     buidVersion:
@@ -5995,7 +5995,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5ba38f56-9e80-471f-89cf-4bc2922f6c24
+  sourceMeshRendererGUID: 6b7f8e12-9537-4b4a-81f6-fa72949e8792
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -6431,7 +6431,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6ea12eff-21f4-4a58-bcc0-c76b76cf7366
+    name: UM_OperatedMesh_274ab5bf-4713-4356-abf2-37c700fb9f22
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c0ab4f338a2ae914f8bdce50623fba07, type: 2}
     buidVersion:
@@ -6443,7 +6443,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6ea12eff-21f4-4a58-bcc0-c76b76cf7366
+  sourceMeshRendererGUID: 274ab5bf-4713-4356-abf2-37c700fb9f22
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -6459,6 +6459,183 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!1001 &151852364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2326301516122661622, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_Name
+      value: Moving Player footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9921958
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.12469021
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000000842937
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000052683564
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633892
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7748988
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9890365
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.14767133
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000016858739
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000026341779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4806366
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 69.843
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795380660382156660, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98903656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.14767136
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000052683564
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955843353969255860, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955843353969255860, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98532784
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17067227
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000005268356
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
 --- !u!1 &200256280
 GameObject:
   m_ObjectHideFlags: 0
@@ -7044,7 +7221,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CaslteFloor.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6843777f-7a68-4eef-a45a-dd9bf1238ba9
+    name: UM_OperatedMesh_d90002e5-fe2d-4449-9db1-f23de9f91583
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6c6e69d0bf6d21e4195bc8a5125cfb27, type: 2}
     buidVersion:
@@ -7056,7 +7233,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6843777f-7a68-4eef-a45a-dd9bf1238ba9
+  sourceMeshRendererGUID: d90002e5-fe2d-4449-9db1-f23de9f91583
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -7333,7 +7510,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1b78e875-06f7-4678-ab69-19e4f4078eb4
+    name: UM_OperatedMesh_9ade4531-58de-4ee8-9e5f-090a64df6bba
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 10418a45daa84b147b306d3956668273, type: 2}
     buidVersion:
@@ -7345,7 +7522,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1b78e875-06f7-4678-ab69-19e4f4078eb4
+  sourceMeshRendererGUID: 9ade4531-58de-4ee8-9e5f-090a64df6bba
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -7756,7 +7933,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0305c521-3859-4e3f-98ab-78f88d4a2b44
+    name: UM_OperatedMesh_937e1742-b916-47c6-8b6d-3a038f8aaff1
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 46f44638052de90478fb4df0b6970c12, type: 2}
     buidVersion:
@@ -7768,7 +7945,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0305c521-3859-4e3f-98ab-78f88d4a2b44
+  sourceMeshRendererGUID: 937e1742-b916-47c6-8b6d-3a038f8aaff1
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -7911,7 +8088,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5201fa19-08cf-4219-b1f2-a2c4d500c096
+    name: UM_OperatedMesh_59971866-cf0c-4b43-8f2f-44c69f8425db
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c96d5e86c75e84a42ac82f6f18db79fe, type: 2}
     buidVersion:
@@ -7923,7 +8100,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5201fa19-08cf-4219-b1f2-a2c4d500c096
+  sourceMeshRendererGUID: 59971866-cf0c-4b43-8f2f-44c69f8425db
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -8066,7 +8243,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ab773d76-8e3c-4283-9842-fd01b1b257ca
+    name: UM_OperatedMesh_ac09f2a3-28ca-4fed-baec-9f8106bc1798
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: cf6df919933d9164995f6900d8a9e0b7, type: 2}
     buidVersion:
@@ -8078,7 +8255,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ab773d76-8e3c-4283-9842-fd01b1b257ca
+  sourceMeshRendererGUID: ac09f2a3-28ca-4fed-baec-9f8106bc1798
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -8199,7 +8376,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bc9b44d8-f205-4fd9-b409-baee9c96a5a4
+    name: UM_OperatedMesh_211a66df-802d-4211-9106-1297709ea0e2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 28a4d42f52e7452438113383aba999b4, type: 2}
     buidVersion:
@@ -8211,7 +8388,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bc9b44d8-f205-4fd9-b409-baee9c96a5a4
+  sourceMeshRendererGUID: 211a66df-802d-4211-9106-1297709ea0e2
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -8332,7 +8509,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c50a4628-0f25-4d1b-801d-7ea8c03e87a2
+    name: UM_OperatedMesh_2cf60f87-b86e-4d93-b58d-3da2ab291a51
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 84dbb2ab1f014bf479a6e3888551889d, type: 2}
     buidVersion:
@@ -8344,7 +8521,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c50a4628-0f25-4d1b-801d-7ea8c03e87a2
+  sourceMeshRendererGUID: 2cf60f87-b86e-4d93-b58d-3da2ab291a51
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -8487,7 +8664,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ae785cc3-7401-40ae-bbbd-cd20143bd6f7
+    name: UM_OperatedMesh_6ecc5731-51e9-4c06-8003-dc741a3e02cf
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 75b2f8a946a9e6740a0442ee872ecd79, type: 2}
     buidVersion:
@@ -8499,7 +8676,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ae785cc3-7401-40ae-bbbd-cd20143bd6f7
+  sourceMeshRendererGUID: 6ecc5731-51e9-4c06-8003-dc741a3e02cf
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -8642,7 +8819,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_26797752-bc38-499b-b208-e9b37cf1b08b
+    name: UM_OperatedMesh_86861bd0-b76a-4954-94a6-ebc704ed9771
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 106f69c6b71d09d4cacca6e9beb5ea78, type: 2}
     buidVersion:
@@ -8654,7 +8831,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 26797752-bc38-499b-b208-e9b37cf1b08b
+  sourceMeshRendererGUID: 86861bd0-b76a-4954-94a6-ebc704ed9771
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -8797,7 +8974,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9bbe1cea-0a06-49e5-91e9-7d4dceb866d3
+    name: UM_OperatedMesh_94e18cb0-6548-475d-813d-1be30be1d6c9
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: b89878e64631dad4d937b93bb68ecf97, type: 2}
     buidVersion:
@@ -8809,7 +8986,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9bbe1cea-0a06-49e5-91e9-7d4dceb866d3
+  sourceMeshRendererGUID: 94e18cb0-6548-475d-813d-1be30be1d6c9
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -9069,7 +9246,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_49aee116-e4c8-4f71-84af-9225209b36f1
+    name: UM_OperatedMesh_6560a3ac-700d-4b66-88ea-3fa691b1dbea
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6aaaa5d4edc243b40996511180931087, type: 2}
     buidVersion:
@@ -9081,7 +9258,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 49aee116-e4c8-4f71-84af-9225209b36f1
+  sourceMeshRendererGUID: 6560a3ac-700d-4b66-88ea-3fa691b1dbea
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -9224,7 +9401,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9bb8a3ef-02fb-4cf9-b73c-d9d0cd14c4a4
+    name: UM_OperatedMesh_47062e52-21f0-45b0-b4c5-7b75745a1275
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1a024a49df8ab0744a7564723f23c047, type: 2}
     buidVersion:
@@ -9236,7 +9413,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9bb8a3ef-02fb-4cf9-b73c-d9d0cd14c4a4
+  sourceMeshRendererGUID: 47062e52-21f0-45b0-b4c5-7b75745a1275
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -9357,7 +9534,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b43df19b-6fb5-4570-8562-e5f75aff5450
+    name: UM_OperatedMesh_a902446a-4463-4050-9050-718e0ecdc57a
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: b88cc08ba2f40284998b4a6fb5193f07, type: 2}
     buidVersion:
@@ -9369,7 +9546,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b43df19b-6fb5-4570-8562-e5f75aff5450
+  sourceMeshRendererGUID: a902446a-4463-4050-9050-718e0ecdc57a
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -9897,7 +10074,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a9ab4c00-c54f-4e18-af8f-673c03aff634
+    name: UM_OperatedMesh_fa341bfa-c745-4074-a645-ed91317c82d5
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 22b8509a6d2283040b856b21bf642deb, type: 2}
     buidVersion:
@@ -9909,7 +10086,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a9ab4c00-c54f-4e18-af8f-673c03aff634
+  sourceMeshRendererGUID: fa341bfa-c745-4074-a645-ed91317c82d5
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -15092,7 +15269,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5e79d84e-ceaa-4feb-b9a8-4298226d6981
+    name: UM_OperatedMesh_079ee217-4fb4-49af-8e92-d5c1aa51c652
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c3427260269a20e46b2ed3e47cf5413d, type: 2}
     buidVersion:
@@ -15104,7 +15281,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5e79d84e-ceaa-4feb-b9a8-4298226d6981
+  sourceMeshRendererGUID: 079ee217-4fb4-49af-8e92-d5c1aa51c652
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -15225,7 +15402,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ec0337bf-5f90-47e6-ac65-b2a00f273a53
+    name: UM_OperatedMesh_1087c1fd-4c6a-4a2d-aec9-09307869f186
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ec4e98b6a5cd1414ea837d027a4d7650, type: 2}
     buidVersion:
@@ -15237,7 +15414,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ec0337bf-5f90-47e6-ac65-b2a00f273a53
+  sourceMeshRendererGUID: 1087c1fd-4c6a-4a2d-aec9-09307869f186
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -15385,7 +15562,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0ac1aa6c-e624-4a8a-99c8-1913de87dd33
+    name: UM_OperatedMesh_b13bb761-2a61-4be5-8eac-04effa580cc4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 65f8a4f637bebd746a44138967e20050, type: 2}
     buidVersion:
@@ -15397,7 +15574,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0ac1aa6c-e624-4a8a-99c8-1913de87dd33
+  sourceMeshRendererGUID: b13bb761-2a61-4be5-8eac-04effa580cc4
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -15518,7 +15695,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1ad01e00-e8fa-4174-ae4b-8f924acfd936
+    name: UM_OperatedMesh_2d3e0433-1cbb-41cf-8d54-45c4d0c3a4f2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 70cc2838db6c1c64191a16116b3aaf85, type: 2}
     buidVersion:
@@ -15530,7 +15707,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1ad01e00-e8fa-4174-ae4b-8f924acfd936
+  sourceMeshRendererGUID: 2d3e0433-1cbb-41cf-8d54-45c4d0c3a4f2
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -15775,7 +15952,7 @@ PrefabInstance:
     - target: {fileID: 9109595537784681203, guid: dbe42a880f4c7bd48a912f6ca03d6f86, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1690670827}
+      objectReference: {fileID: 0}
     - target: {fileID: 9109595537784681203, guid: dbe42a880f4c7bd48a912f6ca03d6f86, type: 3}
       propertyPath: healthBar
       value: 
@@ -20950,7 +21127,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_31ff22d4-2a74-4300-b47e-e30f358c19de
+    name: UM_OperatedMesh_195e4c25-df21-461f-8d83-1f79c04f6518
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 78fe1dce398ae0f4e8de2170fd8ba137, type: 2}
     buidVersion:
@@ -20962,7 +21139,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 31ff22d4-2a74-4300-b47e-e30f358c19de
+  sourceMeshRendererGUID: 195e4c25-df21-461f-8d83-1f79c04f6518
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -21105,7 +21282,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CaslteFloor.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_01f9a0a4-6fac-4bfd-9b6c-e268fa0f31f5
+    name: UM_OperatedMesh_13b018a9-5fc8-4754-b406-d07ef74aaf2e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 19341e3b0e75d58479a45378260483db, type: 2}
     buidVersion:
@@ -21117,7 +21294,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 01f9a0a4-6fac-4bfd-9b6c-e268fa0f31f5
+  sourceMeshRendererGUID: 13b018a9-5fc8-4754-b406-d07ef74aaf2e
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -21238,7 +21415,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_78fd5af9-f002-4c03-b685-82be257d7802
+    name: UM_OperatedMesh_9293c249-fb8c-4e51-8b65-41cca7c7710f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c911b05ef686ff64d9d029977ec8065a, type: 2}
     buidVersion:
@@ -21250,7 +21427,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 78fd5af9-f002-4c03-b685-82be257d7802
+  sourceMeshRendererGUID: 9293c249-fb8c-4e51-8b65-41cca7c7710f
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -21393,7 +21570,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_455ce28a-5283-4793-9a09-18dc62587f98
+    name: UM_OperatedMesh_684b8cdb-1d64-457c-88d2-65e441b43cc2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: df03be6a3e463b74bb8f4331ae666c5f, type: 2}
     buidVersion:
@@ -21405,7 +21582,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 455ce28a-5283-4793-9a09-18dc62587f98
+  sourceMeshRendererGUID: 684b8cdb-1d64-457c-88d2-65e441b43cc2
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -26390,7 +26567,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5f50e5d7-4535-49fb-b7a1-b59ab03332cd
+    name: UM_OperatedMesh_8e53e630-5814-46d6-b8d7-285b38eaaff4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 724b72a6838c38f4ab6cbe9057cbd943, type: 2}
     buidVersion:
@@ -26402,7 +26579,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5f50e5d7-4535-49fb-b7a1-b59ab03332cd
+  sourceMeshRendererGUID: 8e53e630-5814-46d6-b8d7-285b38eaaff4
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -26545,7 +26722,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7133cbcb-91e5-4cbd-bdd8-67574c5f5307
+    name: UM_OperatedMesh_783273f0-bc97-4545-a2fb-f24384b37893
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2af839a9f8f7aa148af317c024332754, type: 2}
     buidVersion:
@@ -26557,7 +26734,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7133cbcb-91e5-4cbd-bdd8-67574c5f5307
+  sourceMeshRendererGUID: 783273f0-bc97-4545-a2fb-f24384b37893
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -27006,7 +27183,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_32eb74d3-29c8-452a-b1a6-2fe0eca872ee
+    name: UM_OperatedMesh_bf82c1ed-ad04-499d-a4a5-331af40644ec
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: aa6b955dfa7eb8e43a4c50b3dfd84ff7, type: 2}
     buidVersion:
@@ -27018,7 +27195,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 32eb74d3-29c8-452a-b1a6-2fe0eca872ee
+  sourceMeshRendererGUID: bf82c1ed-ad04-499d-a4a5-331af40644ec
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -27226,7 +27403,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6765881a-808f-4ea4-946c-55235aa77d5a
+    name: UM_OperatedMesh_04ca9906-93a6-4156-a052-70ef59b493b8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c4523ff47b3145e4fa0b2a8f023eee77, type: 2}
     buidVersion:
@@ -27238,7 +27415,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6765881a-808f-4ea4-946c-55235aa77d5a
+  sourceMeshRendererGUID: 04ca9906-93a6-4156-a052-70ef59b493b8
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -27660,7 +27837,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_392bf0f6-c344-438e-bc4d-4e6da4615597
+    name: UM_OperatedMesh_602f76d2-89fb-4a66-acce-8d57891f835b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d691cb8eb4310a94d8f7b33b70f2c042, type: 2}
     buidVersion:
@@ -27672,7 +27849,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 392bf0f6-c344-438e-bc4d-4e6da4615597
+  sourceMeshRendererGUID: 602f76d2-89fb-4a66-acce-8d57891f835b
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -27815,7 +27992,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bcd5927d-f753-440f-9b26-922969c4e8b5
+    name: UM_OperatedMesh_2208838b-2e3c-49c6-8cff-45456d4461b6
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d90211fd6385e5649a1ae8f16c5bec1e, type: 2}
     buidVersion:
@@ -27827,7 +28004,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bcd5927d-f753-440f-9b26-922969c4e8b5
+  sourceMeshRendererGUID: 2208838b-2e3c-49c6-8cff-45456d4461b6
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -28172,7 +28349,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CaslteFloor.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a553b758-01af-49e4-80e8-c1f6d3c261f7
+    name: UM_OperatedMesh_c6c24058-115a-4422-83e2-2e43d6c806f7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 72bb8171e69e9504180d8a95f2ac6fd5, type: 2}
     buidVersion:
@@ -28184,7 +28361,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a553b758-01af-49e4-80e8-c1f6d3c261f7
+  sourceMeshRendererGUID: c6c24058-115a-4422-83e2-2e43d6c806f7
   guid: 7718f305-1de5-4346-9b95-eebbdfabbfbd
   localOptions:
     RecalculateTangents: 0
@@ -28754,7 +28931,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e6b9c968-4acc-438c-bed1-4817d351092e
+    name: UM_OperatedMesh_c360df7a-033c-48ad-afc8-f840060cc57d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: bbd610ea8e3f67c428d976f59022b060, type: 2}
     buidVersion:
@@ -28766,7 +28943,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e6b9c968-4acc-438c-bed1-4817d351092e
+  sourceMeshRendererGUID: c360df7a-033c-48ad-afc8-f840060cc57d
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -28909,7 +29086,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9c6f9170-3bd8-4b33-9917-320694ad9333
+    name: UM_OperatedMesh_66dd07d3-3b4d-4ae0-b929-58eb0ecf923a
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 52202489b76607c41a0d2e2f3af7e483, type: 2}
     buidVersion:
@@ -28921,7 +29098,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9c6f9170-3bd8-4b33-9917-320694ad9333
+  sourceMeshRendererGUID: 66dd07d3-3b4d-4ae0-b929-58eb0ecf923a
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -29064,7 +29241,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_716f9014-17db-4b9b-aefb-f8ef92fd136d
+    name: UM_OperatedMesh_04a75c78-7e6b-414d-948a-b2ca2d855c93
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 81e2fc81914a5dd4eb34aea20be7987e, type: 2}
     buidVersion:
@@ -29076,7 +29253,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 716f9014-17db-4b9b-aefb-f8ef92fd136d
+  sourceMeshRendererGUID: 04a75c78-7e6b-414d-948a-b2ca2d855c93
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -29336,7 +29513,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_95a66b71-6f05-4f39-86f3-411513fe8feb
+    name: UM_OperatedMesh_90630ceb-b930-4025-b288-957a654c67aa
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1f5a454d04f9ce049814105f4cd7d0ff, type: 2}
     buidVersion:
@@ -29348,7 +29525,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 95a66b71-6f05-4f39-86f3-411513fe8feb
+  sourceMeshRendererGUID: 90630ceb-b930-4025-b288-957a654c67aa
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -29491,7 +29668,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6d7130e7-3371-44f0-9122-a48a5eaeb6bb
+    name: UM_OperatedMesh_c9211673-adbf-4db4-8f41-30ed5e10b2f1
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 997f37b7d36ee38458261615b452bd17, type: 2}
     buidVersion:
@@ -29503,7 +29680,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6d7130e7-3371-44f0-9122-a48a5eaeb6bb
+  sourceMeshRendererGUID: c9211673-adbf-4db4-8f41-30ed5e10b2f1
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -29646,7 +29823,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c8fa8b57-ac0e-42c9-a0dc-0e24e2c7db1a
+    name: UM_OperatedMesh_000ead89-04a2-4fbe-8c55-533293eef6db
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9e5ea72312a8c5b4f8fa781738921481, type: 2}
     buidVersion:
@@ -29658,7 +29835,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c8fa8b57-ac0e-42c9-a0dc-0e24e2c7db1a
+  sourceMeshRendererGUID: 000ead89-04a2-4fbe-8c55-533293eef6db
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -29801,7 +29978,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_15bb2ae1-844c-44e1-b27f-9ca22e15e8c5
+    name: UM_OperatedMesh_b5e02a93-b9cd-4191-840b-be57b3360cc5
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 21fde79966af63f44911e4ae12833d50, type: 2}
     buidVersion:
@@ -29813,7 +29990,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 15bb2ae1-844c-44e1-b27f-9ca22e15e8c5
+  sourceMeshRendererGUID: b5e02a93-b9cd-4191-840b-be57b3360cc5
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -30222,7 +30399,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bea93a54-4956-44ed-9b06-096b1d24f9a9
+    name: UM_OperatedMesh_db7c03ff-02a4-4cbf-b811-3bb6d08389bf
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 53d6d66d4fa3c3e47825664a86bc7958, type: 2}
     buidVersion:
@@ -30234,7 +30411,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bea93a54-4956-44ed-9b06-096b1d24f9a9
+  sourceMeshRendererGUID: db7c03ff-02a4-4cbf-b811-3bb6d08389bf
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -35691,7 +35868,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CaslteFloor.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1a4dcf5c-da82-412b-9b2a-de4cf28d9b7a
+    name: UM_OperatedMesh_c5e86a6c-857d-4f8b-9cb1-675c525f27dd
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 486d7edcdbfe8f84db79d996a6a6e404, type: 2}
     buidVersion:
@@ -35703,7 +35880,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1a4dcf5c-da82-412b-9b2a-de4cf28d9b7a
+  sourceMeshRendererGUID: c5e86a6c-857d-4f8b-9cb1-675c525f27dd
   guid: 74ee6ff9-c844-4a37-9685-ec799c8ee167
   localOptions:
     RecalculateTangents: 0
@@ -35861,7 +36038,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_78aace1e-f8b1-40cc-b4da-55d0099aa7c3
+    name: UM_OperatedMesh_165a07da-093a-4ec0-9c26-a283b2a6de22
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 36ecb000b1567734fbd64686daf80fa4, type: 2}
     buidVersion:
@@ -35873,7 +36050,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 78aace1e-f8b1-40cc-b4da-55d0099aa7c3
+  sourceMeshRendererGUID: 165a07da-093a-4ec0-9c26-a283b2a6de22
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -35889,212 +36066,6 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
---- !u!1001 &1690670826
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -3192386737402613392, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_XAxis.Value
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1416912671609523999, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_XAxis.Value
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 364884323919543881, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0000009536743
-      objectReference: {fileID: 0}
-    - target: {fileID: 364884323919543881, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 512444206953022009, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.0037525203
-      objectReference: {fileID: 0}
-    - target: {fileID: 512444206953022009, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.005497209
-      objectReference: {fileID: 0}
-    - target: {fileID: 512444206953022009, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.0056947977
-      objectReference: {fileID: 0}
-    - target: {fileID: 1937022122275819284, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_XAxis.Value
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0000038146973
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.98532784
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.17067228
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.00000023841858
-      objectReference: {fileID: 0}
-    - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.633892
-      objectReference: {fileID: 0}
-    - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.7748988
-      objectReference: {fileID: 0}
-    - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9890365
-      objectReference: {fileID: 0}
-    - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.14767118
-      objectReference: {fileID: 0}
-    - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.000000084293696
-      objectReference: {fileID: 0}
-    - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.000000010536712
-      objectReference: {fileID: 0}
-    - target: {fileID: 2554516545563666071, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2554516545563666071, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0000038146973
-      objectReference: {fileID: 0}
-    - target: {fileID: 2554516545563666071, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9921958
-      objectReference: {fileID: 0}
-    - target: {fileID: 2554516545563666071, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.124690235
-      objectReference: {fileID: 0}
-    - target: {fileID: 2554516545563666071, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2554516545563666071, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3551027362293526570, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3588916513074244803, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 1947476827}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 19.192
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.4806366
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.609
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4257543469823106185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4416101980664970793, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4416101980664970793, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0000038146973
-      objectReference: {fileID: 0}
-    - target: {fileID: 4416101980664970793, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.98903656
-      objectReference: {fileID: 0}
-    - target: {fileID: 4416101980664970793, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.14767134
-      objectReference: {fileID: 0}
-    - target: {fileID: 4416101980664970793, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4416101980664970793, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5417882974779209995, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_Name
-      value: Moving Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5419316043330474185, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-      propertyPath: m_XAxis.Value
-      value: 90
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
---- !u!4 &1690670827 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2604782072062752807, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
-  m_PrefabInstance: {fileID: 1690670826}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1697021749 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8231077778132499141, guid: db028276c57935d479251674f6cd1c36, type: 3}
@@ -36250,7 +36221,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_74287d40-687c-486b-9ad4-e8652f5ff5f6
+    name: UM_OperatedMesh_9fc8ef94-f9dd-446f-9fc0-7bc53198b4d3
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: b4425984e8d094f43b06bea51a9a821f, type: 2}
     buidVersion:
@@ -36262,7 +36233,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 74287d40-687c-486b-9ad4-e8652f5ff5f6
+  sourceMeshRendererGUID: 9fc8ef94-f9dd-446f-9fc0-7bc53198b4d3
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -36405,7 +36376,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e2b1083b-a4b9-4419-bd2a-7eaa714e66ba
+    name: UM_OperatedMesh_c8a17b05-1983-4672-8c99-3c12b33d656a
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fa7ab8e5a554f7b4d9fd267264bd020d, type: 2}
     buidVersion:
@@ -36417,7 +36388,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e2b1083b-a4b9-4419-bd2a-7eaa714e66ba
+  sourceMeshRendererGUID: c8a17b05-1983-4672-8c99-3c12b33d656a
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -36538,7 +36509,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_57c9fbc9-e149-492e-9eca-277d1a310998
+    name: UM_OperatedMesh_3c15c248-4ed1-460f-996d-79314bf7de02
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 5b976d82a26410849bc97ccd2d95338f, type: 2}
     buidVersion:
@@ -36550,7 +36521,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 57c9fbc9-e149-492e-9eca-277d1a310998
+  sourceMeshRendererGUID: 3c15c248-4ed1-460f-996d-79314bf7de02
   guid: f3a9c2e7-2f4e-4828-a337-5194947a16b5
   localOptions:
     RecalculateTangents: 0
@@ -36693,7 +36664,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5873ea0a-4f1e-463f-9954-77eff5f50f9b
+    name: UM_OperatedMesh_586df4ce-819c-4a38-bfa7-f6f643ada8c0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 51e90f30776f8db4183c85dd1f26e776, type: 2}
     buidVersion:
@@ -36705,7 +36676,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5873ea0a-4f1e-463f-9954-77eff5f50f9b
+  sourceMeshRendererGUID: 586df4ce-819c-4a38-bfa7-f6f643ada8c0
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -37156,7 +37127,7 @@ MonoBehaviour:
   - Assets/Materials/RedCarpet.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f84507cd-9c82-4ba4-9b53-45e9c51b790b
+    name: UM_OperatedMesh_0462f307-d27d-4cf0-9979-4ae1df75e470
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 149fa0631dcee2c4a8a3d05daea8878a, type: 2}
     buidVersion:
@@ -37168,7 +37139,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f84507cd-9c82-4ba4-9b53-45e9c51b790b
+  sourceMeshRendererGUID: 0462f307-d27d-4cf0-9979-4ae1df75e470
   guid: 67cf8d68-774c-46c9-a179-99c9726a7287
   localOptions:
     RecalculateTangents: 0
@@ -37311,7 +37282,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_48906b1d-4e23-4560-b4f0-084dcf19c6ca
+    name: UM_OperatedMesh_9f49e464-3a5f-4a48-9bf6-0e63b4dd2408
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fe9515179fda17b49922b44eb677787d, type: 2}
     buidVersion:
@@ -37323,7 +37294,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 48906b1d-4e23-4560-b4f0-084dcf19c6ca
+  sourceMeshRendererGUID: 9f49e464-3a5f-4a48-9bf6-0e63b4dd2408
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -37466,7 +37437,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_36ff0c60-5c93-4e78-91b6-64a0768f77f5
+    name: UM_OperatedMesh_5168ddfa-bd47-4d51-8f9b-925f015b63d5
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: da5436910485b9e438d76993460f3b8f, type: 2}
     buidVersion:
@@ -37478,7 +37449,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 36ff0c60-5c93-4e78-91b6-64a0768f77f5
+  sourceMeshRendererGUID: 5168ddfa-bd47-4d51-8f9b-925f015b63d5
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -37621,7 +37592,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_776394ae-2a1f-4b95-847c-95979a7ad1e7
+    name: UM_OperatedMesh_7a31d232-6837-484d-85cc-2d80934b76cf
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: de6a6b25e10027442bbec0432d971974, type: 2}
     buidVersion:
@@ -37633,7 +37604,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 776394ae-2a1f-4b95-847c-95979a7ad1e7
+  sourceMeshRendererGUID: 7a31d232-6837-484d-85cc-2d80934b76cf
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -37777,7 +37748,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CaslteFloor.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_daf67827-f38a-493c-b0ad-6bb0ebb55b65
+    name: UM_OperatedMesh_9b6c4ede-9703-4a1a-9d2e-a512abcb0ac2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 7a3e0785069facd4da5c0c0768430ea8, type: 2}
     buidVersion:
@@ -37789,7 +37760,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: daf67827-f38a-493c-b0ad-6bb0ebb55b65
+  sourceMeshRendererGUID: 9b6c4ede-9703-4a1a-9d2e-a512abcb0ac2
   guid: 67cf8d68-774c-46c9-a179-99c9726a7287
   localOptions:
     RecalculateTangents: 0
@@ -38037,17 +38008,6 @@ PrefabInstance:
       addedObject: {fileID: 363898666}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22b1ecf0713686f44b0d0083be838663, type: 3}
---- !u!114 &1947476827 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1581180608875302629, guid: 22b1ecf0713686f44b0d0083be838663, type: 3}
-  m_PrefabInstance: {fileID: 1947476826}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1947476828 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5423575694964600265, guid: 22b1ecf0713686f44b0d0083be838663, type: 3}
@@ -38531,7 +38491,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_484cd6b4-d13d-427a-a655-2ec56a69d28d
+    name: UM_OperatedMesh_09441861-043c-441f-8ff3-4c4190c25175
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: bf06e5f2571478a4596f21d6eb1e0bb0, type: 2}
     buidVersion:
@@ -38543,7 +38503,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 484cd6b4-d13d-427a-a655-2ec56a69d28d
+  sourceMeshRendererGUID: 09441861-043c-441f-8ff3-4c4190c25175
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -38686,7 +38646,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_69b0305b-1c6d-414d-9d14-b61d690b7a66
+    name: UM_OperatedMesh_2e7ac872-b519-400e-984b-5974b5e7d64d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 219d7dfc524346f4bbf4dccd3804b36a, type: 2}
     buidVersion:
@@ -38698,7 +38658,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 69b0305b-1c6d-414d-9d14-b61d690b7a66
+  sourceMeshRendererGUID: 2e7ac872-b519-400e-984b-5974b5e7d64d
   guid: 1d582de2-3ff3-4454-9056-86c8fd076bb8
   localOptions:
     RecalculateTangents: 0
@@ -38841,7 +38801,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1b11eda9-78a5-42d7-9a42-e95204db5012
+    name: UM_OperatedMesh_dad1a43c-52d9-4098-8dfe-f02f50fb35ef
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: c0f081d34a418324bae3c4058a797faa, type: 2}
     buidVersion:
@@ -38853,7 +38813,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1b11eda9-78a5-42d7-9a42-e95204db5012
+  sourceMeshRendererGUID: dad1a43c-52d9-4098-8dfe-f02f50fb35ef
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -38996,7 +38956,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2656edf0-b9a4-4229-a394-bf4d473687ef
+    name: UM_OperatedMesh_b2c28fd6-0726-47b0-9a3d-9801e58254db
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 938469259d8c580468e015e95c62cfac, type: 2}
     buidVersion:
@@ -39008,7 +38968,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2656edf0-b9a4-4229-a394-bf4d473687ef
+  sourceMeshRendererGUID: b2c28fd6-0726-47b0-9a3d-9801e58254db
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -39277,7 +39237,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9a49f2f0-9bc2-48f1-84c3-4645233d23c2
+    name: UM_OperatedMesh_b0f657b7-6e10-41e4-be55-12c39b105f85
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d6bca8b44612d5c4281ef3572093ab9b, type: 2}
     buidVersion:
@@ -39289,7 +39249,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9a49f2f0-9bc2-48f1-84c3-4645233d23c2
+  sourceMeshRendererGUID: b0f657b7-6e10-41e4-be55-12c39b105f85
   guid: fc97555a-6dce-42ae-a768-85f19076af85
   localOptions:
     RecalculateTangents: 0
@@ -39432,7 +39392,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_10c21bd0-c892-4a03-9801-66f656aada23
+    name: UM_OperatedMesh_76c42828-3765-4bc8-854a-df2fb0542ab6
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: e3464e07743495046aa14ac10277f89a, type: 2}
     buidVersion:
@@ -39444,7 +39404,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 10c21bd0-c892-4a03-9801-66f656aada23
+  sourceMeshRendererGUID: 76c42828-3765-4bc8-854a-df2fb0542ab6
   guid: dc848221-cba5-46b0-981f-679c1fa36c5e
   localOptions:
     RecalculateTangents: 0
@@ -39599,7 +39559,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1121061633}
-  - {fileID: 1690670826}
   - {fileID: 1957942969}
   - {fileID: 1677570759}
   - {fileID: 1293489310}
@@ -39622,3 +39581,4 @@ SceneRoots:
   - {fileID: 1988908252}
   - {fileID: 656171554}
   - {fileID: 1101900428}
+  - {fileID: 151852364}

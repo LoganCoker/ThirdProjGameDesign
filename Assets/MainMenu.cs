@@ -6,12 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    [Header("Audio Settings")]
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private float fadeOutDuration = 1.5f;
 
+    public void Start()
+    {
+       AudioManager.Instance.FadeIn("MenuWind", 2f); 
+    }
     public void PlayGame(){
-        StartCoroutine(FadeOutAndLoadScene("Graveyard"));
+        AudioManager.Instance.FadeOut("MenuWind", 2f);
+
+        StartCoroutine(LoadSceneWithDelay("Graveyard", 0.2f));
     }
 
     public void Options(){
@@ -22,24 +25,9 @@ public class MainMenu : MonoBehaviour
     Application.Quit();
    }
 
-    private IEnumerator FadeOutAndLoadScene(string sceneName)
-    {
-        if (audioSource != null && audioSource.clip != null && audioSource.isPlaying)
-        {
-            float startVolume = audioSource.volume;
-            float timer = 0; 
-
-            while (timer < fadeOutDuration)
-            {
-                timer += Time.deltaTime;
-                audioSource.volume = Mathf.Lerp(startVolume, 0, timer / fadeOutDuration);
-                yield return null;
-            }
-
-            audioSource.volume = 0;
-            audioSource.Stop(); 
-        }
-
+   private IEnumerator LoadSceneWithDelay(string sceneName, float delay)
+   {
+        yield return new WaitForSeconds(delay);
         SceneManager.LoadSceneAsync(sceneName); 
-    }
+   }       
 }

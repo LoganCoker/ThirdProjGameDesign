@@ -764,8 +764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f7ceab41d20da41b95a241bed1a38b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  fadeOutDuration: 1.5
 --- !u!114 &535059390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1495,7 +1493,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fdcbe727bbee844a9cb3896ba0b44d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: MenuWind
+    clip: {fileID: 8300000, guid: 77472110ba7f5aa41beb22c76683141c, type: 3}
+    category: 2
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: DoorCreak
+    clip: {fileID: 8300000, guid: 3dce6ec05b18f4d409592453480d886b, type: 3}
+    category: 1
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: DoorSlam
+    clip: {fileID: 8300000, guid: c80434d00e768df499455b242c7d1dc6, type: 3}
+    category: 1
+    volume: 0.2
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: SwordSwing1
+    clip: {fileID: 8300000, guid: 6815788caf5102c48ae112a4035c5879, type: 3}
+    category: 1
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: SwordSwing2
+    clip: {fileID: 8300000, guid: 2253328f63e6329498032258479b1c83, type: 3}
+    category: 1
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: SwordSwing3
+    clip: {fileID: 8300000, guid: 38701bd5f07d24c4c9e132a85737b56e, type: 3}
+    category: 1
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: Footstep1
+    clip: {fileID: 8300000, guid: fa6988e8ad5ac2f49afce813b30fdf92, type: 3}
+    category: 1
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0.2
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: Footstep2
+    clip: {fileID: 8300000, guid: 60f471a3fcc22874ba8b461039bd9774, type: 3}
+    category: 1
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0.2
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: Footstep3
+    clip: {fileID: 8300000, guid: 602961380bf955b47acb4d8919dea76d, type: 3}
+    category: 1
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0.2
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: Footstep4
+    clip: {fileID: 8300000, guid: 2debaabc7bf0c4f4a8c2d90cb574c7df, type: 3}
+    category: 1
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0.2
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
+  - name: Footstep5
+    clip: {fileID: 8300000, guid: af1d1ff5c91a6de4992269031a9075af, type: 3}
+    category: 1
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0.2
+    loop: 0
+    playOnAwake: 0
+    randomPitchVariation: 0
+    source: {fileID: 0}
   audioMixer: {fileID: 0}
   musicMixerGroup: {fileID: 0}
   sfxMixerGroup: {fileID: 0}
@@ -2242,7 +2350,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_29b9d8ee-97a3-4ffc-9da6-7b66d3558e1a
+    name: UM_OperatedMesh_6c0151e5-8214-41e0-bfe4-981d18d579a2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fc78f152e3f64b1438e0b9d554c61315, type: 2}
     buidVersion:
@@ -2254,7 +2362,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 29b9d8ee-97a3-4ffc-9da6-7b66d3558e1a
+  sourceMeshRendererGUID: 6c0151e5-8214-41e0-bfe4-981d18d579a2
   guid: 672e4993-f947-4929-9c4c-73479598c4bd
   localOptions:
     RecalculateTangents: 0
@@ -12365,7 +12473,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b640cdd6-3737-4e97-8430-00dc7a517b38
+    name: UM_OperatedMesh_db76a230-5624-47d6-a308-87506c22a3d8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 23dc30b2f972d0047acd4007958457be, type: 2}
     buidVersion:
@@ -12377,7 +12485,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b640cdd6-3737-4e97-8430-00dc7a517b38
+  sourceMeshRendererGUID: db76a230-5624-47d6-a308-87506c22a3d8
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -12700,7 +12808,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6a270308-2523-48c4-9ba0-2e926aab3b9d
+    name: UM_OperatedMesh_311c4461-aee1-4c4e-875d-76cc1c636bee
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 169de74ff08850745b9b997f4daa92e5, type: 2}
     buidVersion:
@@ -12712,7 +12820,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6a270308-2523-48c4-9ba0-2e926aab3b9d
+  sourceMeshRendererGUID: 311c4461-aee1-4c4e-875d-76cc1c636bee
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -17629,7 +17737,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_93ba216e-b54c-4f03-98a2-481701cba217
+    name: UM_OperatedMesh_8fce4ff3-5a70-4932-b4fb-7adbada3074d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9d8b01ca12b3d1345bfa9b7507e8fc5f, type: 2}
     buidVersion:
@@ -17641,7 +17749,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 93ba216e-b54c-4f03-98a2-481701cba217
+  sourceMeshRendererGUID: 8fce4ff3-5a70-4932-b4fb-7adbada3074d
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
