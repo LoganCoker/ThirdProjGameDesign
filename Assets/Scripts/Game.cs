@@ -11,6 +11,8 @@ public class Game : MonoBehaviour {
     public static bool Paused { get; private set; }
 
     public static int Score { get; private set; }
+
+
     private float startTime;
     private const float maxTime = 8 * 60f;
 
@@ -59,10 +61,15 @@ public class Game : MonoBehaviour {
 
     public static int GetFinalScore()
     {
+        // time score multipier
         float elapsed = Time.time - Instance.startTime;
         float ratio = Mathf.Clamp01(elapsed/ maxTime);
         float multiplier = 1f + ratio;
         int finalScore = Mathf.RoundToInt(Score * multiplier);
+
+        // add score based on number of collectables collected
+        finalScore += PageUIManager.Instance.TotalCollected() * 1500;
+
         return finalScore;
     }
 }
