@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public enum Sounds {
     Walking,
@@ -43,6 +43,7 @@ public class SoundCollection {
 }
 
 public class SoundManager : MonoBehaviour {
+    [SerializeField] Slider volumeSlider;
 
     public float mainVolume = 1.0f;
     private Dictionary<Sounds, SoundCollection> sounds;
@@ -58,9 +59,36 @@ public class SoundManager : MonoBehaviour {
         };
     }
 
+    public void Start(){
+        if (!PlayerPrefs.HasKey("musicVolume"))
+        {
+            PlayerPrefs.SetFloat("musicVolume", 1);
+            Load();
+        }
+        else{
+            Load();
+        }
+    }
 
-    public void Play(Sounds type, AudioSource audioSrc = null) {
-        if (sounds.ContainsKey(type)) {
+    public void ChangeVolume()
+    {
+        AudioListener.volume = volumeSlider.value;
+        Save();
+    }
+
+    private void Load(){
+        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");  
+    }
+
+    private void Save(){
+        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
+    }
+
+
+    public void Play(Sounds type, AudioSource audioSrc = null)
+    {
+        if (sounds.ContainsKey(type))
+        {
             audioSrc ??= this.audioSrc;
             audioSrc.volume = Random.Range(0.70f, 1.0f) * mainVolume;
             audioSrc.pitch = Random.Range(0.75f, 1.25f);

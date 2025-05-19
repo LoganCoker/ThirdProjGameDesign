@@ -17,7 +17,9 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadSceneWithDelay("Graveyard", 0.2f));
     }
 
-    public void Options(){
+    public void Options()
+    {
+        AudioManager.Instance.FadeOut("MenuWind", 2f);
         
     }
    
