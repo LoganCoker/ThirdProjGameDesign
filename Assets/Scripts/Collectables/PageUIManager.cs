@@ -9,6 +9,8 @@ public class PageUIManager : MonoBehaviour
 
     public int numOfPages;
 
+    public GameObject[] pageOverlays;
+
     private bool[] collectedPages;
 
     private void Awake()
@@ -21,13 +23,28 @@ public class PageUIManager : MonoBehaviour
         }
         
         collectedPages = new bool[numOfPages];
+
+        for (int i = 0; i < pageOverlays.Length; i++)
+        {
+            if (pageOverlays[i] != null)
+                pageOverlays[i].SetActive(false);
+        }
     }
 
     public void CollectPage(int id)
     {
         if (id < 0 || id >= numOfPages) return;
-        
-        collectedPages[id] = true;
+
+        // mark and show UI
+        if (!collectedPages[id])
+        {
+            collectedPages[id] = true;
+
+            if (pageOverlays[id] != null)
+                pageOverlays[id].SetActive(true);
+
+            Debug.Log($"PageUIManager: showing page overlay {id}");
+        }
     }
 
     public int TotalCollected() {
