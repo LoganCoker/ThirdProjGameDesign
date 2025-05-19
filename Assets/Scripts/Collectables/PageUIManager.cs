@@ -5,10 +5,9 @@ using UnityEngine.UI;
 
 public class PageUIManager : MonoBehaviour
 {
-    public static PageUIManager Instance;
+    public static PageUIManager Instance { get; private set; }
 
-    [Tooltip("Drag in your 4 paper overlays here in order (Page 1 at index 0, Page 2 at index 1, etc).")]
-    public GameObject[] pageOverlays;  
+    public int numOfPages;
 
     private bool[] collectedPages;
 
@@ -20,24 +19,23 @@ public class PageUIManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         
-        int n = pageOverlays.Length;
-        collectedPages = new bool[n];
-
-        for (int i = 0; i < n; i++)
-            if (pageOverlays[i] != null)
-                pageOverlays[i].SetActive(false);
+        collectedPages = new bool[numOfPages];
     }
 
     public void CollectPage(int id)
     {
-        int idx = id - 1;
-        if (idx < 0 || idx >= pageOverlays.Length) return;
-        if (collectedPages[idx]) return;
+        if (id < 0 || id >= numOfPages) return;
+        
+        collectedPages[id] = true;
+    }
 
-        collectedPages[idx] = true;
-        pageOverlays[idx].SetActive(true);
+    public int TotalCollected() {
+        int total = 0;
+        foreach (bool page in collectedPages) {
+            if (page) total++;
+        }
+        return total;
     }
 }
 

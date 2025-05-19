@@ -2,23 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class PagePickup : MonoBehaviour
-{
-    public int pageID; 
-    public string pageText; 
+public class PagePickup : MonoBehaviour {
 
-    private bool collected = false;
+    public int pageID;
+    public Canvas msg;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (collected) return;
-        if (other.CompareTag("Player"))
-        {
-            collected = true;
+    private void Update() {
+        if (Input.GetKeyUp(KeyCode.Escape)) PageOff();
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Player")) {
             Debug.Log($"Collected page {pageID}");
             PageUIManager.Instance.CollectPage(pageID);
-            gameObject.SetActive(false);
+            ShowPage();
         }
+    }
+
+    private void ShowPage() {
+        print("hi");
+        msg.enabled = true;
+        Game.PauseGame();
+    }
+
+    private void PageOff() {
+        msg.enabled = false;
+        Game.ResumeGame();
+        gameObject.SetActive(false);
     }
 }
 
