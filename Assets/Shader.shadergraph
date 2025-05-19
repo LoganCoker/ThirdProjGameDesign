@@ -44,8 +44,8 @@
     "m_Edges": [],
     "m_VertexContext": {
         "m_Position": {
-            "x": -27.99999237060547,
-            "y": -858.4000244140625
+            "x": -28.000009536743165,
+            "y": -1494.4000244140625
         },
         "m_Blocks": [
             {
@@ -61,8 +61,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": -28.000009536743165,
+            "y": -1311.199951171875
         },
         "m_Blocks": [
             {
@@ -265,9 +265,9 @@
     "m_ShaderOutputName": "Emission",
     "m_StageCapability": 2,
     "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.0,
+        "y": 0.8444708585739136,
+        "z": 0.22452819347381593
     },
     "m_DefaultValue": {
         "x": 0.0,
@@ -295,9 +295,9 @@
     "m_ShaderOutputName": "BaseColor",
     "m_StageCapability": 2,
     "m_Value": {
-        "x": 0.5,
-        "y": 0.5,
-        "z": 0.5
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
     },
     "m_DefaultValue": {
         "x": 0.0,
@@ -447,10 +447,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": -16.800006866455079,
+            "y": -1276.800048828125,
+            "width": 199.99998474121095,
+            "height": 40.800048828125
         }
     },
     "m_Slots": [
