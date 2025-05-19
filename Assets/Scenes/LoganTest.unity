@@ -9265,11 +9265,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.000000084293696
       objectReference: {fileID: 0}
     - target: {fileID: 1972907586210591066, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.000000015805067
       objectReference: {fileID: 0}
     - target: {fileID: 2520830482906989172, guid: 81e5245bb94613c49bd8e917971aaacc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9729,6 +9729,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 292902788143807611, guid: 0db62859d7573b84fb28db8de666071b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
+    - target: {fileID: 1200312088663047122, guid: 0db62859d7573b84fb28db8de666071b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d362b3cfb1fdeec4a9a234d2b52f2a14, type: 2}
     - target: {fileID: 4551853684973902406, guid: 0db62859d7573b84fb28db8de666071b, type: 3}
       propertyPath: m_Name
       value: Fireball
@@ -9773,13 +9781,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6127648304648043150, guid: 0db62859d7573b84fb28db8de666071b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7783703797473506212, guid: 0db62859d7573b84fb28db8de666071b, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2031716777}
     - target: {fileID: 7783703797473506212, guid: 0db62859d7573b84fb28db8de666071b, type: 3}
       propertyPath: m_VersionIndex
-      value: 850
+      value: 853
       objectReference: {fileID: 0}
     - target: {fileID: 8340582057296738603, guid: 0db62859d7573b84fb28db8de666071b, type: 3}
       propertyPath: m_Mesh
