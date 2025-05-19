@@ -15,8 +15,8 @@ public class PagePickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             collected = true;
-            Debug.Log($"Collected page {pageID}: {pageText}");
-            PageUIManager.Instance.CollectPage(pageID, pageText);
+            Debug.Log($"Collected page {pageID}");
+            PageUIManager.Instance.CollectPage(pageID);
             gameObject.SetActive(false);
         }
     }

@@ -7,53 +7,37 @@ public class PageUIManager : MonoBehaviour
 {
     public static PageUIManager Instance;
 
-    [Header("Page Counter UI")]
-    public Text counterText;
-    public int totalPages = 5;
-
-    [Header("Note Panel UI")]
-    public GameObject notePanel;
-    public Text noteText;
+    [Tooltip("Drag in your 4 paper overlays here in order (Page 1 at index 0, Page 2 at index 1, etc).")]
+    public GameObject[] pageOverlays;  
 
     private bool[] collectedPages;
-    private int count = 0;
 
     private void Awake()
     {
         if (Instance == null) Instance = this;
-        else Destroy(gameObject);
-
-        collectedPages = new bool[totalPages + 1]; 
-        UpdateCounterUI();
-        notePanel.SetActive(false);
-    }
-
-    public void CollectPage(int id, string text)
-    {
-        if (id < 1 || id > totalPages) return;
-        if (!collectedPages[id])
+        else
         {
-            collectedPages[id] = true;
-            count++;
-            UpdateCounterUI();
-            ShowNote(text);
+            Destroy(gameObject);
+            return;
         }
+
+        
+        int n = pageOverlays.Length;
+        collectedPages = new bool[n];
+
+        for (int i = 0; i < n; i++)
+            if (pageOverlays[i] != null)
+                pageOverlays[i].SetActive(false);
     }
 
-    private void UpdateCounterUI()
+    public void CollectPage(int id)
     {
-        counterText.text = string.Format("{0}/{1}", count, totalPages);
-    }
+        int idx = id - 1;
+        if (idx < 0 || idx >= pageOverlays.Length) return;
+        if (collectedPages[idx]) return;
 
-    public void ShowNote(string text)
-    {
-        noteText.text = text;
-        notePanel.SetActive(true);
-    }
-
-    public void CloseNote()
-    {
-        notePanel.SetActive(false);
+        collectedPages[idx] = true;
+        pageOverlays[idx].SetActive(true);
     }
 }
 
