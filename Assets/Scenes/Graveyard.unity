@@ -15320,7 +15320,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/DarkWood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4e766479-6f20-470d-a793-0057abfa7f54
+    name: UM_OperatedMesh_957126d7-09e5-43d3-8bb1-50ef69739d6f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d266fae0a0b601249b3a824d93bc7e14, type: 2}
     buidVersion:
@@ -15332,7 +15332,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4e766479-6f20-470d-a793-0057abfa7f54
+  sourceMeshRendererGUID: 957126d7-09e5-43d3-8bb1-50ef69739d6f
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
@@ -17024,6 +17024,143 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3830461839615100444, guid: 01e21315992830e4fac7d9f49090518d, type: 3}
   m_PrefabInstance: {fileID: 916319227}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &921507231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921507237}
+  - component: {fileID: 921507236}
+  - component: {fileID: 921507235}
+  - component: {fileID: 921507234}
+  - component: {fileID: 921507233}
+  - component: {fileID: 921507232}
+  m_Layer: 0
+  m_Name: Note
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &921507232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921507231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e841aa08942f96749aed5fe47a4cdfc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterText: {fileID: 0}
+  totalPages: 5
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+--- !u!114 &921507233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921507231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e535a06ca113e49aef439d6e371ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pageID: 1
+  pageText: .
+--- !u!65 &921507234
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921507231}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &921507235
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921507231}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 27d1799ce74d8634dabb9427b516672f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &921507236
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921507231}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &921507237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921507231}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.50282276, z: -0, w: 0.86438954}
+  m_LocalPosition: {x: -3.1863, y: 10.03, z: 24.534}
+  m_LocalScale: {x: 0.33044574, y: 0.0554, z: 0.5048569}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 60.374, z: 0}
 --- !u!1001 &923924462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36412,7 +36549,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/DarkWood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_51a432f6-455a-468d-bcdc-f9cfca53a773
+    name: UM_OperatedMesh_c9cf505a-c77b-4b2d-a84b-fd687c113ed4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 74a836d369e724642bc744446fa049d0, type: 2}
     buidVersion:
@@ -36424,7 +36561,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 51a432f6-455a-468d-bcdc-f9cfca53a773
+  sourceMeshRendererGUID: c9cf505a-c77b-4b2d-a84b-fd687c113ed4
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
@@ -41691,3 +41828,4 @@ SceneRoots:
   - {fileID: 1584844803415316293}
   - {fileID: 627413424}
   - {fileID: 835922768}
+  - {fileID: 921507237}
