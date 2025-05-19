@@ -949,6 +949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f7ceab41d20da41b95a241bed1a38b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuPanel: {fileID: 535059388}
+  optionsPanel: {fileID: 375908224}
 --- !u!114 &375908226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,6 +1048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393646506}
   - component: {fileID: 393646507}
+  - component: {fileID: 393646508}
   m_Layer: 5
   m_Name: Volume Slider
   m_TagString: Untagged
@@ -1126,7 +1129,33 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 393646508}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ChangeVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &393646508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393646505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3462b7da2794124ba0b20599c8d3a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 393646507}
+  mainVolume: 1
 --- !u!1 &535059388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,6 +1188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f7ceab41d20da41b95a241bed1a38b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuPanel: {fileID: 535059388}
+  optionsPanel: {fileID: 375908224}
 --- !u!114 &535059390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2736,7 +2767,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 535059389}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4294,7 +4325,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b753956b-00af-4e83-a58c-0b5a7b8e1262
+    name: UM_OperatedMesh_fd67c856-52c4-49c3-818c-dd96b5061649
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fc78f152e3f64b1438e0b9d554c61315, type: 2}
     buidVersion:
@@ -4306,7 +4337,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b753956b-00af-4e83-a58c-0b5a7b8e1262
+  sourceMeshRendererGUID: fd67c856-52c4-49c3-818c-dd96b5061649
   guid: 672e4993-f947-4929-9c4c-73479598c4bd
   localOptions:
     RecalculateTangents: 0
@@ -14792,7 +14823,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2f8740aa-996a-4727-b36e-bfc42ecea3db
+    name: UM_OperatedMesh_8e87f248-62b2-45d2-a263-fee421b22b11
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 23dc30b2f972d0047acd4007958457be, type: 2}
     buidVersion:
@@ -14804,7 +14835,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2f8740aa-996a-4727-b36e-bfc42ecea3db
+  sourceMeshRendererGUID: 8e87f248-62b2-45d2-a263-fee421b22b11
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -15127,7 +15158,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_608d34f9-3fb9-432b-92ec-7fce2121b0da
+    name: UM_OperatedMesh_4a7ca075-bdab-4583-8fb5-d2c7cc1a51f9
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 169de74ff08850745b9b997f4daa92e5, type: 2}
     buidVersion:
@@ -15139,7 +15170,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 608d34f9-3fb9-432b-92ec-7fce2121b0da
+  sourceMeshRendererGUID: 4a7ca075-bdab-4583-8fb5-d2c7cc1a51f9
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -20056,7 +20087,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3dcb073c-cce7-46f8-89fd-e3c359d00fb3
+    name: UM_OperatedMesh_8eb21973-4d3e-466e-8baa-5b2659b66d7b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9d8b01ca12b3d1345bfa9b7507e8fc5f, type: 2}
     buidVersion:
@@ -20068,7 +20099,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3dcb073c-cce7-46f8-89fd-e3c359d00fb3
+  sourceMeshRendererGUID: 8eb21973-4d3e-466e-8baa-5b2659b66d7b
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0

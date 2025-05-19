@@ -7,9 +7,18 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
+    [Header("UI Panels")]
+    public GameObject mainMenuPanel;
+    public GameObject optionsPanel;
+
+
     public void Start()
     {
-       AudioManager.Instance.FadeIn("MenuWind", 2f); 
+        AudioManager.Instance.FadeIn("MenuWind", 2f);
+
+        // make sure the right UI is available at the start
+        mainMenuPanel.SetActive(true);
+        optionsPanel.SetActive(false);
     }
     public void PlayGame(){
         AudioManager.Instance.FadeOut("MenuWind", 2f);
@@ -20,12 +29,22 @@ public class MainMenu : MonoBehaviour
     public void Options()
     {
         AudioManager.Instance.FadeOut("MenuWind", 2f);
+        mainMenuPanel.SetActive(false);
+        optionsPanel.SetActive(true);
+        
+    }
+
+    public void Back()
+    {
+        mainMenuPanel.SetActive(true);
+        optionsPanel.SetActive(false);
         
     }
    
-   public void QuitGame(){
-    Application.Quit();
-   }
+   public void QuitGame()
+    {
+        Application.Quit();
+    }
 
    private IEnumerator LoadSceneWithDelay(string sceneName, float delay)
    {
