@@ -111,7 +111,7 @@ public class PlayerInMove : MonoBehaviour {
         if (WasHit != Vector3.zero) {
             velo = WasHit;
             velo.y = .5f;
-            velo = 1000 * velo.normalized;
+            velo = 500 * velo.normalized;
             WasHit = Vector3.zero;   
             InAction = false;
             hit = true;

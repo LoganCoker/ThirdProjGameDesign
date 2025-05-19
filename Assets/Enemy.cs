@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour {
+
     public int Health { get; private set; }
-    public bool Dead {get; private set; }
+    public bool Dead { get; private set; }
 
     #region publics
     public Transform player;
@@ -15,40 +16,72 @@ public class Enemy : MonoBehaviour {
     #endregion
 
     #region private
-    private bool hit;
+    private Transform attacks;
+    private ParticleSystem blood;
     private float hitCooldown;
-    private float distTolerance = .05f;
-    private float attackTiming = 3f;
+    private float distTolerance = .5f;
+    private float attackTiming = 5f;
+    private float orbitRange;
+    private float meleeRange = 1f;
+    private bool hit;
     private bool canAttack;
+    private bool inAttack;
+    private bool inAni;
     #endregion
 
     void Start() {
-        
+        Health = health;
+        attacks = transform.GetChild(1);
+        blood = GetComponent<ParticleSystem>();
+        agent.updateRotation = false;
+        orbitRange = agent.stoppingDistance;
     }
 
     void Update() {
-        // testing
-        if (Input.GetKeyDown(KeyCode.T)) { StartCoroutine(Death()); }
-        
-        agent.SetDestination(player.position);
+      
+        float distToPlayer = Vector3.Distance(transform.position, player.position);
 
         if (hitCooldown < 0) {
             hitCooldown = 0;
             hit = false;
         }
 
-        if (Vector3.Distance(transform.position, player.position) < agent.stoppingDistance) {
-            agent.Move(-transform.forward * Time.deltaTime);
-            canAttack = true;
+        if (!inAttack) {
+            if (distToPlayer > agent.stoppingDistance + distTolerance) {
+                agent.SetDestination(player.position);
+                canAttack = false;
+            } else if (distToPlayer >= agent.stoppingDistance - distTolerance && distToPlayer <= agent.stoppingDistance + distTolerance) {
+                canAttack = true;
+                agent.SetDestination(transform.position);
+            } else {
+                Vector3 awayFromPlayer = (transform.position - player.position).normalized;
+                agent.Move(Time.deltaTime * awayFromPlayer);
+                Vector3 retreatPosition = transform.position + awayFromPlayer * 5;
+                agent.SetDestination(retreatPosition);
+            }
         }
 
-        if (canAttack) {
-            if (attackTiming < 0) {
-                //animator.SetTrigger("LeftPunch");
-                animator.SetTrigger("RightPunch");
-                attackTiming = 3f;
-                canAttack = false;
+        if (canAttack && attackTiming < 0) {
+            print("attack");
+            inAttack = true;
+            agent.SetDestination(player.position);
+            agent.stoppingDistance = meleeRange;
+
+            if (distToPlayer < agent.stoppingDistance + distTolerance) {
+                print("do attack");
+                agent.SetDestination(transform.position);
+                StartCoroutine(AttackRight());
+                agent.stoppingDistance = orbitRange;
             }
+        }
+
+        // always looking at the player (except during attack)
+        Vector3 directionToPlayer = player.position - transform.position;
+        directionToPlayer.y = 0;
+
+        if (directionToPlayer != Vector3.zero && !inAni) {
+            Quaternion lookRotation = Quaternion.LookRotation(directionToPlayer);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
         }
 
         // walking
@@ -61,32 +94,78 @@ public class Enemy : MonoBehaviour {
 
         hitCooldown -= Time.deltaTime;
         attackTiming -= Time.deltaTime;
+
+        // keep off, counteract the spawning
+        if (Dead) {
+            gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("PlayerAttack")) {
             DecHealth();
-            print("enemy hit");
         }
     }
 
     public void DecHealth() {
         if (!hit) { 
-            print("hurt");
             Health--;
             hit = true;
-            hitCooldown = 3f;
+            blood.Play();
+            hitCooldown = 0.5f;
+            StopCoroutine(AttackRight());
             if (Health == 0) {
+                inAttack = true;
+                attackTiming = int.MaxValue;
+                Game.AddScore(500);
                 StartCoroutine(Death());
-            }
+            } else {
+                StartCoroutine(Knockback());
+            } 
         }
     }
 
     IEnumerator Death() {
-        animator.SetTrigger("SkeletonDeath");
-        yield return new WaitForSeconds(8);
-        this.gameObject.SetActive(false);
+        inAni = true;
+        agent.isStopped = true;
+        agent.velocity = Vector3.zero;
+        agent.enabled = false;
+        animator.SetTrigger("Death");
+        yield return new WaitForSeconds(1.5f);
         Dead = true;
-    
+    }
+
+    IEnumerator Knockback() {
+        inAni = true;
+        agent.isStopped = true;
+        animator.SetTrigger("CancelAni");
+        attacks.GetChild(0).gameObject.SetActive(false);
+        Vector3 awayFromPlayer = (transform.position - player.position).normalized;
+
+        float timer = 0f;
+        while (timer < 0.3f) {
+            transform.position += awayFromPlayer * 5f * Time.deltaTime;
+
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        agent.isStopped = false;
+        inAni = false;
+    }
+
+    IEnumerator AttackRight() {
+        inAni = true;
+        animator.SetTrigger("RightPunch");
+        attackTiming = Random.Range(2f, 7f);
+        yield return new WaitForSeconds(1f);
+
+        attacks.GetChild(0).gameObject.SetActive(true);
+        yield return new WaitForSeconds(.2f);
+
+        attacks.GetChild(0).gameObject.SetActive(false);
+        canAttack = false;
+        inAttack = false;
+        inAni = false;
     }
 }

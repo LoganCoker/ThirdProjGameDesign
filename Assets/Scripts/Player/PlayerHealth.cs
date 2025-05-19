@@ -37,13 +37,18 @@ public class PlayerHealth : MonoBehaviour
         if (other.CompareTag("BossAttack") && hitCooldown <= 0) {
             playerMovement.WasHit = other.transform.parent.parent.forward;
             takedamage(5f);
-            hitCooldown = 2f;
+            hitCooldown = 1f;
         }
         if (other.CompareTag("BossFireBall") && hitCooldown <= 0) {
             playerMovement.WasHit = other.attachedRigidbody.velocity.normalized;
             takedamage(5f);
-            hitCooldown = 2f;
+            hitCooldown = 1f;
             Destroy(other.gameObject);
+        }
+        if (other.CompareTag("EnemyAttack") && hitCooldown <= 0) {
+            playerMovement.WasHit = other.transform.parent.parent.forward;
+            takedamage(1f);
+            hitCooldown = 1f;
         }
     }
 }

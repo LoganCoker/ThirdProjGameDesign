@@ -197,6 +197,9 @@ public class BossAI : MonoBehaviour {
         inAni = true;
         agent.isStopped = true;
         animator.SetTrigger("CancelAni");
+        StopCoroutine(Fireball());
+        StopCoroutine(AttackRight());
+        attacks.GetChild(0).gameObject.SetActive(false);
         Vector3 awayFromPlayer = (transform.position - player.position).normalized;
 
         float timer = 0f;

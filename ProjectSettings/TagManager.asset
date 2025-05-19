@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - BossAttack
   - BossFireBall
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX
