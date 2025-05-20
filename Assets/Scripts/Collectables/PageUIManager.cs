@@ -21,16 +21,22 @@ public class PageUIManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        
+
         collectedPages = new bool[numOfPages];
 
         for (int i = 0; i < pageOverlays.Length; i++)
         {
             if (pageOverlays[i] != null)
-                pageOverlays[i].SetActive(false);
+            {
+                // show uncollected pages first
+                Transform colored = pageOverlays[i].transform.Find("ColoredPage");
+                Transform black = pageOverlays[i].transform.Find("BlackPage");
+
+                if (colored != null) colored.gameObject.SetActive(false);
+                if (black != null) black.gameObject.SetActive(true);
+            }
         }
     }
-
     public void CollectPage(int id)
     {
         if (id < 0 || id >= numOfPages) return;
@@ -40,10 +46,12 @@ public class PageUIManager : MonoBehaviour
         {
             collectedPages[id] = true;
 
-            if (pageOverlays[id] != null)
-                pageOverlays[id].SetActive(true);
+            // hide black page and colored page
+           Transform colored = pageOverlays[id].transform.Find("ColoredPage");
+            Transform black = pageOverlays[id].transform.Find("BlackPage");
 
-            Debug.Log($"PageUIManager: showing page overlay {id}");
+            if (colored != null) colored.gameObject.SetActive(true);
+            if (black != null) black.gameObject.SetActive(false);
         }
     }
 

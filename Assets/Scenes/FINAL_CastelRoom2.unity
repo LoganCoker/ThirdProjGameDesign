@@ -227,7 +227,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_929c8dc9-e6fb-4676-905d-6c13edcabf66
+    name: UM_OperatedMesh_95a6a349-3cde-47ab-92c7-54c965406dbf
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6d99a8610c6109a46bdc00cac8721aac, type: 2}
     buidVersion:
@@ -239,7 +239,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 929c8dc9-e6fb-4676-905d-6c13edcabf66
+  sourceMeshRendererGUID: 95a6a349-3cde-47ab-92c7-54c965406dbf
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_426fd408-cae4-4395-affa-b71e1ca75a36
+    name: UM_OperatedMesh_c2aab11f-a3f2-477d-bd37-feb446483de7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0f757d68b68b220478368e38632a256c, type: 2}
     buidVersion:
@@ -372,7 +372,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 426fd408-cae4-4395-affa-b71e1ca75a36
+  sourceMeshRendererGUID: c2aab11f-a3f2-477d-bd37-feb446483de7
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -630,7 +630,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0a92ac85-dfec-41dc-b91a-6078e4891655
+    name: UM_OperatedMesh_e54b7846-192e-48f0-a500-3ebb73c864de
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4d9d8cad8d33fca4a91d228bc98abed6, type: 2}
     buidVersion:
@@ -642,7 +642,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0a92ac85-dfec-41dc-b91a-6078e4891655
+  sourceMeshRendererGUID: e54b7846-192e-48f0-a500-3ebb73c864de
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -763,7 +763,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_20af9e13-7e33-4dae-81ab-46c094128c9d
+    name: UM_OperatedMesh_d0d77be1-e9c8-40b0-9e87-e733efdeb3c7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4a69efd53b3248448851810614ed9df8, type: 2}
     buidVersion:
@@ -775,7 +775,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 20af9e13-7e33-4dae-81ab-46c094128c9d
+  sourceMeshRendererGUID: d0d77be1-e9c8-40b0-9e87-e733efdeb3c7
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2aa9f5a2-ccfa-405e-a0f0-f19397ceea95
+    name: UM_OperatedMesh_a56b99e6-163d-4a7e-b338-2b8774b9f777
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 84cdb208b51ade44196743b1754017f6, type: 2}
     buidVersion:
@@ -1820,7 +1820,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2aa9f5a2-ccfa-405e-a0f0-f19397ceea95
+  sourceMeshRendererGUID: a56b99e6-163d-4a7e-b338-2b8774b9f777
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -3187,7 +3187,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a072b2ee-8b47-47ea-a4c1-b5821dba0068
+    name: UM_OperatedMesh_410fb6d9-0e86-4ccf-b45e-0bbcd5a880d8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: dae87a6a04440ea41a859a99c7751a40, type: 2}
     buidVersion:
@@ -3199,7 +3199,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a072b2ee-8b47-47ea-a4c1-b5821dba0068
+  sourceMeshRendererGUID: 410fb6d9-0e86-4ccf-b45e-0bbcd5a880d8
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -4759,6 +4759,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4505521379880497970, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -627.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505521379880497970, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -446.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4871356009058650663, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -903.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4871356009058650663, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -446.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115171748344529683, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -811.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115171748344529683, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -446.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148874890728155676, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -718.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148874890728155676, guid: 374b6b8f25016434fbd84ca8b8c98469, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -446.9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5155,7 +5187,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f190cc0e-f3e2-4518-92f4-3cf32cc4b5bd
+    name: UM_OperatedMesh_d93f369f-dd48-45b7-80cb-d847ae3acf9e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0e53e0fec8d0056459fa8bab5d07a81e, type: 2}
     buidVersion:
@@ -5167,7 +5199,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f190cc0e-f3e2-4518-92f4-3cf32cc4b5bd
+  sourceMeshRendererGUID: d93f369f-dd48-45b7-80cb-d847ae3acf9e
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -5514,7 +5546,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5a4368c8-96b8-4558-a3dd-697f8bdb59e8
+    name: UM_OperatedMesh_70efdfe6-a259-41d1-86a3-c08b7d6d90c4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: cefd6640caf888840b4075cbf2a7600f, type: 2}
     buidVersion:
@@ -5526,7 +5558,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5a4368c8-96b8-4558-a3dd-697f8bdb59e8
+  sourceMeshRendererGUID: 70efdfe6-a259-41d1-86a3-c08b7d6d90c4
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -6110,7 +6142,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_30367942-4d20-4cf5-9c6d-7fbc3e201bbf
+    name: UM_OperatedMesh_700275e7-f50c-463d-894d-3b2f814b88e4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1e14f3e9076231a44b7002f62fc82191, type: 2}
     buidVersion:
@@ -6122,7 +6154,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 30367942-4d20-4cf5-9c6d-7fbc3e201bbf
+  sourceMeshRendererGUID: 700275e7-f50c-463d-894d-3b2f814b88e4
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -6342,7 +6374,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_67547fe7-6b27-482a-a5ef-aa2ac40bcff1
+    name: UM_OperatedMesh_f9d5c1bd-8ea0-4daf-9213-833c0fd637d4
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ba8466054a42af14995088bc9928a797, type: 2}
     buidVersion:
@@ -6354,7 +6386,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 67547fe7-6b27-482a-a5ef-aa2ac40bcff1
+  sourceMeshRendererGUID: f9d5c1bd-8ea0-4daf-9213-833c0fd637d4
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -6877,7 +6909,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5b962cc3-8951-43bd-80cb-ab5a4b5fbde3
+    name: UM_OperatedMesh_e68d0363-dccb-4611-82d4-7c3e5dcf1710
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8011450b8704dd145bf4f8d91b6e47f5, type: 2}
     buidVersion:
@@ -6889,7 +6921,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5b962cc3-8951-43bd-80cb-ab5a4b5fbde3
+  sourceMeshRendererGUID: e68d0363-dccb-4611-82d4-7c3e5dcf1710
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -15045,7 +15077,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c11d02e2-2001-42a9-8a7c-84bcea5928dc
+    name: UM_OperatedMesh_081926e7-df56-4668-9b3c-96d7a489c6de
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ed78865ddd36f77468a6e25b548da6c5, type: 2}
     buidVersion:
@@ -15057,7 +15089,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c11d02e2-2001-42a9-8a7c-84bcea5928dc
+  sourceMeshRendererGUID: 081926e7-df56-4668-9b3c-96d7a489c6de
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -15201,7 +15233,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_02e27673-578d-4710-892f-a639ee408533
+    name: UM_OperatedMesh_660d4d65-2b6e-402f-95eb-c22273cc2042
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d3ba729473630bd42ba78f4829de0392, type: 2}
     buidVersion:
@@ -15213,7 +15245,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 02e27673-578d-4710-892f-a639ee408533
+  sourceMeshRendererGUID: 660d4d65-2b6e-402f-95eb-c22273cc2042
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -15377,7 +15409,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7346dd04-91f0-4ba8-8b31-c5e931a83c37
+    name: UM_OperatedMesh_a9d0942c-bd6f-4c08-82cf-392b16b01b9e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8fb1341079e0b564fa48bd46dae6b8be, type: 2}
     buidVersion:
@@ -15389,7 +15421,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7346dd04-91f0-4ba8-8b31-c5e931a83c37
+  sourceMeshRendererGUID: a9d0942c-bd6f-4c08-82cf-392b16b01b9e
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -15532,7 +15564,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bdfbcd43-0832-4c0e-be08-5d65f1d8c82c
+    name: UM_OperatedMesh_1089b4de-b0f7-4311-8d4a-aaa1f8f7e6a2
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3b9eb42d519de3b408c485dc37409d80, type: 2}
     buidVersion:
@@ -15544,7 +15576,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bdfbcd43-0832-4c0e-be08-5d65f1d8c82c
+  sourceMeshRendererGUID: 1089b4de-b0f7-4311-8d4a-aaa1f8f7e6a2
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -15688,7 +15720,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0b468f67-c5c9-4400-aa57-54a87ea8fa8f
+    name: UM_OperatedMesh_5b6fa200-968b-498a-8a35-d918cca753fa
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fa66b36eb43223349932bdc7c6b064be, type: 2}
     buidVersion:
@@ -15700,7 +15732,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0b468f67-c5c9-4400-aa57-54a87ea8fa8f
+  sourceMeshRendererGUID: 5b6fa200-968b-498a-8a35-d918cca753fa
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -15865,7 +15897,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6a9e5433-f55d-4831-a5a0-f348fc3300ee
+    name: UM_OperatedMesh_cf8b327c-db08-4028-ab7a-0d9f57576c4c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8fb8c5a9968d61646aaf0ecbcd806f69, type: 2}
     buidVersion:
@@ -15877,7 +15909,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6a9e5433-f55d-4831-a5a0-f348fc3300ee
+  sourceMeshRendererGUID: cf8b327c-db08-4028-ab7a-0d9f57576c4c
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -17932,7 +17964,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e80df6bc-a9ab-4b5e-b310-0fb3ad9da9d8
+    name: UM_OperatedMesh_b7dbb37f-8a71-460c-8c1e-be61e252158f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 38596e0e77235654392d8413c670e690, type: 2}
     buidVersion:
@@ -17944,7 +17976,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e80df6bc-a9ab-4b5e-b310-0fb3ad9da9d8
+  sourceMeshRendererGUID: b7dbb37f-8a71-460c-8c1e-be61e252158f
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -18492,7 +18524,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_21bd830e-6ba1-4193-85aa-eab413f2d810
+    name: UM_OperatedMesh_defb74c5-0603-4e08-882e-fab2d06565da
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 48310380d7aa54042b327e74a185c14e, type: 2}
     buidVersion:
@@ -18504,7 +18536,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 21bd830e-6ba1-4193-85aa-eab413f2d810
+  sourceMeshRendererGUID: defb74c5-0603-4e08-882e-fab2d06565da
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -19323,7 +19355,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_59a83030-60d7-45ae-afaa-02d50848bb9f
+    name: UM_OperatedMesh_cddb3f21-09e6-4edb-98ed-548a377871b9
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 472fa2435649dd64b92749ea88c2a9c3, type: 2}
     buidVersion:
@@ -19335,7 +19367,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 59a83030-60d7-45ae-afaa-02d50848bb9f
+  sourceMeshRendererGUID: cddb3f21-09e6-4edb-98ed-548a377871b9
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -19542,7 +19574,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_eca6b5ec-fac8-4e36-bc2b-8a4a749eff17
+    name: UM_OperatedMesh_0d1152fb-6328-40fb-8bbe-cbdd0a3d526e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 7f5b24722c024654ba779cb9ef504fb5, type: 2}
     buidVersion:
@@ -19554,7 +19586,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: eca6b5ec-fac8-4e36-bc2b-8a4a749eff17
+  sourceMeshRendererGUID: 0d1152fb-6328-40fb-8bbe-cbdd0a3d526e
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -19878,7 +19910,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_98887223-a874-42ed-99d8-723ef28ae108
+    name: UM_OperatedMesh_ff0e1f2d-37d2-4636-9bae-cd2fbb86e25d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4d923b70c15aee242a456df8d4ceb762, type: 2}
     buidVersion:
@@ -19890,7 +19922,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 98887223-a874-42ed-99d8-723ef28ae108
+  sourceMeshRendererGUID: ff0e1f2d-37d2-4636-9bae-cd2fbb86e25d
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -20972,7 +21004,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a6a01895-f198-4fd6-9511-8330645a5d6d
+    name: UM_OperatedMesh_70fb2f2f-b2e2-42a0-b46e-b39805d80595
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2228d5447c2ce1c40a002289f48e2b7d, type: 2}
     buidVersion:
@@ -20984,7 +21016,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a6a01895-f198-4fd6-9511-8330645a5d6d
+  sourceMeshRendererGUID: 70fb2f2f-b2e2-42a0-b46e-b39805d80595
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -21155,7 +21187,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f6d43745-d234-4e9c-91db-b60294c56850
+    name: UM_OperatedMesh_d2b6fa40-dc2f-4d58-b3f7-9f5bd1219560
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4a00ee3b8a63dee4ca0d1c4177defc9e, type: 2}
     buidVersion:
@@ -21167,7 +21199,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f6d43745-d234-4e9c-91db-b60294c56850
+  sourceMeshRendererGUID: d2b6fa40-dc2f-4d58-b3f7-9f5bd1219560
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -21347,7 +21379,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3f54dc66-7184-4612-a840-409e18ad1370
+    name: UM_OperatedMesh_79779836-388a-4460-b677-cc236186a4c1
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: af6d36101e76fbd4584e235f3548f5e1, type: 2}
     buidVersion:
@@ -21359,7 +21391,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3f54dc66-7184-4612-a840-409e18ad1370
+  sourceMeshRendererGUID: 79779836-388a-4460-b677-cc236186a4c1
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -21600,7 +21632,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_697eb1eb-c3ed-462a-b825-62d333918d4b
+    name: UM_OperatedMesh_a56d758a-a7a0-4262-b2f0-8942bc688034
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 87baa7cf11100dc438fca9bba590b9a5, type: 2}
     buidVersion:
@@ -21612,7 +21644,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 697eb1eb-c3ed-462a-b825-62d333918d4b
+  sourceMeshRendererGUID: a56d758a-a7a0-4262-b2f0-8942bc688034
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -21777,7 +21809,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f4dcdf69-f257-4655-b3df-2ff73aea6120
+    name: UM_OperatedMesh_451db1b5-3cbc-4301-8ffc-f23c23ea8554
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 60819a1f26b531a4d97a4670488a68e0, type: 2}
     buidVersion:
@@ -21789,7 +21821,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f4dcdf69-f257-4655-b3df-2ff73aea6120
+  sourceMeshRendererGUID: 451db1b5-3cbc-4301-8ffc-f23c23ea8554
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -22253,7 +22285,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_97269323-4e1c-4cbc-ac45-3877e8519d76
+    name: UM_OperatedMesh_13beefe3-37c4-434a-87c4-fba446c7a12a
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 320e6d31ea6c4a348abd2d547275e1cb, type: 2}
     buidVersion:
@@ -22265,7 +22297,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 97269323-4e1c-4cbc-ac45-3877e8519d76
+  sourceMeshRendererGUID: 13beefe3-37c4-434a-87c4-fba446c7a12a
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -27991,7 +28023,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dc23632c-6550-4ff7-b54c-783d49d55298
+    name: UM_OperatedMesh_f0725266-4fc2-4cfa-af90-9aba00c365d9
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: f37a874eb6a3acd44930535fd2efe68c, type: 2}
     buidVersion:
@@ -28003,7 +28035,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dc23632c-6550-4ff7-b54c-783d49d55298
+  sourceMeshRendererGUID: f0725266-4fc2-4cfa-af90-9aba00c365d9
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -28519,7 +28551,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4f9c43c4-d149-417a-8614-499b1e88312f
+    name: UM_OperatedMesh_560fd3ae-95cb-47bb-a247-1cd13446c58d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 5fe78725a9fb0a54ca5c98214dd7dff9, type: 2}
     buidVersion:
@@ -28531,7 +28563,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4f9c43c4-d149-417a-8614-499b1e88312f
+  sourceMeshRendererGUID: 560fd3ae-95cb-47bb-a247-1cd13446c58d
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -28733,7 +28765,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a03bf8d8-ee44-4513-accb-2896ff57772e
+    name: UM_OperatedMesh_3a2e61ad-d983-48b1-8608-aa4773a17d98
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 519c21bf4aad46d4e9418d9708dc6ef1, type: 2}
     buidVersion:
@@ -28745,7 +28777,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a03bf8d8-ee44-4513-accb-2896ff57772e
+  sourceMeshRendererGUID: 3a2e61ad-d983-48b1-8608-aa4773a17d98
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -29193,7 +29225,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_25b9c823-5c4f-4351-87b7-80cd09d79aee
+    name: UM_OperatedMesh_dbc2de4a-5104-4d5a-8299-8f531934e50b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 272524a40afefa846a8ab62f271115f1, type: 2}
     buidVersion:
@@ -29205,7 +29237,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 25b9c823-5c4f-4351-87b7-80cd09d79aee
+  sourceMeshRendererGUID: dbc2de4a-5104-4d5a-8299-8f531934e50b
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -35852,7 +35884,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_10e014b5-543f-4775-ac60-c614842d7f8b
+    name: UM_OperatedMesh_303b7001-673c-4af2-b632-4b13e825b535
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 44045a1a87cfb2a4e9be16592d49c5ac, type: 2}
     buidVersion:
@@ -35864,7 +35896,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 10e014b5-543f-4775-ac60-c614842d7f8b
+  sourceMeshRendererGUID: 303b7001-673c-4af2-b632-4b13e825b535
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -35971,7 +36003,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0ab80b7b-650c-48b5-8025-93532b03e9af
+    name: UM_OperatedMesh_54d42b9c-3b74-49c9-b93c-3e4aa2233b0d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: f2fc014a26f4f564382b48c8385f8ab9, type: 2}
     buidVersion:
@@ -35983,7 +36015,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0ab80b7b-650c-48b5-8025-93532b03e9af
+  sourceMeshRendererGUID: 54d42b9c-3b74-49c9-b93c-3e4aa2233b0d
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -36077,7 +36109,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ed63524b-2bbe-4ecc-81ac-ce66f81f326e
+    name: UM_OperatedMesh_264d7bd3-f48f-4f21-a61e-fbfe9bc3fd38
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 90e1544ea974c8745a363f8682ab243c, type: 2}
     buidVersion:
@@ -36089,7 +36121,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ed63524b-2bbe-4ecc-81ac-ce66f81f326e
+  sourceMeshRendererGUID: 264d7bd3-f48f-4f21-a61e-fbfe9bc3fd38
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -37356,7 +37388,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0da8a837-d94b-4f44-944c-90d80566d85d
+    name: UM_OperatedMesh_85d5f483-4fc5-4a55-942f-8cd3fe99f89b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6252b9f819a0f354c98a28d8abbe7e05, type: 2}
     buidVersion:
@@ -37368,7 +37400,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0da8a837-d94b-4f44-944c-90d80566d85d
+  sourceMeshRendererGUID: 85d5f483-4fc5-4a55-942f-8cd3fe99f89b
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37427,7 +37459,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0db49673-2fc0-4090-bc69-d11011cd2ad1
+    name: UM_OperatedMesh_dbf26137-1f10-4140-8ba3-326b60a7357f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1e2cf4a7e9986d043b8662ee5347c914, type: 2}
     buidVersion:
@@ -37439,7 +37471,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0db49673-2fc0-4090-bc69-d11011cd2ad1
+  sourceMeshRendererGUID: dbf26137-1f10-4140-8ba3-326b60a7357f
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37538,7 +37570,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_47ab6c61-14e1-4720-a0fa-1e47566626ff
+    name: UM_OperatedMesh_ce1b38a0-81bd-4a3b-9777-17a646b51ce8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2e3cd1c4b7e54e34180e282f4ac61c47, type: 2}
     buidVersion:
@@ -37550,7 +37582,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 47ab6c61-14e1-4720-a0fa-1e47566626ff
+  sourceMeshRendererGUID: ce1b38a0-81bd-4a3b-9777-17a646b51ce8
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37609,7 +37641,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_699e9a8c-6de9-4dea-9418-55a5a29481aa
+    name: UM_OperatedMesh_98a5781f-3729-484c-b389-0e7748f3530f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 41d649a7c220a3745830d257e8e96658, type: 2}
     buidVersion:
@@ -37621,7 +37653,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 699e9a8c-6de9-4dea-9418-55a5a29481aa
+  sourceMeshRendererGUID: 98a5781f-3729-484c-b389-0e7748f3530f
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37680,7 +37712,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9ce5b942-aa1b-4c1d-ba9b-6ab96547e678
+    name: UM_OperatedMesh_2d39ae0c-cf3e-4020-aecd-7e6f2053bf74
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9cd923b79e800524196accc3466788cf, type: 2}
     buidVersion:
@@ -37692,7 +37724,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9ce5b942-aa1b-4c1d-ba9b-6ab96547e678
+  sourceMeshRendererGUID: 2d39ae0c-cf3e-4020-aecd-7e6f2053bf74
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37729,7 +37761,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3c0dbf0a-1a6d-487f-8304-5785d05e806f
+    name: UM_OperatedMesh_35bf16bd-000b-429e-8c8f-0d7643473569
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3cebff5c3a00012449cd8c4343e461c1, type: 2}
     buidVersion:
@@ -37741,7 +37773,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3c0dbf0a-1a6d-487f-8304-5785d05e806f
+  sourceMeshRendererGUID: 35bf16bd-000b-429e-8c8f-0d7643473569
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
