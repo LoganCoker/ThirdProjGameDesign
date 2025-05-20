@@ -108,7 +108,8 @@ public class Enemy : MonoBehaviour {
     }
 
     public void DecHealth() {
-        if (!hit) { 
+        if (!hit) {
+            AudioManager.Instance.Play("SkeleHurt");
             Health--;
             hit = true;
             blood.Play();

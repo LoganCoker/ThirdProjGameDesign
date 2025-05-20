@@ -169,6 +169,7 @@ public class BossAI : MonoBehaviour {
     public void DecHealth() {
         if (!hit) { 
             blood.Play();
+            AudioManager.Instance.Play("BossHurt1");
             Health--;
             hit = true;
             hitCooldown = .2f;
@@ -188,6 +189,7 @@ public class BossAI : MonoBehaviour {
         agent.velocity = Vector3.zero;
         agent.enabled = false;
         animator.SetTrigger("DraculaDeath");
+        AudioManager.Instance.Play("BossDie");
         yield return new WaitForSeconds(8);
         this.gameObject.SetActive(false);
         Dead = true;
@@ -221,6 +223,7 @@ public class BossAI : MonoBehaviour {
         yield return new WaitForSeconds(.7f);
 
         GameObject fb = Instantiate(fireballPrefab, attacks.GetChild(1));
+        AudioManager.Instance.Play("Fireball");
         Rigidbody rb = fb.GetComponent<Rigidbody>();
         Vector3 fireDir = player.position - transform.position;
         fireDir.y = 0;

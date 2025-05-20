@@ -30,6 +30,7 @@ public class PlayerHealth : MonoBehaviour
 
     void takedamage(float damage)
     {
+        AudioManager.Instance.Play("PlayerHurt3");
         currentHealth -= damage;
     }
 

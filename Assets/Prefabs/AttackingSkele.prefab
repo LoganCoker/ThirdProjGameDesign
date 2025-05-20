@@ -1349,7 +1349,7 @@ Animator:
   m_GameObject: {fileID: 5595736563085007497}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 74d14d87cec763049896e980bd3d93f4, type: 3}
-  m_Controller: {fileID: 9100000, guid: 67f22a296c4e44f449ae4e6f25fd4e06, type: 2}
+  m_Controller: {fileID: 22100000, guid: bf205fce2a0c54840a00ea251c41f0c8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2656,6 +2656,7 @@ GameObject:
   - component: {fileID: 6217940094682435091}
   - component: {fileID: 3921957773399011628}
   - component: {fileID: 4734269268821134050}
+  - component: {fileID: 5606869703094331975}
   m_Layer: 0
   m_Name: AttackingSkele
   m_TagString: Untagged
@@ -7565,6 +7566,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &5606869703094331975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141122109769610113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88124fa4352902f4faa9abf939f7c929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9219350609725166534
 GameObject:
   m_ObjectHideFlags: 0

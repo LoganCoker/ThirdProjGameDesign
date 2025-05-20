@@ -15634,7 +15634,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/DarkWood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6aa33d70-2268-4987-af10-ebdf759e6607
+    name: UM_OperatedMesh_5c34a9e1-678e-430d-8333-fc990e92eb6a
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d266fae0a0b601249b3a824d93bc7e14, type: 2}
     buidVersion:
@@ -15646,7 +15646,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6aa33d70-2268-4987-af10-ebdf759e6607
+  sourceMeshRendererGUID: 5c34a9e1-678e-430d-8333-fc990e92eb6a
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
@@ -37055,7 +37055,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/DarkWood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e69e6c5d-ee4e-4619-aa34-a274de17bdc0
+    name: UM_OperatedMesh_7bddca30-b286-4024-b8b5-df463e5fc6c0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 74a836d369e724642bc744446fa049d0, type: 2}
     buidVersion:
@@ -37067,7 +37067,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e69e6c5d-ee4e-4619-aa34-a274de17bdc0
+  sourceMeshRendererGUID: 7bddca30-b286-4024-b8b5-df463e5fc6c0
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
@@ -37726,6 +37726,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7705772607639236082, guid: e980e16e9d379a94f8c86aef137d10c9, type: 3}
   m_PrefabInstance: {fileID: 2025340381}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2027650116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027650119}
+  - component: {fileID: 2027650118}
+  - component: {fileID: 2027650117}
+  m_Layer: 0
+  m_Name: AmbienceCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2027650117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027650116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbae9d5bf83b3424a9f281b0a1971e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOutDuration: 1.5
+--- !u!65 &2027650118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027650116}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &2027650119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027650116}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.306, y: 15.66, z: 18.34}
+  m_LocalScale: {x: 1, y: 5.513349, z: 5.8995366}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2030224798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41661,6 +41728,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2242423616085678413, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 2326301516122661622, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_Name
       value: Moving Player
@@ -41788,8 +41859,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2242423616085678413, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4853304318872959151}
   m_SourcePrefab: {fileID: 100100000, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+--- !u!1 &4853304318872959150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2242423616085678413, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
+  m_PrefabInstance: {fileID: 4853304318872959149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4853304318872959151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4853304318872959150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c66f2df3fbf0b04b955bd025f3678ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambienceSoundName: Wind
+  fadeInDuration: 2
 --- !u!33 &4970058679753726607
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -42511,3 +42604,4 @@ SceneRoots:
   - {fileID: 627413424}
   - {fileID: 835922768}
   - {fileID: 910614369}
+  - {fileID: 2027650119}
