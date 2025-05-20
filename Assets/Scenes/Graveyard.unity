@@ -15634,7 +15634,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/DarkWood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d677b6f8-8f0a-4fb6-8cdb-581cca728cbf
+    name: UM_OperatedMesh_6aa33d70-2268-4987-af10-ebdf759e6607
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d266fae0a0b601249b3a824d93bc7e14, type: 2}
     buidVersion:
@@ -15646,7 +15646,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d677b6f8-8f0a-4fb6-8cdb-581cca728cbf
+  sourceMeshRendererGUID: 6aa33d70-2268-4987-af10-ebdf759e6607
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
@@ -35601,7 +35601,7 @@ RectTransform:
   m_GameObject: {fileID: 1916807446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9356, y: 2.9356, z: 2.9356}
+  m_LocalScale: {x: 1.4090095, y: 1.4090095, z: 1.4090095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 541115677}
@@ -35857,7 +35857,7 @@ RectTransform:
   m_GameObject: {fileID: 1929464869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9447, y: 2.9447, z: 2.9447}
+  m_LocalScale: {x: 1.4090095, y: 1.4090095, z: 1.4090095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 541115677}
@@ -37055,7 +37055,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/DarkWood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6c7d94a4-28aa-447f-9ec3-dc9d24d5934e
+    name: UM_OperatedMesh_e69e6c5d-ee4e-4619-aa34-a274de17bdc0
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 74a836d369e724642bc744446fa049d0, type: 2}
     buidVersion:
@@ -37067,7 +37067,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6c7d94a4-28aa-447f-9ec3-dc9d24d5934e
+  sourceMeshRendererGUID: e69e6c5d-ee4e-4619-aa34-a274de17bdc0
   guid: 999387bd-688e-4cc9-b61d-f6f2db09b93a
   localOptions:
     RecalculateTangents: 0
