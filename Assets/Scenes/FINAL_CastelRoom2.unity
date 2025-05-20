@@ -227,7 +227,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6614cdf8-10ae-4325-b4ee-3966f21d22a5
+    name: UM_OperatedMesh_929c8dc9-e6fb-4676-905d-6c13edcabf66
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6d99a8610c6109a46bdc00cac8721aac, type: 2}
     buidVersion:
@@ -239,7 +239,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6614cdf8-10ae-4325-b4ee-3966f21d22a5
+  sourceMeshRendererGUID: 929c8dc9-e6fb-4676-905d-6c13edcabf66
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bdc36861-f344-4ff1-99f7-b2acf067c7cd
+    name: UM_OperatedMesh_426fd408-cae4-4395-affa-b71e1ca75a36
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0f757d68b68b220478368e38632a256c, type: 2}
     buidVersion:
@@ -372,7 +372,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bdc36861-f344-4ff1-99f7-b2acf067c7cd
+  sourceMeshRendererGUID: 426fd408-cae4-4395-affa-b71e1ca75a36
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -630,7 +630,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2faf6cd5-452a-41a1-abde-ed614518a20c
+    name: UM_OperatedMesh_0a92ac85-dfec-41dc-b91a-6078e4891655
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4d9d8cad8d33fca4a91d228bc98abed6, type: 2}
     buidVersion:
@@ -642,7 +642,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2faf6cd5-452a-41a1-abde-ed614518a20c
+  sourceMeshRendererGUID: 0a92ac85-dfec-41dc-b91a-6078e4891655
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -763,7 +763,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9eb04ae6-565c-4b1f-9884-85187f2411cf
+    name: UM_OperatedMesh_20af9e13-7e33-4dae-81ab-46c094128c9d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4a69efd53b3248448851810614ed9df8, type: 2}
     buidVersion:
@@ -775,7 +775,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9eb04ae6-565c-4b1f-9884-85187f2411cf
+  sourceMeshRendererGUID: 20af9e13-7e33-4dae-81ab-46c094128c9d
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e2687ea0-ee03-4a5a-a4b6-933c91efaa66
+    name: UM_OperatedMesh_2aa9f5a2-ccfa-405e-a0f0-f19397ceea95
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 84cdb208b51ade44196743b1754017f6, type: 2}
     buidVersion:
@@ -1820,7 +1820,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e2687ea0-ee03-4a5a-a4b6-933c91efaa66
+  sourceMeshRendererGUID: 2aa9f5a2-ccfa-405e-a0f0-f19397ceea95
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -3187,7 +3187,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2c4859a0-9da0-42e1-b3a6-99d509c67b1f
+    name: UM_OperatedMesh_a072b2ee-8b47-47ea-a4c1-b5821dba0068
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: dae87a6a04440ea41a859a99c7751a40, type: 2}
     buidVersion:
@@ -3199,7 +3199,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2c4859a0-9da0-42e1-b3a6-99d509c67b1f
+  sourceMeshRendererGUID: a072b2ee-8b47-47ea-a4c1-b5821dba0068
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -5155,7 +5155,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c4d44a8d-e2c4-4384-8311-ae931c2304bb
+    name: UM_OperatedMesh_f190cc0e-f3e2-4518-92f4-3cf32cc4b5bd
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 0e53e0fec8d0056459fa8bab5d07a81e, type: 2}
     buidVersion:
@@ -5167,7 +5167,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c4d44a8d-e2c4-4384-8311-ae931c2304bb
+  sourceMeshRendererGUID: f190cc0e-f3e2-4518-92f4-3cf32cc4b5bd
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -5514,7 +5514,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_46436760-4ee8-4e6f-bfff-37149ea8cae3
+    name: UM_OperatedMesh_5a4368c8-96b8-4558-a3dd-697f8bdb59e8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: cefd6640caf888840b4075cbf2a7600f, type: 2}
     buidVersion:
@@ -5526,7 +5526,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 46436760-4ee8-4e6f-bfff-37149ea8cae3
+  sourceMeshRendererGUID: 5a4368c8-96b8-4558-a3dd-697f8bdb59e8
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -6110,7 +6110,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_367c1c93-834f-4207-a3e2-1306044f2cc2
+    name: UM_OperatedMesh_30367942-4d20-4cf5-9c6d-7fbc3e201bbf
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1e14f3e9076231a44b7002f62fc82191, type: 2}
     buidVersion:
@@ -6122,7 +6122,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 367c1c93-834f-4207-a3e2-1306044f2cc2
+  sourceMeshRendererGUID: 30367942-4d20-4cf5-9c6d-7fbc3e201bbf
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -6342,7 +6342,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bd4bddea-eaf6-4135-90a0-49755fe1061c
+    name: UM_OperatedMesh_67547fe7-6b27-482a-a5ef-aa2ac40bcff1
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ba8466054a42af14995088bc9928a797, type: 2}
     buidVersion:
@@ -6354,7 +6354,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bd4bddea-eaf6-4135-90a0-49755fe1061c
+  sourceMeshRendererGUID: 67547fe7-6b27-482a-a5ef-aa2ac40bcff1
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -6716,6 +6716,40 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3159664084616438950, guid: 69facec4543e551439ac05e4088fb555, type: 3}
   m_PrefabInstance: {fileID: 767247585}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &651449820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 651449821}
+  m_Layer: 0
+  m_Name: Notes 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &651449821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651449820}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.01, y: 8.466, z: 14.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1106799026}
+  - {fileID: 1422841542}
+  - {fileID: 1032976193}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &653401133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6843,7 +6877,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f90fd90f-7e37-40b5-8da4-7830f4bd89aa
+    name: UM_OperatedMesh_5b962cc3-8951-43bd-80cb-ab5a4b5fbde3
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8011450b8704dd145bf4f8d91b6e47f5, type: 2}
     buidVersion:
@@ -6855,7 +6889,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f90fd90f-7e37-40b5-8da4-7830f4bd89aa
+  sourceMeshRendererGUID: 5b962cc3-8951-43bd-80cb-ab5a4b5fbde3
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -14651,6 +14685,56 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1032976192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032976193}
+  - component: {fileID: 1032976194}
+  m_Layer: 0
+  m_Name: Pagemanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1032976193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032976192}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 83.66528, y: -140.59627, z: 251.6213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 651449821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1032976194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032976192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e841aa08942f96749aed5fe47a4cdfc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numOfPages: 5
+  pageOverlays:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1036703685
 GameObject:
   m_ObjectHideFlags: 0
@@ -14961,7 +15045,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4448629d-6ead-45fb-b889-7c36d7dfa9e3
+    name: UM_OperatedMesh_c11d02e2-2001-42a9-8a7c-84bcea5928dc
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: ed78865ddd36f77468a6e25b548da6c5, type: 2}
     buidVersion:
@@ -14973,7 +15057,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4448629d-6ead-45fb-b889-7c36d7dfa9e3
+  sourceMeshRendererGUID: c11d02e2-2001-42a9-8a7c-84bcea5928dc
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -15117,7 +15201,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b9ece08f-0d73-4ecf-853c-403e1ee6573b
+    name: UM_OperatedMesh_02e27673-578d-4710-892f-a639ee408533
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: d3ba729473630bd42ba78f4829de0392, type: 2}
     buidVersion:
@@ -15129,7 +15213,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b9ece08f-0d73-4ecf-853c-403e1ee6573b
+  sourceMeshRendererGUID: 02e27673-578d-4710-892f-a639ee408533
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -15293,7 +15377,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/DarkerMarble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_26d5b449-a10c-42eb-813d-47881999ea3e
+    name: UM_OperatedMesh_7346dd04-91f0-4ba8-8b31-c5e931a83c37
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8fb1341079e0b564fa48bd46dae6b8be, type: 2}
     buidVersion:
@@ -15305,7 +15389,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 26d5b449-a10c-42eb-813d-47881999ea3e
+  sourceMeshRendererGUID: 7346dd04-91f0-4ba8-8b31-c5e931a83c37
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -15448,7 +15532,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_93f3cd6e-bbdc-4cc6-9043-74038c38835e
+    name: UM_OperatedMesh_bdfbcd43-0832-4c0e-be08-5d65f1d8c82c
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3b9eb42d519de3b408c485dc37409d80, type: 2}
     buidVersion:
@@ -15460,7 +15544,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 93f3cd6e-bbdc-4cc6-9043-74038c38835e
+  sourceMeshRendererGUID: bdfbcd43-0832-4c0e-be08-5d65f1d8c82c
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -15604,7 +15688,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_24719a4e-6574-41bf-b4b6-01343be95c9b
+    name: UM_OperatedMesh_0b468f67-c5c9-4400-aa57-54a87ea8fa8f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fa66b36eb43223349932bdc7c6b064be, type: 2}
     buidVersion:
@@ -15616,7 +15700,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 24719a4e-6574-41bf-b4b6-01343be95c9b
+  sourceMeshRendererGUID: 0b468f67-c5c9-4400-aa57-54a87ea8fa8f
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -15781,7 +15865,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1b60c42c-1eb2-48a6-a967-da6bc59f1ee0
+    name: UM_OperatedMesh_6a9e5433-f55d-4831-a5a0-f348fc3300ee
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 8fb8c5a9968d61646aaf0ecbcd806f69, type: 2}
     buidVersion:
@@ -15793,7 +15877,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1b60c42c-1eb2-48a6-a967-da6bc59f1ee0
+  sourceMeshRendererGUID: 6a9e5433-f55d-4831-a5a0-f348fc3300ee
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -16360,6 +16444,110 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3392586110397469852, guid: 69facec4543e551439ac05e4088fb555, type: 3}
   m_PrefabInstance: {fileID: 1102392150}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1106799022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106799026}
+  - component: {fileID: 1106799023}
+  - component: {fileID: 1106799025}
+  - component: {fileID: 1106799024}
+  m_Layer: 5
+  m_Name: Page3Msg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!223 &1106799023
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106799022}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &1106799024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106799022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1106799025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106799022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!224 &1106799026
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106799022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1430643240}
+  - {fileID: 1998551808}
+  - {fileID: 1166454521}
+  m_Father: {fileID: 651449821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1115857087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17243,6 +17431,146 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0021926fe914d464aa1417b5ce4a71af, type: 3}
+--- !u!1 &1166454520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1166454521}
+  - component: {fileID: 1166454523}
+  - component: {fileID: 1166454522}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1166454521
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166454520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1106799026}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -292, y: -197}
+  m_SizeDelta: {x: 1233.6255, y: 209.6847}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1166454522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166454520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'march 19 1409
+
+    i am not sure how i made it here. the library seems
+    to be alive and moving with its own will. there is a corridor i am not entirely
+    sure on how to make it there, or what is behind those doors. i am not entirely
+    sure i want to know, it is becoming increasingly more painful for me. however,
+    i have no other choice but to keep moving.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4947b6f103732944e939b045071c9570, type: 2}
+  m_sharedMaterial: {fileID: 8060826351311718989, guid: 4947b6f103732944e939b045071c9570, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 16
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1166454523
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166454520}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1166731018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17604,7 +17932,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_96d936bd-edcd-4218-94d4-808aca519e58
+    name: UM_OperatedMesh_e80df6bc-a9ab-4b5e-b310-0fb3ad9da9d8
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 38596e0e77235654392d8413c670e690, type: 2}
     buidVersion:
@@ -17616,7 +17944,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 96d936bd-edcd-4218-94d4-808aca519e58
+  sourceMeshRendererGUID: e80df6bc-a9ab-4b5e-b310-0fb3ad9da9d8
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -18164,7 +18492,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bcda7222-df61-4352-909c-b5074440e3de
+    name: UM_OperatedMesh_21bd830e-6ba1-4193-85aa-eab413f2d810
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 48310380d7aa54042b327e74a185c14e, type: 2}
     buidVersion:
@@ -18176,7 +18504,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bcda7222-df61-4352-909c-b5074440e3de
+  sourceMeshRendererGUID: 21bd830e-6ba1-4193-85aa-eab413f2d810
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -18807,15 +19135,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.12468993
+      value: 0.12468996
       objectReference: {fileID: 0}
     - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000004214685
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5191513993172647274, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000052683564
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5297157631856449929, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18903,15 +19231,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.14767103
+      value: 0.14767107
       objectReference: {fileID: 0}
     - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000042146848
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6210926100051617236, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000005268356
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7955843353969255860, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18939,11 +19267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.17067197
+      value: 0.17067201
       objectReference: {fileID: 0}
     - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000084293696
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8077678465004415655, guid: 805f9333174a7194e907ae0796cc58bf, type: 3}
       propertyPath: m_LocalRotation.z
@@ -18995,7 +19323,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5a2787dc-240b-4e40-af9e-be4827106439
+    name: UM_OperatedMesh_59a83030-60d7-45ae-afaa-02d50848bb9f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 472fa2435649dd64b92749ea88c2a9c3, type: 2}
     buidVersion:
@@ -19007,7 +19335,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5a2787dc-240b-4e40-af9e-be4827106439
+  sourceMeshRendererGUID: 59a83030-60d7-45ae-afaa-02d50848bb9f
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -19214,7 +19542,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_949c44f5-012e-47d8-92e2-d8af21a52c6c
+    name: UM_OperatedMesh_eca6b5ec-fac8-4e36-bc2b-8a4a749eff17
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 7f5b24722c024654ba779cb9ef504fb5, type: 2}
     buidVersion:
@@ -19226,7 +19554,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 949c44f5-012e-47d8-92e2-d8af21a52c6c
+  sourceMeshRendererGUID: eca6b5ec-fac8-4e36-bc2b-8a4a749eff17
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -19550,7 +19878,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_141da602-0b78-4ca3-9482-14469adb6a93
+    name: UM_OperatedMesh_98887223-a874-42ed-99d8-723ef28ae108
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4d923b70c15aee242a456df8d4ceb762, type: 2}
     buidVersion:
@@ -19562,7 +19890,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 141da602-0b78-4ca3-9482-14469adb6a93
+  sourceMeshRendererGUID: 98887223-a874-42ed-99d8-723ef28ae108
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -19635,6 +19963,126 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0021926fe914d464aa1417b5ce4a71af, type: 3}
+--- !u!1 &1422841541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422841542}
+  - component: {fileID: 1422841546}
+  - component: {fileID: 1422841545}
+  - component: {fileID: 1422841544}
+  - component: {fileID: 1422841543}
+  m_Layer: 0
+  m_Name: Note
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422841542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422841541}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.50282276, z: -0, w: 0.86438954}
+  m_LocalPosition: {x: -0.80591, y: -0.49790764, z: -2.9014664}
+  m_LocalScale: {x: 0.33044577, y: 0.0554, z: 0.50485694}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 651449821}
+  m_LocalEulerAnglesHint: {x: 0, y: 60.374, z: 0}
+--- !u!114 &1422841543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422841541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e535a06ca113e49aef439d6e371ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pageID: 2
+  msg: {fileID: 1106799023}
+--- !u!65 &1422841544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422841541}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 8.643197, z: 1}
+  m_Center: {x: 0, y: 3.8215866, z: 0}
+--- !u!23 &1422841545
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422841541}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 27d1799ce74d8634dabb9427b516672f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1422841546
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422841541}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1423639630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19692,6 +20140,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0021926fe914d464aa1417b5ce4a71af, type: 3}
+--- !u!1 &1430643239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1430643240}
+  - component: {fileID: 1430643242}
+  - component: {fileID: 1430643241}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1430643240
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430643239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1106799026}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -298.59998, y: -229.4075}
+  m_SizeDelta: {x: -673.18, y: -796.5806}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1430643241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430643239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.6313726}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1430643242
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430643239}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1448404382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20449,7 +20972,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ebc0500b-f1e5-402c-b2af-8d32b0850548
+    name: UM_OperatedMesh_a6a01895-f198-4fd6-9511-8330645a5d6d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2228d5447c2ce1c40a002289f48e2b7d, type: 2}
     buidVersion:
@@ -20461,7 +20984,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ebc0500b-f1e5-402c-b2af-8d32b0850548
+  sourceMeshRendererGUID: a6a01895-f198-4fd6-9511-8330645a5d6d
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -20632,7 +21155,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8f27fdcd-cd4e-4e11-8d47-722c121177b9
+    name: UM_OperatedMesh_f6d43745-d234-4e9c-91db-b60294c56850
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 4a00ee3b8a63dee4ca0d1c4177defc9e, type: 2}
     buidVersion:
@@ -20644,7 +21167,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8f27fdcd-cd4e-4e11-8d47-722c121177b9
+  sourceMeshRendererGUID: f6d43745-d234-4e9c-91db-b60294c56850
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -20824,7 +21347,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9da23221-f381-44e3-bdfa-e1f5b8adae3e
+    name: UM_OperatedMesh_3f54dc66-7184-4612-a840-409e18ad1370
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: af6d36101e76fbd4584e235f3548f5e1, type: 2}
     buidVersion:
@@ -20836,7 +21359,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9da23221-f381-44e3-bdfa-e1f5b8adae3e
+  sourceMeshRendererGUID: 3f54dc66-7184-4612-a840-409e18ad1370
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -21077,7 +21600,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_11e10291-444f-4417-b20b-8c1be86c98e9
+    name: UM_OperatedMesh_697eb1eb-c3ed-462a-b825-62d333918d4b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 87baa7cf11100dc438fca9bba590b9a5, type: 2}
     buidVersion:
@@ -21089,7 +21612,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 11e10291-444f-4417-b20b-8c1be86c98e9
+  sourceMeshRendererGUID: 697eb1eb-c3ed-462a-b825-62d333918d4b
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -21254,7 +21777,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e4bfecc7-529b-49d5-bb91-f3cf1c2d4978
+    name: UM_OperatedMesh_f4dcdf69-f257-4655-b3df-2ff73aea6120
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 60819a1f26b531a4d97a4670488a68e0, type: 2}
     buidVersion:
@@ -21266,7 +21789,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e4bfecc7-529b-49d5-bb91-f3cf1c2d4978
+  sourceMeshRendererGUID: f4dcdf69-f257-4655-b3df-2ff73aea6120
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -21730,7 +22253,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b100eb11-59ad-4b26-8425-a148d8b5b2fa
+    name: UM_OperatedMesh_97269323-4e1c-4cbc-ac45-3877e8519d76
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 320e6d31ea6c4a348abd2d547275e1cb, type: 2}
     buidVersion:
@@ -21742,7 +22265,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b100eb11-59ad-4b26-8425-a148d8b5b2fa
+  sourceMeshRendererGUID: 97269323-4e1c-4cbc-ac45-3877e8519d76
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -27468,7 +27991,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1e19b46f-a190-49f7-b39f-36ed76e76270
+    name: UM_OperatedMesh_dc23632c-6550-4ff7-b54c-783d49d55298
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: f37a874eb6a3acd44930535fd2efe68c, type: 2}
     buidVersion:
@@ -27480,7 +28003,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1e19b46f-a190-49f7-b39f-36ed76e76270
+  sourceMeshRendererGUID: dc23632c-6550-4ff7-b54c-783d49d55298
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -27996,7 +28519,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0b84e415-c2e2-49fd-9f2a-54c08e75ac5e
+    name: UM_OperatedMesh_4f9c43c4-d149-417a-8614-499b1e88312f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 5fe78725a9fb0a54ca5c98214dd7dff9, type: 2}
     buidVersion:
@@ -28008,7 +28531,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0b84e415-c2e2-49fd-9f2a-54c08e75ac5e
+  sourceMeshRendererGUID: 4f9c43c4-d149-417a-8614-499b1e88312f
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -28210,7 +28733,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4fa46bd0-2667-4c7c-9f17-f5143b1bfd8a
+    name: UM_OperatedMesh_a03bf8d8-ee44-4513-accb-2896ff57772e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 519c21bf4aad46d4e9418d9708dc6ef1, type: 2}
     buidVersion:
@@ -28222,7 +28745,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4fa46bd0-2667-4c7c-9f17-f5143b1bfd8a
+  sourceMeshRendererGUID: a03bf8d8-ee44-4513-accb-2896ff57772e
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -28670,7 +29193,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d2e14ec1-73d7-49c4-b726-4e1a43b1b0d8
+    name: UM_OperatedMesh_25b9c823-5c4f-4351-87b7-80cd09d79aee
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 272524a40afefa846a8ab62f271115f1, type: 2}
     buidVersion:
@@ -28682,7 +29205,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d2e14ec1-73d7-49c4-b726-4e1a43b1b0d8
+  sourceMeshRendererGUID: 25b9c823-5c4f-4351-87b7-80cd09d79aee
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -28863,6 +29386,146 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b34c9bbd771179a44a90728c1a7542b9, type: 3}
+--- !u!1 &1998551807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998551808}
+  - component: {fileID: 1998551810}
+  - component: {fileID: 1998551809}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1998551808
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998551807}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1106799026}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -292, y: -197}
+  m_SizeDelta: {x: 1233.6255, y: 209.6847}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1998551809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998551807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'march 19 1409
+
+    i am not sure how i made it here. the library seems
+    to be alive and moving with its own will. there is a corridor i am not entirely
+    sure on how to make it there, or what is behind those doors. i am not entirely
+    sure i want to know, it is becoming increasingly more painful for me. however,
+    i have no other choice but to keep moving.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4947b6f103732944e939b045071c9570, type: 2}
+  m_sharedMaterial: {fileID: 8060826351311718989, guid: 4947b6f103732944e939b045071c9570, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 16
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1998551810
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998551807}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2000463437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35189,7 +35852,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/Marble.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_73e62d70-815d-4f32-8783-66fd8d3ad875
+    name: UM_OperatedMesh_10e014b5-543f-4775-ac60-c614842d7f8b
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 44045a1a87cfb2a4e9be16592d49c5ac, type: 2}
     buidVersion:
@@ -35201,7 +35864,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 73e62d70-815d-4f32-8783-66fd8d3ad875
+  sourceMeshRendererGUID: 10e014b5-543f-4775-ac60-c614842d7f8b
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -35308,7 +35971,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_903f66da-6b9a-4443-82fc-b9ad87230171
+    name: UM_OperatedMesh_0ab80b7b-650c-48b5-8025-93532b03e9af
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: f2fc014a26f4f564382b48c8385f8ab9, type: 2}
     buidVersion:
@@ -35320,7 +35983,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 903f66da-6b9a-4443-82fc-b9ad87230171
+  sourceMeshRendererGUID: 0ab80b7b-650c-48b5-8025-93532b03e9af
   guid: 1a362303-81ba-4445-94d3-2e37d29a0af7
   localOptions:
     RecalculateTangents: 0
@@ -35414,7 +36077,7 @@ MonoBehaviour:
   - Assets/Materials/Wood/Bookshelf.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e11f4a2c-32cb-42fb-80cb-43398d6cd23b
+    name: UM_OperatedMesh_ed63524b-2bbe-4ecc-81ac-ce66f81f326e
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 90e1544ea974c8745a363f8682ab243c, type: 2}
     buidVersion:
@@ -35426,7 +36089,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e11f4a2c-32cb-42fb-80cb-43398d6cd23b
+  sourceMeshRendererGUID: ed63524b-2bbe-4ecc-81ac-ce66f81f326e
   guid: 802444ad-ea1b-41a5-827d-fd0669018245
   localOptions:
     RecalculateTangents: 0
@@ -36693,7 +37356,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_05f52ef5-7afc-4af1-a003-42b43056e6b2
+    name: UM_OperatedMesh_0da8a837-d94b-4f44-944c-90d80566d85d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 6252b9f819a0f354c98a28d8abbe7e05, type: 2}
     buidVersion:
@@ -36705,7 +37368,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 05f52ef5-7afc-4af1-a003-42b43056e6b2
+  sourceMeshRendererGUID: 0da8a837-d94b-4f44-944c-90d80566d85d
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -36764,7 +37427,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5265b49d-92ee-42e4-b87c-2a083d101e66
+    name: UM_OperatedMesh_0db49673-2fc0-4090-bc69-d11011cd2ad1
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 1e2cf4a7e9986d043b8662ee5347c914, type: 2}
     buidVersion:
@@ -36776,7 +37439,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5265b49d-92ee-42e4-b87c-2a083d101e66
+  sourceMeshRendererGUID: 0db49673-2fc0-4090-bc69-d11011cd2ad1
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -36875,7 +37538,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2b2eb6b1-fd23-46e1-adf1-2c091ae8b9eb
+    name: UM_OperatedMesh_47ab6c61-14e1-4720-a0fa-1e47566626ff
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 2e3cd1c4b7e54e34180e282f4ac61c47, type: 2}
     buidVersion:
@@ -36887,7 +37550,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2b2eb6b1-fd23-46e1-adf1-2c091ae8b9eb
+  sourceMeshRendererGUID: 47ab6c61-14e1-4720-a0fa-1e47566626ff
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -36946,7 +37609,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2ef5e93b-15d2-42a4-85b0-9a002a77f5aa
+    name: UM_OperatedMesh_699e9a8c-6de9-4dea-9418-55a5a29481aa
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 41d649a7c220a3745830d257e8e96658, type: 2}
     buidVersion:
@@ -36958,7 +37621,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2ef5e93b-15d2-42a4-85b0-9a002a77f5aa
+  sourceMeshRendererGUID: 699e9a8c-6de9-4dea-9418-55a5a29481aa
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37017,7 +37680,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6ab0ff4e-84a1-4872-bc17-2fae92d8f38c
+    name: UM_OperatedMesh_9ce5b942-aa1b-4c1d-ba9b-6ab96547e678
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9cd923b79e800524196accc3466788cf, type: 2}
     buidVersion:
@@ -37029,7 +37692,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6ab0ff4e-84a1-4872-bc17-2fae92d8f38c
+  sourceMeshRendererGUID: 9ce5b942-aa1b-4c1d-ba9b-6ab96547e678
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37066,7 +37729,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/Gold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3cc907d1-eb63-4d14-b66a-c3ea2cb61217
+    name: UM_OperatedMesh_3c0dbf0a-1a6d-487f-8304-5785d05e806f
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 3cebff5c3a00012449cd8c4343e461c1, type: 2}
     buidVersion:
@@ -37078,7 +37741,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3cc907d1-eb63-4d14-b66a-c3ea2cb61217
+  sourceMeshRendererGUID: 3c0dbf0a-1a6d-487f-8304-5785d05e806f
   guid: 19ca56f3-8b77-4e1a-8163-93591f482717
   localOptions:
     RecalculateTangents: 0
@@ -37210,3 +37873,4 @@ SceneRoots:
   - {fileID: 315788626}
   - {fileID: 551647945}
   - {fileID: 1324487585}
+  - {fileID: 651449821}
