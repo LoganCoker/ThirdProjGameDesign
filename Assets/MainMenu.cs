@@ -14,10 +14,14 @@ public class MainMenu : MonoBehaviour
 
     public void Start()
     {
-       AudioManager.Instance.FadeIn("TitleMusic", 2f); 
+        AudioManager.Instance.FadeIn("MenuWind", 2f);
+
+        // make sure the right UI is available at the start
+        mainMenuPanel.SetActive(true);
+        optionsPanel.SetActive(false);
     }
     public void PlayGame(){
-        AudioManager.Instance.FadeOut("TitleMusic", 2f);
+        AudioManager.Instance.FadeOut("MenuWind", 2f);
 
         StartCoroutine(LoadSceneWithDelay("Graveyard", 0.2f));
     }
