@@ -7513,7 +7513,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 47c9f3de5af75b843aaa9503a520a399, type: 2}
+  - {fileID: 2100000, guid: 7140350becfbe874eb1eaa178adb1f26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7578,6 +7578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88124fa4352902f4faa9abf939f7c929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeMultiplier: 1
+  minDistance: 1
+  maxDistance: 15
 --- !u!1 &9219350609725166534
 GameObject:
   m_ObjectHideFlags: 0

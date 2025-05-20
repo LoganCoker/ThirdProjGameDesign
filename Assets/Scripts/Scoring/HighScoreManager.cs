@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using HighScore;
 
+[DefaultExecutionOrder(-6)]
 public class HighScoreManager : MonoBehaviour
 {
     [Header("High Score Config")]

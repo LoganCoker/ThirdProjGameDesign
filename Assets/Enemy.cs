@@ -62,13 +62,11 @@ public class Enemy : MonoBehaviour {
         }
 
         if (canAttack && attackTiming < 0) {
-            print("attack");
             inAttack = true;
             agent.SetDestination(player.position);
             agent.stoppingDistance = meleeRange;
 
             if (distToPlayer < agent.stoppingDistance + distTolerance) {
-                print("do attack");
                 agent.SetDestination(transform.position);
                 StartCoroutine(AttackRight());
                 agent.stoppingDistance = orbitRange;

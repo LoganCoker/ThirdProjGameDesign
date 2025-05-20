@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class NameEntryUI : MonoBehaviour
-{
+public class NameEntryUI : MonoBehaviour {
     public TextMeshProUGUI[] letterSlots;
-    public TextMeshProUGUI timerText;    
+    public TextMeshProUGUI timerText;
 
     private char[] currentLetters = new char[3] { 'A', 'A', 'A' };
     private int currentIndex = 0;
@@ -16,10 +15,8 @@ public class NameEntryUI : MonoBehaviour
 
     public int scoreToSubmit = Game.GetFinalScore();
 
-    void Start()
-    {
-        if (timerText == null)
-        {
+    void Start() {
+        if (timerText == null) {
             var go = GameObject.Find("TimerText");
             if (go != null)
                 timerText = go.GetComponent<TextMeshProUGUI>();
@@ -33,8 +30,7 @@ public class NameEntryUI : MonoBehaviour
         UpdateLetterUI();
     }
 
-    void Update()
-    {
+    void Update() {
         if (hasSubmitted)
             return;
 
@@ -55,8 +51,7 @@ public class NameEntryUI : MonoBehaviour
         if (timerText != null)
             timerText.text = FormatTime(timeRemaining);
 
-        if (timeRemaining <= 0f)
-        {
+        if (timeRemaining <= 0f) {
             Debug.Log("Timer reached zero, invoking ConfirmName().");
             ConfirmName();
         }
@@ -64,35 +59,29 @@ public class NameEntryUI : MonoBehaviour
         UpdateLetterUI();
     }
 
-    private void UpdateLetterUI()
-    {
-        for (int i = 0; i < letterSlots.Length; i++)
-        {
+    private void UpdateLetterUI() {
+        for (int i = 0; i < letterSlots.Length; i++) {
             letterSlots[i].text = currentLetters[i].ToString();
             letterSlots[i].color = (i == currentIndex) ? Color.yellow : Color.white;
         }
     }
 
-    private char NextChar(char c)
-    {
+    private char NextChar(char c) {
         return (char)(((c - 'A' + 1) % 26) + 'A');
     }
 
-    private char PrevChar(char c)
-    {
+    private char PrevChar(char c) {
         return (char)(((c - 'A' + 25) % 26) + 'A');
     }
 
-    private string FormatTime(float t)
-    {
+    private string FormatTime(float t) {
         t = Mathf.Max(t, 0f);
         int minutes = Mathf.FloorToInt(t / 60);
         int seconds = Mathf.FloorToInt(t % 60);
         return $"{minutes:00}:{seconds:00}";
     }
 
-    public void ConfirmName()
-    {
+    public void ConfirmName() {
         if (hasSubmitted)
             return;
 

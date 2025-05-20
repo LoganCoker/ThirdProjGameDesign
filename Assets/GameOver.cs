@@ -3,26 +3,19 @@ using System.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOverMenu : MonoBehaviour
-{
-   [SerializeField] GameObject gameOver;
+public class GameOverMenu : MonoBehaviour {
+
     void Start() {
-     
-    }
-
-    public void GameOver(){
-        gameOver.SetActive(true);
         Time.timeScale = 0;
-    }
- 
-    public void Home(){
-        SceneManager.LoadScene("MainMenu");
-        Time.timeScale = 1;
-        
+        Game.Input.Disable();
     }
 
-    public void Restart(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    public void Quit() {
+        Application.Quit();
+    }
+
+    public void Restart() {
+        SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
     }
 }

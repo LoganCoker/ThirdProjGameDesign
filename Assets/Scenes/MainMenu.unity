@@ -289,7 +289,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &118557365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,12 +358,11 @@ RectTransform:
   m_Children:
   - {fileID: 118557363}
   - {fileID: 884854021}
-  - {fileID: 374101417}
   m_Father: {fileID: 535059393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -47}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &124609413
@@ -396,7 +395,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7472512, y: 1.7472512, z: 1.7472512}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1916543874}
   m_Father: {fileID: 905698542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -459,7 +459,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &124609416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,7 +816,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &282203587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,15 +882,15 @@ RectTransform:
   m_GameObject: {fileID: 374101416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2503002, y: 0.99756134, z: 1}
+  m_LocalScale: {x: 0.70489776, y: 0.5624079, z: 0.5637828}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 119042843}
+  m_Father: {fileID: 884854021}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.434357, y: -73.60739}
-  m_SizeDelta: {x: 181.7251, y: -46.528522}
+  m_AnchoredPosition: {x: 5.223818, y: 1.3489151}
+  m_SizeDelta: {x: 0, y: -0.00012207031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374101418
 MonoBehaviour:
@@ -1010,7 +1010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &375908225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,7 +1325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &535059389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2309,8 +2309,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 69508990}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2387,7 +2387,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7737328, y: 1.7737328, z: 1.7737328}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 374101417}
   m_Father: {fileID: 119042843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2450,7 +2451,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &884854023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2519,7 +2520,6 @@ RectTransform:
   m_Children:
   - {fileID: 1287358144}
   - {fileID: 124609414}
-  - {fileID: 1916543874}
   m_Father: {fileID: 535059393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3501,7 +3501,7 @@ RectTransform:
   m_Father: {fileID: 801013461}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3555,7 +3555,7 @@ GameObject:
   - component: {fileID: 1283945918}
   - component: {fileID: 1283945917}
   m_Layer: 5
-  m_Name: 'Options Button(black) '
+  m_Name: Dropshadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3711,7 +3711,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1287358146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4093,12 +4093,11 @@ RectTransform:
   m_Children:
   - {fileID: 282203585}
   - {fileID: 1454155392}
-  - {fileID: 1939482925}
   m_Father: {fileID: 535059393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -98}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1431685328
@@ -4318,7 +4317,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.6639919, y: 1.6639919, z: 1.6639919}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1939482925}
   m_Father: {fileID: 1352870004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4381,7 +4381,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1454155394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4759,9 +4759,8 @@ GameObject:
   - component: {fileID: 1643360657}
   - component: {fileID: 1643360660}
   - component: {fileID: 1643360659}
-  - component: {fileID: 1643360658}
   m_Layer: 5
-  m_Name: Options Button
+  m_Name: OptionsTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4787,62 +4786,6 @@ RectTransform:
   m_AnchoredPosition: {x: -23.7, y: -77.9}
   m_SizeDelta: {x: 281.7251, y: 53.4716}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1643360658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643360656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1643360659}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 375908225}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Options
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1643360659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5202,7 +5145,7 @@ MonoBehaviour:
   - Assets/Materials/Stone/CastleBrickWall.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4f3a7d1d-fd03-4992-9e6e-0277f5d1ee7b
+    name: UM_OperatedMesh_9d958c17-c33d-4ff4-a1b3-c7ebc93eaab7
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: fc78f152e3f64b1438e0b9d554c61315, type: 2}
     buidVersion:
@@ -5214,7 +5157,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4f3a7d1d-fd03-4992-9e6e-0277f5d1ee7b
+  sourceMeshRendererGUID: 9d958c17-c33d-4ff4-a1b3-c7ebc93eaab7
   guid: 672e4993-f947-4929-9c4c-73479598c4bd
   localOptions:
     RecalculateTangents: 0
@@ -5400,7 +5343,7 @@ RectTransform:
   m_Father: {fileID: 1133209872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5662,15 +5605,15 @@ RectTransform:
   m_GameObject: {fileID: 1916543873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2503002, y: 0.99756134, z: 1}
+  m_LocalScale: {x: 0.71558124, y: 0.57093185, z: 0.57232755}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 905698542}
+  m_Father: {fileID: 124609414}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.434326, y: 20.662048}
-  m_SizeDelta: {x: 181.7251, y: -46.528564}
+  m_AnchoredPosition: {x: 5.303009, y: 1.2374077}
+  m_SizeDelta: {x: 0, y: -0.00016403198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916543875
 MonoBehaviour:
@@ -5797,15 +5740,15 @@ RectTransform:
   m_GameObject: {fileID: 1939482924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2503002, y: 0.99756134, z: 1}
+  m_LocalScale: {x: 0.7513859, y: 0.59949887, z: 0.6009644}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352870004}
+  m_Father: {fileID: 1454155392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.434326, y: -166.61578}
-  m_SizeDelta: {x: 181.7251, y: -46.528564}
+  m_AnchoredPosition: {x: 5.5683556, y: 1.574646}
+  m_SizeDelta: {x: 0, y: -0.00016403198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939482926
 MonoBehaviour:
@@ -6012,8 +5955,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1449620826}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15700,7 +15643,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_89b9d75c-837f-4001-b73f-4f51ca90bdfc
+    name: UM_OperatedMesh_5112e822-6f66-47d0-aea1-be3eb864fe28
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 23dc30b2f972d0047acd4007958457be, type: 2}
     buidVersion:
@@ -15712,7 +15655,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 89b9d75c-837f-4001-b73f-4f51ca90bdfc
+  sourceMeshRendererGUID: 5112e822-6f66-47d0-aea1-be3eb864fe28
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -15873,11 +15816,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4635187391063797377, guid: 6aeaad18486fcc84eb2a362125807886, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1141.1
+      value: -446
       objectReference: {fileID: 0}
     - target: {fileID: 4635187391063797377, guid: 6aeaad18486fcc84eb2a362125807886, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -95
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 4635187391063797377, guid: 6aeaad18486fcc84eb2a362125807886, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16035,7 +15978,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_26fd38e8-431e-4dd3-a2a2-98d5422d7e87
+    name: UM_OperatedMesh_39f4ed94-482c-4369-951b-a2dfbe140c7d
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 169de74ff08850745b9b997f4daa92e5, type: 2}
     buidVersion:
@@ -16047,7 +15990,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 26fd38e8-431e-4dd3-a2a2-98d5422d7e87
+  sourceMeshRendererGUID: 39f4ed94-482c-4369-951b-a2dfbe140c7d
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -20964,7 +20907,7 @@ MonoBehaviour:
   - Assets/Materials/Metals/RedGold.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1b08cbd0-10e9-4502-bc44-2c44c04b9775
+    name: UM_OperatedMesh_696a2525-53a2-489d-995b-17774ef69945
     skinnedMesh: 0
     sharedMesh: {fileID: 4300000, guid: 9d8b01ca12b3d1345bfa9b7507e8fc5f, type: 2}
     buidVersion:
@@ -20976,7 +20919,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1b08cbd0-10e9-4502-bc44-2c44c04b9775
+  sourceMeshRendererGUID: 696a2525-53a2-489d-995b-17774ef69945
   guid: 787c713f-eb7d-42fd-9079-4bfe1469e8b4
   localOptions:
     RecalculateTangents: 0
@@ -21103,6 +21046,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1768952156}
   - {fileID: 1431685331}
   - {fileID: 1904306639}
   - {fileID: 535059393}
@@ -21110,6 +21054,5 @@ SceneRoots:
   - {fileID: 1454357569}
   - {fileID: 2477224586759650262}
   - {fileID: 1565490221}
-  - {fileID: 1768952156}
   - {fileID: 1339486224}
   - {fileID: 656370766}

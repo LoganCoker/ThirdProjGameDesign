@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public Slider healthBar;
-    public float maxHealth = 100f;
+    public float maxHealth = 50f;
     public float currentHealth;
 
     private float hitCooldown;

@@ -12,7 +12,7 @@ public class BeatBoss : MonoBehaviour {
         if (boss.Dead) {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("GameOver - Win");
         }
     }  
 }

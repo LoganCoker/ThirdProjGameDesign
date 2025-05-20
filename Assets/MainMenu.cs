@@ -24,6 +24,7 @@ public class MainMenu : MonoBehaviour
         AudioManager.Instance.FadeOut("TitleMusic", 2f);
 
         StartCoroutine(LoadSceneWithDelay("Graveyard", 0.2f));
+        Game.StartGame();
     }
 
     public void Options()

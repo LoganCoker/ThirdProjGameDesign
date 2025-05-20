@@ -96,8 +96,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 248.79998779296876,
-            "y": -618.4000244140625
+            "x": 274.99993896484377,
+            "y": -565.0
         },
         "m_Blocks": [
             {
@@ -113,8 +113,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 279.1999816894531,
-            "y": -337.5999755859375
+            "x": 274.0,
+            "y": -333.0
         },
         "m_Blocks": [
             {
@@ -145,7 +145,7 @@
         "preventRotation": false
     },
     "m_Path": "Shader Graphs",
-    "m_GraphPrecision": 1,
+    "m_GraphPrecision": 0,
     "m_PreviewMode": 2,
     "m_OutputNode": {
         "m_Id": ""
@@ -573,10 +573,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -60.80002975463867,
-            "y": -280.7999572753906,
-            "width": 207.99998474121095,
-            "height": 301.60003662109377
+            "x": -54.00004959106445,
+            "y": -170.99996948242188,
+            "width": 208.00001525878907,
+            "height": 301.9999694824219
         }
     },
     "m_Slots": [

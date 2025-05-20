@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FINAL_CastleFinalRoom.unity
     guid: d7f2246b41a19044aa9f3801c43af836
+  - enabled: 1
+    path: Assets/Scenes/GameOver - Lose.unity
+    guid: 53a2447b57ba82a42a00c91782027eee
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 54efb08ca5d41744a9e32ee79bd4005b, type: 3}

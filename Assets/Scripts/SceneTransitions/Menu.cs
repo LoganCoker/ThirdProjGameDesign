@@ -20,8 +20,8 @@ public class Menu : MonoBehaviour {
 
     void Update() {
         if (playerInput.Pause) {
-            Pause();
             playerInput.Pause = false;
+            Pause();
         }
 
         if (input.UI.Resume.WasPressedThisFrame()) {
@@ -32,21 +32,19 @@ public class Menu : MonoBehaviour {
     public void Pause() {
         Game.PauseGame();
         menu.SetActive(true);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        
     }
 
     public void Resume() {
         Game.ResumeGame();
         menu.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        
     }
-     public void Home(){
+
+     public void Home() {
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        
-    }
+     }
 }
